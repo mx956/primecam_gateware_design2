@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:47 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Mon May 15 20:55:49 2023
+# Process ID: 2360406
+# Current directory: /home/adrian/simulink_2022/blast_mod_v6_cordic_ddc
+# Command line: vivado -mode batch -source ProjectGeneration.tcl -notrace
+# Log file: /home/adrian/simulink_2022/blast_mod_v6_cordic_ddc/vivado.log
+# Journal file: /home/adrian/simulink_2022/blast_mod_v6_cordic_ddc/vivado.jou
+#-----------------------------------------------------------
+source ProjectGeneration.tcl -notrace

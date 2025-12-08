@@ -1,0 +1,14 @@
+# Vivado projects – ignore everything inside them
+gateware_*/*
+
+# Keep project files and source directories
+!gateware_*/*.xpr
+!gateware_*/*.srcs/
+!gateware_*/*.srcs/**
+
+# Keep shared top-level IP repository
+!IP_repository/
+!IP_repository/**
+
+# Keep this file itself
+!.gitignore

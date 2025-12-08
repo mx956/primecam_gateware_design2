@@ -1,0 +1,152 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0xE24C93AF0BCBEF77",
+      "design_src": "SYSGEN",
+      "device": "xczu28dr-ffvg1517-2-e",
+      "gen_directory": "../../../../axi_bram_mealy_x16_w_arm.gen/sources_1/bd/axi_bram_mealy_x16_w_arm_bd",
+      "name": "axi_bram_mealy_x16_w_arm_bd",
+      "rev_ctrl_bd_flag": "RevCtrlBdOff",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2020.2",
+      "validated": "true"
+    },
+    "design_tree": {
+      "axi_bram_mealy_x16_w_arm_1": ""
+    },
+    "ports": {
+      "address": {
+        "type": "data",
+        "direction": "O",
+        "left": "31",
+        "right": "0",
+        "parameters": {
+          "LAYERED_METADATA": {
+            "value": "xilinx.com:interface:datatypes:1.0 {DATA {datatype {name {attribs {resolve_type immediate dependency {} format string minimum {} maximum {}} value {}} bitwidth {attribs {resolve_type immediate dependency {} format long minimum {} maximum {}} value 32} bitoffset {attribs {resolve_type immediate dependency {} format long minimum {} maximum {}} value 0} real {fixed {fractwidth {attribs {resolve_type immediate dependency {} format long minimum {} maximum {}} value 0} signed {attribs {resolve_type immediate dependency {} format bool minimum {} maximum {}} value false}}}}}}",
+            "value_src": "const_prop"
+          }
+        }
+      },
+      "clk": {
+        "type": "clk",
+        "direction": "I",
+        "parameters": {
+          "CLK_DOMAIN": {
+            "value": "axi_bram_mealy_x16_w_arm_bd_clk",
+            "value_src": "default"
+          },
+          "FREQ_HZ": {
+            "value": "100000000",
+            "value_src": "default"
+          },
+          "FREQ_TOLERANCE_HZ": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "INSERT_VIP": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "PHASE": {
+            "value": "0.000",
+            "value_src": "default"
+          }
+        }
+      },
+      "max_count_minus_one_step": {
+        "type": "data",
+        "direction": "I",
+        "left": "31",
+        "right": "0",
+        "parameters": {
+          "LAYERED_METADATA": {
+            "value": "undef",
+            "value_src": "default"
+          }
+        }
+      },
+      "rising_edge_arm": {
+        "type": "data",
+        "direction": "I",
+        "left": "0",
+        "right": "0",
+        "parameters": {
+          "LAYERED_METADATA": {
+            "value": "undef",
+            "value_src": "default"
+          }
+        }
+      },
+      "rising_edge_start": {
+        "type": "data",
+        "direction": "I",
+        "left": "0",
+        "right": "0",
+        "parameters": {
+          "LAYERED_METADATA": {
+            "value": "undef",
+            "value_src": "default"
+          }
+        }
+      },
+      "we": {
+        "type": "data",
+        "direction": "O",
+        "left": "0",
+        "right": "0",
+        "parameters": {
+          "LAYERED_METADATA": {
+            "value": "xilinx.com:interface:datatypes:1.0 {DATA {datatype {name {attribs {resolve_type immediate dependency {} format string minimum {} maximum {}} value {}} bitwidth {attribs {resolve_type immediate dependency {} format long minimum {} maximum {}} value 1} bitoffset {attribs {resolve_type immediate dependency {} format long minimum {} maximum {}} value 0} real {fixed {fractwidth {attribs {resolve_type immediate dependency {} format long minimum {} maximum {}} value 0} signed {attribs {resolve_type immediate dependency {} format bool minimum {} maximum {}} value false}}}}}}",
+            "value_src": "const_prop"
+          }
+        }
+      }
+    },
+    "components": {
+      "axi_bram_mealy_x16_w_arm_1": {
+        "vlnv": "User_Company:SysGen:axi_bram_mealy_x16_w_arm:1.0",
+        "xci_name": "axi_bram_mealy_x16_w_arm_bd_axi_bram_mealy_x16_w_arm_1_0",
+        "xci_path": "ip/axi_bram_mealy_x16_w_arm_bd_axi_bram_mealy_x16_w_arm_1_0/axi_bram_mealy_x16_w_arm_bd_axi_bram_mealy_x16_w_arm_1_0.xci",
+        "inst_hier_path": "axi_bram_mealy_x16_w_arm_1"
+      }
+    },
+    "nets": {
+      "axi_bram_mealy_x16_w_arm_1_address": {
+        "ports": [
+          "axi_bram_mealy_x16_w_arm_1/address",
+          "address"
+        ]
+      },
+      "clk_1": {
+        "ports": [
+          "clk",
+          "axi_bram_mealy_x16_w_arm_1/clk"
+        ]
+      },
+      "max_count_minus_one_step_1": {
+        "ports": [
+          "max_count_minus_one_step",
+          "axi_bram_mealy_x16_w_arm_1/max_count_minus_one_step"
+        ]
+      },
+      "rising_edge_arm_1": {
+        "ports": [
+          "rising_edge_arm",
+          "axi_bram_mealy_x16_w_arm_1/rising_edge_arm"
+        ]
+      },
+      "rising_edge_start_1": {
+        "ports": [
+          "rising_edge_start",
+          "axi_bram_mealy_x16_w_arm_1/rising_edge_start"
+        ]
+      },
+      "axi_bram_mealy_x16_w_arm_1_we": {
+        "ports": [
+          "axi_bram_mealy_x16_w_arm_1/we",
+          "we"
+        ]
+      }
+    }
+  }
+}

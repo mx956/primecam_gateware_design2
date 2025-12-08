@@ -1,0 +1,154 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:07 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Tue May 23 14:49:02 2023
+# Process ID: 2961806
+# Current directory: /home/adrian/simulink_2022/blast_mod_v6_cordic_ddc
+# Command line: vivado -mode batch -source ProjectGeneration.tcl -notrace
+# Log file: /home/adrian/simulink_2022/blast_mod_v6_cordic_ddc/vivado.log
+# Journal file: /home/adrian/simulink_2022/blast_mod_v6_cordic_ddc/vivado.jou
+#-----------------------------------------------------------
+source ProjectGeneration.tcl -notrace
+WARNING: [Coretcl 2-176] No IPs found
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/tools/Xilinx/Vivado/2021.1/data/ip'.
+WARNING: [IP_Flow 19-4832] The IP name 'blast_module_v6_cordic_ddc_c_counter_binary_v12_0_i0' you have specified is long. The Windows operating system has path length limitations. It is recommended you use shorter names to reduce the likelihood of issues.
+WARNING: [Vivado 12-3523] Attempt to change 'Component_Name' from 'blast_module_v6_cordic_ddc_c_counter_binary_v12_0_i0' to 'blast_module_v6_cordic_ddc_c_counter_binary_v12_0_i0' is not allowed and is ignored.
+WARNING: [IP_Flow 19-4832] The IP name 'blast_module_v6_cordic_ddc_c_counter_binary_v12_0_i1' you have specified is long. The Windows operating system has path length limitations. It is recommended you use shorter names to reduce the likelihood of issues.
+WARNING: [Vivado 12-3523] Attempt to change 'Component_Name' from 'blast_module_v6_cordic_ddc_c_counter_binary_v12_0_i1' to 'blast_module_v6_cordic_ddc_c_counter_binary_v12_0_i1' is not allowed and is ignored.
+WARNING: [IP_Flow 19-4832] The IP name 'blast_module_v6_cordic_ddc_c_counter_binary_v12_0_i2' you have specified is long. The Windows operating system has path length limitations. It is recommended you use shorter names to reduce the likelihood of issues.
+WARNING: [Vivado 12-3523] Attempt to change 'Component_Name' from 'blast_module_v6_cordic_ddc_c_counter_binary_v12_0_i2' to 'blast_module_v6_cordic_ddc_c_counter_binary_v12_0_i2' is not allowed and is ignored.
+WARNING: [IP_Flow 19-4832] The IP name 'blast_module_v6_cordic_ddc_c_counter_binary_v12_0_i3' you have specified is long. The Windows operating system has path length limitations. It is recommended you use shorter names to reduce the likelihood of issues.
+WARNING: [Vivado 12-3523] Attempt to change 'Component_Name' from 'blast_module_v6_cordic_ddc_c_counter_binary_v12_0_i3' to 'blast_module_v6_cordic_ddc_c_counter_binary_v12_0_i3' is not allowed and is ignored.
+WARNING: [IP_Flow 19-4832] The IP name 'blast_module_v6_cordic_ddc_c_counter_binary_v12_0_i4' you have specified is long. The Windows operating system has path length limitations. It is recommended you use shorter names to reduce the likelihood of issues.
+WARNING: [Vivado 12-3523] Attempt to change 'Component_Name' from 'blast_module_v6_cordic_ddc_c_counter_binary_v12_0_i4' to 'blast_module_v6_cordic_ddc_c_counter_binary_v12_0_i4' is not allowed and is ignored.
+WARNING: [IP_Flow 19-4832] The IP name 'blast_module_v6_cordic_ddc_dist_mem_gen_i0' you have specified is long. The Windows operating system has path length limitations. It is recommended you use shorter names to reduce the likelihood of issues.
+WARNING: [Vivado 12-3523] Attempt to change 'Component_Name' from 'blast_module_v6_cordic_ddc_dist_mem_gen_i0' to 'blast_module_v6_cordic_ddc_dist_mem_gen_i0' is not allowed and is ignored.
+WARNING: [IP_Flow 19-3374] An attempt to modify the value of disabled parameter 'ce_overrides' from 'ce_overrides_sync_controls' to 'sync_controls_overrides_ce' has been ignored for IP 'blast_module_v6_cordic_ddc_dist_mem_gen_i0'
+WARNING: [IP_Flow 19-4832] The IP name 'blast_module_v6_cordic_ddc_c_addsub_v12_0_i0' you have specified is long. The Windows operating system has path length limitations. It is recommended you use shorter names to reduce the likelihood of issues.
+WARNING: [Vivado 12-3523] Attempt to change 'Component_Name' from 'blast_module_v6_cordic_ddc_c_addsub_v12_0_i0' to 'blast_module_v6_cordic_ddc_c_addsub_v12_0_i0' is not allowed and is ignored.
+WARNING: [IP_Flow 19-3374] An attempt to modify the value of disabled parameter 'B_Value' from '000' to '0' has been ignored for IP 'blast_module_v6_cordic_ddc_c_addsub_v12_0_i0'
+WARNING: [IP_Flow 19-3374] An attempt to modify the value of disabled parameter 'Bypass_Sense' from 'Active_High' to 'Active_Low' has been ignored for IP 'blast_module_v6_cordic_ddc_c_addsub_v12_0_i0'
+WARNING: [IP_Flow 19-3374] An attempt to modify the value of disabled parameter 'Bypass_CE_Priority' from 'CE_Overrides_Bypass' to 'Bypass_Overrides_CE' has been ignored for IP 'blast_module_v6_cordic_ddc_c_addsub_v12_0_i0'
+WARNING: [IP_Flow 19-4832] The IP name 'blast_module_v6_cordic_ddc_c_counter_binary_v12_0_i5' you have specified is long. The Windows operating system has path length limitations. It is recommended you use shorter names to reduce the likelihood of issues.
+WARNING: [Vivado 12-3523] Attempt to change 'Component_Name' from 'blast_module_v6_cordic_ddc_c_counter_binary_v12_0_i5' to 'blast_module_v6_cordic_ddc_c_counter_binary_v12_0_i5' is not allowed and is ignored.
+WARNING: [IP_Flow 19-4832] The IP name 'blast_module_v6_cordic_ddc_c_counter_binary_v12_0_i6' you have specified is long. The Windows operating system has path length limitations. It is recommended you use shorter names to reduce the likelihood of issues.
+WARNING: [Vivado 12-3523] Attempt to change 'Component_Name' from 'blast_module_v6_cordic_ddc_c_counter_binary_v12_0_i6' to 'blast_module_v6_cordic_ddc_c_counter_binary_v12_0_i6' is not allowed and is ignored.
+WARNING: [IP_Flow 19-4832] The IP name 'blast_module_v6_cordic_ddc_dist_mem_gen_i1' you have specified is long. The Windows operating system has path length limitations. It is recommended you use shorter names to reduce the likelihood of issues.
+WARNING: [Vivado 12-3523] Attempt to change 'Component_Name' from 'blast_module_v6_cordic_ddc_dist_mem_gen_i1' to 'blast_module_v6_cordic_ddc_dist_mem_gen_i1' is not allowed and is ignored.
+WARNING: [IP_Flow 19-3374] An attempt to modify the value of disabled parameter 'ce_overrides' from 'ce_overrides_sync_controls' to 'sync_controls_overrides_ce' has been ignored for IP 'blast_module_v6_cordic_ddc_dist_mem_gen_i1'
+WARNING: [IP_Flow 19-4832] The IP name 'blast_module_v6_cordic_ddc_c_counter_binary_v12_0_i7' you have specified is long. The Windows operating system has path length limitations. It is recommended you use shorter names to reduce the likelihood of issues.
+WARNING: [Vivado 12-3523] Attempt to change 'Component_Name' from 'blast_module_v6_cordic_ddc_c_counter_binary_v12_0_i7' to 'blast_module_v6_cordic_ddc_c_counter_binary_v12_0_i7' is not allowed and is ignored.
+WARNING: [IP_Flow 19-4832] The IP name 'blast_module_v6_cordic_ddc_c_counter_binary_v12_0_i8' you have specified is long. The Windows operating system has path length limitations. It is recommended you use shorter names to reduce the likelihood of issues.
+WARNING: [Vivado 12-3523] Attempt to change 'Component_Name' from 'blast_module_v6_cordic_ddc_c_counter_binary_v12_0_i8' to 'blast_module_v6_cordic_ddc_c_counter_binary_v12_0_i8' is not allowed and is ignored.
+WARNING: [IP_Flow 19-4832] The IP name 'blast_module_v6_cordic_ddc_dist_mem_gen_i2' you have specified is long. The Windows operating system has path length limitations. It is recommended you use shorter names to reduce the likelihood of issues.
+WARNING: [Vivado 12-3523] Attempt to change 'Component_Name' from 'blast_module_v6_cordic_ddc_dist_mem_gen_i2' to 'blast_module_v6_cordic_ddc_dist_mem_gen_i2' is not allowed and is ignored.
+WARNING: [IP_Flow 19-3374] An attempt to modify the value of disabled parameter 'ce_overrides' from 'ce_overrides_sync_controls' to 'sync_controls_overrides_ce' has been ignored for IP 'blast_module_v6_cordic_ddc_dist_mem_gen_i2'
+WARNING: [IP_Flow 19-4832] The IP name 'blast_module_v6_cordic_ddc_c_counter_binary_v12_0_i9' you have specified is long. The Windows operating system has path length limitations. It is recommended you use shorter names to reduce the likelihood of issues.
+WARNING: [Vivado 12-3523] Attempt to change 'Component_Name' from 'blast_module_v6_cordic_ddc_c_counter_binary_v12_0_i9' to 'blast_module_v6_cordic_ddc_c_counter_binary_v12_0_i9' is not allowed and is ignored.
+WARNING: [IP_Flow 19-4832] The IP name 'blast_module_v6_cordic_ddc_c_counter_binary_v12_0_i10' you have specified is long. The Windows operating system has path length limitations. It is recommended you use shorter names to reduce the likelihood of issues.
+WARNING: [Vivado 12-3523] Attempt to change 'Component_Name' from 'blast_module_v6_cordic_ddc_c_counter_binary_v12_0_i10' to 'blast_module_v6_cordic_ddc_c_counter_binary_v12_0_i10' is not allowed and is ignored.
+WARNING: [IP_Flow 19-4832] The IP name 'blast_module_v6_cordic_ddc_c_counter_binary_v12_0_i11' you have specified is long. The Windows operating system has path length limitations. It is recommended you use shorter names to reduce the likelihood of issues.
+WARNING: [Vivado 12-3523] Attempt to change 'Component_Name' from 'blast_module_v6_cordic_ddc_c_counter_binary_v12_0_i11' to 'blast_module_v6_cordic_ddc_c_counter_binary_v12_0_i11' is not allowed and is ignored.
+WARNING: [IP_Flow 19-4832] The IP name 'blast_module_v6_cordic_ddc_c_counter_binary_v12_0_i12' you have specified is long. The Windows operating system has path length limitations. It is recommended you use shorter names to reduce the likelihood of issues.
+WARNING: [Vivado 12-3523] Attempt to change 'Component_Name' from 'blast_module_v6_cordic_ddc_c_counter_binary_v12_0_i12' to 'blast_module_v6_cordic_ddc_c_counter_binary_v12_0_i12' is not allowed and is ignored.
+WARNING: [IP_Flow 19-4832] The IP name 'blast_module_v6_cordic_ddc_c_counter_binary_v12_0_i13' you have specified is long. The Windows operating system has path length limitations. It is recommended you use shorter names to reduce the likelihood of issues.
+WARNING: [Vivado 12-3523] Attempt to change 'Component_Name' from 'blast_module_v6_cordic_ddc_c_counter_binary_v12_0_i13' to 'blast_module_v6_cordic_ddc_c_counter_binary_v12_0_i13' is not allowed and is ignored.
+WARNING: [IP_Flow 19-4832] The IP name 'blast_module_v6_cordic_ddc_c_counter_binary_v12_0_i14' you have specified is long. The Windows operating system has path length limitations. It is recommended you use shorter names to reduce the likelihood of issues.
+WARNING: [Vivado 12-3523] Attempt to change 'Component_Name' from 'blast_module_v6_cordic_ddc_c_counter_binary_v12_0_i14' to 'blast_module_v6_cordic_ddc_c_counter_binary_v12_0_i14' is not allowed and is ignored.
+WARNING: [IP_Flow 19-4832] The IP name 'blast_module_v6_cordic_ddc_c_counter_binary_v12_0_i15' you have specified is long. The Windows operating system has path length limitations. It is recommended you use shorter names to reduce the likelihood of issues.
+WARNING: [Vivado 12-3523] Attempt to change 'Component_Name' from 'blast_module_v6_cordic_ddc_c_counter_binary_v12_0_i15' to 'blast_module_v6_cordic_ddc_c_counter_binary_v12_0_i15' is not allowed and is ignored.
+WARNING: [IP_Flow 19-4832] The IP name 'blast_module_v6_cordic_ddc_c_counter_binary_v12_0_i16' you have specified is long. The Windows operating system has path length limitations. It is recommended you use shorter names to reduce the likelihood of issues.
+WARNING: [Vivado 12-3523] Attempt to change 'Component_Name' from 'blast_module_v6_cordic_ddc_c_counter_binary_v12_0_i16' to 'blast_module_v6_cordic_ddc_c_counter_binary_v12_0_i16' is not allowed and is ignored.
+WARNING: [IP_Flow 19-4832] The IP name 'blast_module_v6_cordic_ddc_dist_mem_gen_i3' you have specified is long. The Windows operating system has path length limitations. It is recommended you use shorter names to reduce the likelihood of issues.
+WARNING: [Vivado 12-3523] Attempt to change 'Component_Name' from 'blast_module_v6_cordic_ddc_dist_mem_gen_i3' to 'blast_module_v6_cordic_ddc_dist_mem_gen_i3' is not allowed and is ignored.
+WARNING: [IP_Flow 19-3374] An attempt to modify the value of disabled parameter 'ce_overrides' from 'ce_overrides_sync_controls' to 'sync_controls_overrides_ce' has been ignored for IP 'blast_module_v6_cordic_ddc_dist_mem_gen_i3'
+WARNING: [IP_Flow 19-4832] The IP name 'blast_module_v6_cordic_ddc_c_addsub_v12_0_i1' you have specified is long. The Windows operating system has path length limitations. It is recommended you use shorter names to reduce the likelihood of issues.
+WARNING: [Vivado 12-3523] Attempt to change 'Component_Name' from 'blast_module_v6_cordic_ddc_c_addsub_v12_0_i1' to 'blast_module_v6_cordic_ddc_c_addsub_v12_0_i1' is not allowed and is ignored.
+WARNING: [IP_Flow 19-3374] An attempt to modify the value of disabled parameter 'B_Value' from '00000000000000000000000000000000000' to '0' has been ignored for IP 'blast_module_v6_cordic_ddc_c_addsub_v12_0_i1'
+WARNING: [IP_Flow 19-3374] An attempt to modify the value of disabled parameter 'Bypass_Sense' from 'Active_High' to 'Active_Low' has been ignored for IP 'blast_module_v6_cordic_ddc_c_addsub_v12_0_i1'
+WARNING: [IP_Flow 19-3374] An attempt to modify the value of disabled parameter 'Bypass_CE_Priority' from 'CE_Overrides_Bypass' to 'Bypass_Overrides_CE' has been ignored for IP 'blast_module_v6_cordic_ddc_c_addsub_v12_0_i1'
+WARNING: [IP_Flow 19-4832] The IP name 'blast_module_v6_cordic_ddc_c_addsub_v12_0_i2' you have specified is long. The Windows operating system has path length limitations. It is recommended you use shorter names to reduce the likelihood of issues.
+WARNING: [Vivado 12-3523] Attempt to change 'Component_Name' from 'blast_module_v6_cordic_ddc_c_addsub_v12_0_i2' to 'blast_module_v6_cordic_ddc_c_addsub_v12_0_i2' is not allowed and is ignored.
+WARNING: [IP_Flow 19-3374] An attempt to modify the value of disabled parameter 'B_Value' from '00000000000000000' to '0' has been ignored for IP 'blast_module_v6_cordic_ddc_c_addsub_v12_0_i2'
+WARNING: [IP_Flow 19-3374] An attempt to modify the value of disabled parameter 'Bypass_Sense' from 'Active_High' to 'Active_Low' has been ignored for IP 'blast_module_v6_cordic_ddc_c_addsub_v12_0_i2'
+WARNING: [IP_Flow 19-3374] An attempt to modify the value of disabled parameter 'Bypass_CE_Priority' from 'CE_Overrides_Bypass' to 'Bypass_Overrides_CE' has been ignored for IP 'blast_module_v6_cordic_ddc_c_addsub_v12_0_i2'
+WARNING: [IP_Flow 19-4832] The IP name 'blast_module_v6_cordic_ddc_cordic_v6_0_i0' you have specified is long. The Windows operating system has path length limitations. It is recommended you use shorter names to reduce the likelihood of issues.
+WARNING: [Vivado 12-3523] Attempt to change 'Component_Name' from 'blast_module_v6_cordic_ddc_cordic_v6_0_i0' to 'blast_module_v6_cordic_ddc_cordic_v6_0_i0' is not allowed and is ignored.
+IP Repository Located at : /tools/Xilinx/Vivado/2021.1/data/ip
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/tools/Xilinx/Vivado/2021.1/data/ip'.
+Adding File /home/adrian/simulink_2022/blast_mod_v6_cordic_ddc/ip_catalog/blast_module_v6_cordic_ddc.srcs/sources_1/ip/blast_module_v6_cordic_ddc_c_addsub_v12_0_i0/blast_module_v6_cordic_ddc_c_addsub_v12_0_i0.xci
+Adding File /home/adrian/simulink_2022/blast_mod_v6_cordic_ddc/ip_catalog/blast_module_v6_cordic_ddc.srcs/sources_1/ip/blast_module_v6_cordic_ddc_c_addsub_v12_0_i1/blast_module_v6_cordic_ddc_c_addsub_v12_0_i1.xci
+Adding File /home/adrian/simulink_2022/blast_mod_v6_cordic_ddc/ip_catalog/blast_module_v6_cordic_ddc.srcs/sources_1/ip/blast_module_v6_cordic_ddc_c_addsub_v12_0_i2/blast_module_v6_cordic_ddc_c_addsub_v12_0_i2.xci
+Adding File /home/adrian/simulink_2022/blast_mod_v6_cordic_ddc/ip_catalog/blast_module_v6_cordic_ddc.srcs/sources_1/ip/blast_module_v6_cordic_ddc_c_counter_binary_v12_0_i0/blast_module_v6_cordic_ddc_c_counter_binary_v12_0_i0.xci
+Adding File /home/adrian/simulink_2022/blast_mod_v6_cordic_ddc/ip_catalog/blast_module_v6_cordic_ddc.srcs/sources_1/ip/blast_module_v6_cordic_ddc_c_counter_binary_v12_0_i1/blast_module_v6_cordic_ddc_c_counter_binary_v12_0_i1.xci
+Adding File /home/adrian/simulink_2022/blast_mod_v6_cordic_ddc/ip_catalog/blast_module_v6_cordic_ddc.srcs/sources_1/ip/blast_module_v6_cordic_ddc_c_counter_binary_v12_0_i10/blast_module_v6_cordic_ddc_c_counter_binary_v12_0_i10.xci
+Adding File /home/adrian/simulink_2022/blast_mod_v6_cordic_ddc/ip_catalog/blast_module_v6_cordic_ddc.srcs/sources_1/ip/blast_module_v6_cordic_ddc_c_counter_binary_v12_0_i11/blast_module_v6_cordic_ddc_c_counter_binary_v12_0_i11.xci
+Adding File /home/adrian/simulink_2022/blast_mod_v6_cordic_ddc/ip_catalog/blast_module_v6_cordic_ddc.srcs/sources_1/ip/blast_module_v6_cordic_ddc_c_counter_binary_v12_0_i12/blast_module_v6_cordic_ddc_c_counter_binary_v12_0_i12.xci
+Adding File /home/adrian/simulink_2022/blast_mod_v6_cordic_ddc/ip_catalog/blast_module_v6_cordic_ddc.srcs/sources_1/ip/blast_module_v6_cordic_ddc_c_counter_binary_v12_0_i13/blast_module_v6_cordic_ddc_c_counter_binary_v12_0_i13.xci
+Adding File /home/adrian/simulink_2022/blast_mod_v6_cordic_ddc/ip_catalog/blast_module_v6_cordic_ddc.srcs/sources_1/ip/blast_module_v6_cordic_ddc_c_counter_binary_v12_0_i14/blast_module_v6_cordic_ddc_c_counter_binary_v12_0_i14.xci
+Adding File /home/adrian/simulink_2022/blast_mod_v6_cordic_ddc/ip_catalog/blast_module_v6_cordic_ddc.srcs/sources_1/ip/blast_module_v6_cordic_ddc_c_counter_binary_v12_0_i15/blast_module_v6_cordic_ddc_c_counter_binary_v12_0_i15.xci
+Adding File /home/adrian/simulink_2022/blast_mod_v6_cordic_ddc/ip_catalog/blast_module_v6_cordic_ddc.srcs/sources_1/ip/blast_module_v6_cordic_ddc_c_counter_binary_v12_0_i16/blast_module_v6_cordic_ddc_c_counter_binary_v12_0_i16.xci
+Adding File /home/adrian/simulink_2022/blast_mod_v6_cordic_ddc/ip_catalog/blast_module_v6_cordic_ddc.srcs/sources_1/ip/blast_module_v6_cordic_ddc_c_counter_binary_v12_0_i2/blast_module_v6_cordic_ddc_c_counter_binary_v12_0_i2.xci
+Adding File /home/adrian/simulink_2022/blast_mod_v6_cordic_ddc/ip_catalog/blast_module_v6_cordic_ddc.srcs/sources_1/ip/blast_module_v6_cordic_ddc_c_counter_binary_v12_0_i3/blast_module_v6_cordic_ddc_c_counter_binary_v12_0_i3.xci
+Adding File /home/adrian/simulink_2022/blast_mod_v6_cordic_ddc/ip_catalog/blast_module_v6_cordic_ddc.srcs/sources_1/ip/blast_module_v6_cordic_ddc_c_counter_binary_v12_0_i4/blast_module_v6_cordic_ddc_c_counter_binary_v12_0_i4.xci
+Adding File /home/adrian/simulink_2022/blast_mod_v6_cordic_ddc/ip_catalog/blast_module_v6_cordic_ddc.srcs/sources_1/ip/blast_module_v6_cordic_ddc_c_counter_binary_v12_0_i5/blast_module_v6_cordic_ddc_c_counter_binary_v12_0_i5.xci
+Adding File /home/adrian/simulink_2022/blast_mod_v6_cordic_ddc/ip_catalog/blast_module_v6_cordic_ddc.srcs/sources_1/ip/blast_module_v6_cordic_ddc_c_counter_binary_v12_0_i6/blast_module_v6_cordic_ddc_c_counter_binary_v12_0_i6.xci
+Adding File /home/adrian/simulink_2022/blast_mod_v6_cordic_ddc/ip_catalog/blast_module_v6_cordic_ddc.srcs/sources_1/ip/blast_module_v6_cordic_ddc_c_counter_binary_v12_0_i7/blast_module_v6_cordic_ddc_c_counter_binary_v12_0_i7.xci
+Adding File /home/adrian/simulink_2022/blast_mod_v6_cordic_ddc/ip_catalog/blast_module_v6_cordic_ddc.srcs/sources_1/ip/blast_module_v6_cordic_ddc_c_counter_binary_v12_0_i8/blast_module_v6_cordic_ddc_c_counter_binary_v12_0_i8.xci
+Adding File /home/adrian/simulink_2022/blast_mod_v6_cordic_ddc/ip_catalog/blast_module_v6_cordic_ddc.srcs/sources_1/ip/blast_module_v6_cordic_ddc_c_counter_binary_v12_0_i9/blast_module_v6_cordic_ddc_c_counter_binary_v12_0_i9.xci
+Adding File /home/adrian/simulink_2022/blast_mod_v6_cordic_ddc/ip_catalog/blast_module_v6_cordic_ddc.srcs/sources_1/ip/blast_module_v6_cordic_ddc_cordic_v6_0_i0/blast_module_v6_cordic_ddc_cordic_v6_0_i0.xci
+Adding File /home/adrian/simulink_2022/blast_mod_v6_cordic_ddc/ip_catalog/blast_module_v6_cordic_ddc.srcs/sources_1/ip/blast_module_v6_cordic_ddc_dist_mem_gen_i0/blast_module_v6_cordic_ddc_dist_mem_gen_i0.xci
+Adding File /home/adrian/simulink_2022/blast_mod_v6_cordic_ddc/ip_catalog/blast_module_v6_cordic_ddc.srcs/sources_1/ip/blast_module_v6_cordic_ddc_dist_mem_gen_i1/blast_module_v6_cordic_ddc_dist_mem_gen_i1.xci
+Adding File /home/adrian/simulink_2022/blast_mod_v6_cordic_ddc/ip_catalog/blast_module_v6_cordic_ddc.srcs/sources_1/ip/blast_module_v6_cordic_ddc_dist_mem_gen_i2/blast_module_v6_cordic_ddc_dist_mem_gen_i2.xci
+Adding File /home/adrian/simulink_2022/blast_mod_v6_cordic_ddc/ip_catalog/blast_module_v6_cordic_ddc.srcs/sources_1/ip/blast_module_v6_cordic_ddc_dist_mem_gen_i3/blast_module_v6_cordic_ddc_dist_mem_gen_i3.xci
+Adding File /home/adrian/simulink_2022/blast_mod_v6_cordic_ddc/sysgen/blast_module_v6_cordic_ddc.xdc
+Adding File /home/adrian/simulink_2022/blast_mod_v6_cordic_ddc/sysgen/blast_module_v6_cordic_ddc_dist_mem_gen_i0_vivado.coe
+Adding File /home/adrian/simulink_2022/blast_mod_v6_cordic_ddc/sysgen/blast_module_v6_cordic_ddc_dist_mem_gen_i1_vivado.coe
+Adding File /home/adrian/simulink_2022/blast_mod_v6_cordic_ddc/sysgen/blast_module_v6_cordic_ddc_dist_mem_gen_i2_vivado.coe
+Adding File /home/adrian/simulink_2022/blast_mod_v6_cordic_ddc/sysgen/blast_module_v6_cordic_ddc_dist_mem_gen_i3_vivado.coe
+Adding File /home/adrian/simulink_2022/blast_mod_v6_cordic_ddc/sysgen/xpm_effb0c_vivado.mem
+Adding File /home/adrian/simulink_2022/blast_mod_v6_cordic_ddc/sysgen/xpm_98f453_vivado.mem
+Adding File /home/adrian/simulink_2022/blast_mod_v6_cordic_ddc/sysgen/xpm_cb2434_vivado.mem
+Adding File /home/adrian/simulink_2022/blast_mod_v6_cordic_ddc/sysgen/xpm_45185a_vivado.mem
+Adding File /home/adrian/simulink_2022/blast_mod_v6_cordic_ddc/sysgen/xpm_154457_vivado.mem
+Adding File /home/adrian/simulink_2022/blast_mod_v6_cordic_ddc/sysgen/xpm_f0602d_vivado.mem
+Adding File /home/adrian/simulink_2022/blast_mod_v6_cordic_ddc/sysgen/xpm_f7f5fd_vivado.mem
+Adding File /home/adrian/simulink_2022/blast_mod_v6_cordic_ddc/sysgen/xpm_a54c85_vivado.mem
+Adding File /home/adrian/simulink_2022/blast_mod_v6_cordic_ddc/sysgen/xpm_8739c2_vivado.mem
+Adding File /home/adrian/simulink_2022/blast_mod_v6_cordic_ddc/sysgen/xpm_f6cc85_vivado.mem
+Adding File /home/adrian/simulink_2022/blast_mod_v6_cordic_ddc/sysgen/xpm_b42cce_vivado.mem
+Adding File /home/adrian/simulink_2022/blast_mod_v6_cordic_ddc/sysgen/xpm_f133f0_vivado.mem
+Adding File /home/adrian/simulink_2022/blast_mod_v6_cordic_ddc/sysgen/xpm_65b62b_vivado.mem
+Adding File /home/adrian/simulink_2022/blast_mod_v6_cordic_ddc/sysgen/xpm_3dec81_vivado.mem
+Adding File /home/adrian/simulink_2022/blast_mod_v6_cordic_ddc/sysgen/xpm_9c9994_vivado.mem
+Adding File /home/adrian/simulink_2022/blast_mod_v6_cordic_ddc/sysgen/xpm_d7858d_vivado.mem
+Adding File /home/adrian/simulink_2022/blast_mod_v6_cordic_ddc/sysgen/xpm_5aee90_vivado.mem
+Adding File /home/adrian/simulink_2022/blast_mod_v6_cordic_ddc/sysgen/xpm_c30a66_vivado.mem
+Adding File /home/adrian/simulink_2022/blast_mod_v6_cordic_ddc/sysgen/xpm_25902f_vivado.mem
+Adding File /home/adrian/simulink_2022/blast_mod_v6_cordic_ddc/sysgen/xpm_f5fed5_vivado.mem
+INFO: [IP_Flow 19-5107] Inferred bus interface 'clk' of definition 'xilinx.com:signal:clock:1.0' (from TCL Argument).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'accum_reset' of definition 'xilinx.com:signal:reset:1.0' (from TCL Argument).
+INFO: [IP_Flow 19-2181] Payment Required is not set for this core.
+INFO: [IP_Flow 19-2187] The Product Guide file is missing.
+INFO: [Ipptcl 7-1486] check_integrity: Integrity check passed.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/adrian/simulink_2022/blast_mod_v6_cordic_ddc/ip'.
+WARNING: [IP_Flow 19-3656] If you move the project, the path for repository '/home/adrian/simulink_2022/blast_mod_v6_cordic_ddc/ip' may become invalid. A better location for the repository would be in a path adjacent to the project. (Current project location is '/home/adrian/simulink_2022/blast_mod_v6_cordic_ddc/ip_catalog'.)
+WARNING: [IP_Flow 19-4832] The IP name 'blast_module_v6_cordic_ddc_0' you have specified is long. The Windows operating system has path length limitations. It is recommended you use shorter names to reduce the likelihood of issues.
+0
+WARNING: [BD 41-1753] The name 'blast_module_v6_cordic_ddc_bd' you have specified is long. The Windows OS has path length limitations. It is recommended you use shorter names(less than 25 characters) to reduce the likelihood of issues when/if running on windows OS.
+Wrote  : </home/adrian/simulink_2022/blast_mod_v6_cordic_ddc/ip_catalog/blast_module_v6_cordic_ddc.srcs/sources_1/bd/blast_module_v6_cordic_ddc_bd/blast_module_v6_cordic_ddc_bd.bd> 
+WARNING: [BD 41-1753] The name 'blast_module_v6_cordic_ddc_1' you have specified is long. The Windows OS has path length limitations. It is recommended you use shorter names(less than 25 characters) to reduce the likelihood of issues when/if running on windows OS.
+WARNING: [BD 5-232] No interface pins matched 'get_bd_intf_pins /blast_module_v6_cordic_ddc_1/*'
+WARNING: [BD 5-232] No interface pins matched 'get_bd_intf_pins /blast_module_v6_cordic_ddc_1/*'
+WARNING: [BD 5-670] It is required to provide a frequency value for a user created input clock port. Please use the <-freq_hz $freq_val> argument of the create_bd_port command. ie create_bd_port -dir I -type clk -freq_hz 100000000 clkin
+WARNING: [BD 5-232] No interface pins matched 'get_bd_intf_pins /blast_module_v6_cordic_ddc_1/*'
+Wrote  : </home/adrian/simulink_2022/blast_mod_v6_cordic_ddc/ip_catalog/blast_module_v6_cordic_ddc.srcs/sources_1/bd/blast_module_v6_cordic_ddc_bd/blast_module_v6_cordic_ddc_bd.bd> 
+INFO: [Common 17-206] Exiting Vivado at Tue May 23 14:49:23 2023...

@@ -1,0 +1,68 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"0.370563",
+   "Default View_TopLeft":"-2375,-11",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0r6  2020-01-29 bk=1.5227 VDI=41 GEI=36 GUI=JA:10.0 non-TLS
+#  -string -flagsOSRD
+preplace port S_AXI_bram_ctrl_0 -pg 1 -lvl 0 -x 0 -y 930 -defaultsOSRD
+preplace port S_AXI_bram_ctrl_1 -pg 1 -lvl 0 -x 0 -y 1130 -defaultsOSRD
+preplace port port-id_clk_256M -pg 1 -lvl 0 -x 0 -y 870 -defaultsOSRD
+preplace port port-id_s_axi_aresetn256 -pg 1 -lvl 0 -x 0 -y 1090 -defaultsOSRD
+preplace portBus ADC_data_re -pg 1 -lvl 0 -x 0 -y 730 -defaultsOSRD
+preplace portBus ADC_data_im -pg 1 -lvl 0 -x 0 -y 850 -defaultsOSRD
+preplace portBus max_chan_minus_three -pg 1 -lvl 0 -x 0 -y 1150 -defaultsOSRD
+preplace portBus getAccumCtrl_rst -pg 1 -lvl 0 -x 0 -y 1270 -defaultsOSRD
+preplace portBus tvalid -pg 1 -lvl 0 -x 0 -y 1290 -defaultsOSRD
+preplace portBus rec_output -pg 1 -lvl 0 -x 0 -y 1500 -defaultsOSRD
+preplace portBus DAC_data -pg 1 -lvl 0 -x 0 -y 610 -defaultsOSRD
+preplace portBus axibramx32v2_start -pg 1 -lvl 0 -x 0 -y 990 -defaultsOSRD
+preplace inst const_65472 -pg 1 -lvl 1 -x 100 -y 1210 -defaultsOSRD
+preplace inst c_shift_ram_2 -pg 1 -lvl 2 -x 370 -y 740 -defaultsOSRD
+preplace inst axi_bram_ctrl_0 -pg 1 -lvl 3 -x 720 -y 950 -defaultsOSRD
+preplace inst axi_bram_ctrl_1 -pg 1 -lvl 3 -x 720 -y 1150 -defaultsOSRD
+preplace inst c_shift_ram_3 -pg 1 -lvl 2 -x 370 -y 860 -defaultsOSRD
+preplace inst getAccumCtrl_0 -pg 1 -lvl 2 -x 370 -y 1270 -defaultsOSRD
+preplace inst bool_zero -pg 1 -lvl 3 -x 720 -y 1400 -defaultsOSRD
+preplace inst xlconcat_3 -pg 1 -lvl 3 -x 720 -y 360 -defaultsOSRD
+preplace inst blk_mem_gen_0 -pg 1 -lvl 4 -x 1010 -y 1020 -defaultsOSRD
+preplace inst blk_mem_gen_1 -pg 1 -lvl 4 -x 1010 -y 1260 -defaultsOSRD
+preplace inst bool_one -pg 1 -lvl 3 -x 720 -y 1300 -defaultsOSRD
+preplace inst xlconcat_DataConv -pg 1 -lvl 3 -x 720 -y 790 -defaultsOSRD
+preplace inst c_shift_ram_0 -pg 1 -lvl 3 -x 720 -y 1510 -defaultsOSRD
+preplace inst c_shift_ram_1 -pg 1 -lvl 2 -x 370 -y 620 -defaultsOSRD
+preplace inst axibramx32v2_0 -pg 1 -lvl 2 -x 370 -y 1010 -defaultsOSRD
+preplace inst xlconcat_4 -pg 1 -lvl 3 -x 720 -y 1930 -defaultsOSRD
+preplace netloc Net2 1 0 2 NJ 850 NJ
+preplace netloc Net3 1 0 2 NJ 730 NJ
+preplace netloc axibramx32v1_0_we 1 2 1 550 50n
+preplace netloc axibramx32v1_0_we1 1 2 1 550 1280n
+preplace netloc axibramx32v2_0_addr 1 2 2 560J 870 890
+preplace netloc bool_one_dout 1 3 1 870 1050n
+preplace netloc bool_zero_dout 1 3 1 880 1070n
+preplace netloc c_shift_ram_0_Q 1 3 1 900 1270n
+preplace netloc c_shift_ram_1_Q 1 2 1 580 620n
+preplace netloc c_shift_ram_2_Q 1 2 1 570 740n
+preplace netloc c_shift_ram_3_Q 1 2 1 540 810n
+preplace netloc clk_wiz_0_clk_out1 1 0 4 NJ 870 180 1170 570 1240 890
+preplace netloc const_2097088_dout 1 1 1 200 1010n
+preplace netloc getAccumCtrl_0_addr 1 2 2 580 1230 NJ
+preplace netloc proc_sys_reset_0_peripheral_aresetn 1 0 3 NJ 1090 NJ 1090 580
+preplace netloc receive1_3_0_acc_tvalid 1 0 2 NJ 1290 NJ
+preplace netloc xlconcat_0_dout 1 0 2 NJ 610 NJ
+preplace netloc xlconcat_1_dout 1 0 3 NJ 1500 NJ 1500 NJ
+preplace netloc xlconcat_3_dout 1 3 1 910 360n
+preplace netloc xlconcat_4_dout 1 3 1 910 1330n
+preplace netloc xlconcat_ADCout_dout 1 3 1 900 790n
+preplace netloc xlslice_bram_rst_Dout 1 0 2 NJ 1270 NJ
+preplace netloc xlslice_bramx32v2_start_Dout 1 0 2 NJ 990 NJ
+preplace netloc xlslice_getAccumChan_Dout 1 0 2 NJ 1150 190J
+preplace netloc axi_bram_ctrl_0_BRAM_PORTA 1 3 1 N 950
+preplace netloc axi_bram_ctrl_1_BRAM_PORTA 1 3 1 860 1150n
+preplace netloc ps8_0_axi_periph_M04_AXI 1 0 3 NJ 930 NJ 930 NJ
+preplace netloc ps8_0_axi_periph_M07_AXI 1 0 3 NJ 1130 NJ 1130 NJ
+levelinfo -pg 1 0 100 370 720 1010 1120
+pagesize -pg 1 -db -bbox -sgen -230 -10 1120 2300
+"
+}
+

@@ -1,0 +1,152 @@
+{
+  'Line_126' => {
+    'CodeInstance' => 'cordic_mix_v1_struct/cordic_6_0',
+    'Instance' => 'cordic_6_0',
+    'SimulinkInstance' => 'cordic_mix_v1/CORDIC 6.0 '
+  },
+  'Line_139' => {
+    'CodeInstance' => 'cordic_mix_v1_struct/cordic_6_0_1',
+    'Instance' => 'cordic_6_0_1',
+    'SimulinkInstance' => 'cordic_mix_v1/CORDIC 6.0 1'
+  },
+  'Line_152' => {
+    'CodeInstance' => 'cordic_mix_v1_struct/convert',
+    'Instance' => 'convert',
+    'SimulinkInstance' => 'cordic_mix_v1/Convert'
+  },
+  'Line_173' => {
+    'CodeInstance' => 'cordic_mix_v1_struct/convert1',
+    'Instance' => 'convert1',
+    'SimulinkInstance' => 'cordic_mix_v1/Convert1'
+  },
+  'Line_194' => {
+    'CodeInstance' => 'cordic_mix_v1_struct/convert2',
+    'Instance' => 'convert2',
+    'SimulinkInstance' => 'cordic_mix_v1/Convert2'
+  },
+  'Line_215' => {
+    'CodeInstance' => 'cordic_mix_v1_struct/convert3',
+    'Instance' => 'convert3',
+    'SimulinkInstance' => 'cordic_mix_v1/Convert3'
+  },
+  'Line_236' => {
+    'CodeInstance' => 'cordic_mix_v1_struct/convert4',
+    'Instance' => 'convert4',
+    'SimulinkInstance' => 'cordic_mix_v1/Convert4'
+  },
+  'Line_257' => {
+    'CodeInstance' => 'cordic_mix_v1_struct/convert5',
+    'Instance' => 'convert5',
+    'SimulinkInstance' => 'cordic_mix_v1/Convert5'
+  },
+  'Line_278' => {
+    'CodeInstance' => 'cordic_mix_v1_struct/delay1',
+    'Instance' => 'delay1',
+    'SimulinkInstance' => 'cordic_mix_v1/Delay1'
+  },
+  'Line_293' => {
+    'CodeInstance' => 'cordic_mix_v1_struct/delay10',
+    'Instance' => 'delay10',
+    'SimulinkInstance' => 'cordic_mix_v1/Delay10'
+  },
+  'Line_308' => {
+    'CodeInstance' => 'cordic_mix_v1_struct/delay13',
+    'Instance' => 'delay13',
+    'SimulinkInstance' => 'cordic_mix_v1/Delay13'
+  },
+  'Line_323' => {
+    'CodeInstance' => 'cordic_mix_v1_struct/delay14',
+    'Instance' => 'delay14',
+    'SimulinkInstance' => 'cordic_mix_v1/Delay14'
+  },
+  'Line_338' => {
+    'CodeInstance' => 'cordic_mix_v1_struct/delay2',
+    'Instance' => 'delay2',
+    'SimulinkInstance' => 'cordic_mix_v1/Delay2'
+  },
+  'Line_353' => {
+    'CodeInstance' => 'cordic_mix_v1_struct/delay3',
+    'Instance' => 'delay3',
+    'SimulinkInstance' => 'cordic_mix_v1/Delay3'
+  },
+  'Line_368' => {
+    'CodeInstance' => 'cordic_mix_v1_struct/delay4',
+    'Instance' => 'delay4',
+    'SimulinkInstance' => 'cordic_mix_v1/Delay4'
+  },
+  'Line_383' => {
+    'CodeInstance' => 'cordic_mix_v1_struct/delay5',
+    'Instance' => 'delay5',
+    'SimulinkInstance' => 'cordic_mix_v1/Delay5'
+  },
+  'Line_398' => {
+    'CodeInstance' => 'cordic_mix_v1_struct/delay6',
+    'Instance' => 'delay6',
+    'SimulinkInstance' => 'cordic_mix_v1/Delay6'
+  },
+  'Line_413' => {
+    'CodeInstance' => 'cordic_mix_v1_struct/delay7',
+    'Instance' => 'delay7',
+    'SimulinkInstance' => 'cordic_mix_v1/Delay7'
+  },
+  'Line_428' => {
+    'CodeInstance' => 'cordic_mix_v1_struct/delay8',
+    'Instance' => 'delay8',
+    'SimulinkInstance' => 'cordic_mix_v1/Delay8'
+  },
+  'Line_443' => {
+    'CodeInstance' => 'cordic_mix_v1_struct/delay9',
+    'Instance' => 'delay9',
+    'SimulinkInstance' => 'cordic_mix_v1/Delay9'
+  },
+  'Line_458' => {
+    'CodeInstance' => 'cordic_mix_v1_struct/reinterpret1',
+    'Instance' => 'reinterpret1',
+    'SimulinkInstance' => 'cordic_mix_v1/Reinterpret1'
+  },
+  'Line_466' => {
+    'CodeInstance' => 'cordic_mix_v1_struct/reinterpret2',
+    'Instance' => 'reinterpret2',
+    'SimulinkInstance' => 'cordic_mix_v1/Reinterpret2'
+  },
+  'Line_474' => {
+    'CodeInstance' => 'cordic_mix_v1_struct/shift',
+    'Instance' => 'shift',
+    'SimulinkInstance' => 'cordic_mix_v1/Shift'
+  },
+  'Line_482' => {
+    'CodeInstance' => 'cordic_mix_v1_struct/shift1',
+    'Instance' => 'shift1',
+    'SimulinkInstance' => 'cordic_mix_v1/Shift1'
+  },
+  'Line_507' => {
+    'CodeInstance' => 'cordic_mix_v1_default_clock_driver/clockdriver',
+    'Instance' => 'clockdriver',
+    'SimulinkInstance' => ''
+  },
+  'Line_548' => {
+    'CodeInstance' => 'cordic_mix_v1_default_clock_driver',
+    'Instance' => 'cordic_mix_v1_default_clock_driver',
+    'SimulinkInstance' => ''
+  },
+  'Line_556' => {
+    'CodeInstance' => 'cordic_mix_v1_struct',
+    'Instance' => 'cordic_mix_v1_struct',
+    'SimulinkInstance' => 'cordic_mix_v1'
+  },
+  'Line_79' => {
+    'CodeInstance' => 'cordic_mix_v1_struct/accumulator',
+    'Instance' => 'accumulator',
+    'SimulinkInstance' => 'cordic_mix_v1/Accumulator'
+  },
+  'Line_87' => {
+    'CodeInstance' => 'cordic_mix_v1_struct/accumulator1',
+    'Instance' => 'accumulator1',
+    'SimulinkInstance' => 'cordic_mix_v1/Accumulator1'
+  },
+  'Line_95' => {
+    'CodeInstance' => 'cordic_mix_v1_struct/addsub',
+    'Instance' => 'addsub',
+    'SimulinkInstance' => 'cordic_mix_v1/AddSub'
+  }
+}
