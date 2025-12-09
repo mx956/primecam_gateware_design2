@@ -1,7 +1,7 @@
 {
    "ActiveEmotionalView":"Default View",
-   "Default View_ScaleFactor":"0.535",
-   "Default View_TopLeft":"-914,-239",
+   "Default View_ScaleFactor":"1.22911",
+   "Default View_TopLeft":"583,62",
    "ExpandedHierarchyInLayout":"",
    "guistr":"# # String gsaved with Nlview 7.0r6  2020-01-29 bk=1.5227 VDI=41 GEI=36 GUI=JA:10.0 non-TLS
 #  -string -flagsOSRD
@@ -20,8 +20,6 @@ preplace portBus eth_start_chan4 -pg 1 -lvl 0 -x -60 -y 360 -defaultsOSRD
 preplace portBus out_eth_start_chan4 -pg 1 -lvl 7 -x 2100 -y 1040 -defaultsOSRD
 preplace portBus eth_sel -pg 1 -lvl 0 -x -60 -y -30 -defaultsOSRD
 preplace inst en_chan7 -pg 1 -lvl 4 -x 1070 -y 1140 -defaultsOSRD
-preplace inst d_flip_2 -pg 1 -lvl 5 -x 1580 -y 870 -defaultsOSRD
-preplace inst d_flip_3 -pg 1 -lvl 5 -x 1580 -y 1070 -defaultsOSRD
 preplace inst we1 -pg 1 -lvl 2 -x 410 -y 900 -defaultsOSRD
 preplace inst we2 -pg 1 -lvl 2 -x 410 -y 1010 -defaultsOSRD
 preplace inst we3 -pg 1 -lvl 2 -x 410 -y 1110 -defaultsOSRD
@@ -39,8 +37,6 @@ preplace inst en_chan4 -pg 1 -lvl 4 -x 1070 -y 840 -defaultsOSRD
 preplace inst xlconstant_6 -pg 1 -lvl 4 -x 1070 -y 1300 -defaultsOSRD
 preplace inst en_chan5 -pg 1 -lvl 4 -x 1070 -y 940 -defaultsOSRD
 preplace inst util_vector_logic_8 -pg 1 -lvl 4 -x 1070 -y -170 -defaultsOSRD
-preplace inst d_flip_0 -pg 1 -lvl 5 -x 1580 -y 470 -defaultsOSRD
-preplace inst d_flip_1 -pg 1 -lvl 5 -x 1580 -y 670 -defaultsOSRD
 preplace inst util_vector_logic_9 -pg 1 -lvl 3 -x 730 -y 70 -defaultsOSRD
 preplace inst gpio_udp_info_control -pg 1 -lvl 1 -x 140 -y 670 -defaultsOSRD
 preplace inst en_chan6 -pg 1 -lvl 4 -x 1070 -y 1040 -defaultsOSRD
@@ -48,6 +44,10 @@ preplace inst util_vector_logic_6 -pg 1 -lvl 6 -x 1930 -y 1040 -defaultsOSRD
 preplace inst chan_count_logic -pg 1 -lvl 5 -x 1580 -y -60 -defaultsOSRD
 preplace inst packet_info_logic -pg 1 -lvl 5 -x 1580 -y 190 -defaultsOSRD
 preplace inst we0 -pg 1 -lvl 2 -x 410 -y 192 -defaultsOSRD
+preplace inst d_flip_0 -pg 1 -lvl 5 -x 1580 -y 470 -defaultsOSRD
+preplace inst d_flip_1 -pg 1 -lvl 5 -x 1580 -y 670 -defaultsOSRD
+preplace inst d_flip_2 -pg 1 -lvl 5 -x 1580 -y 870 -defaultsOSRD
+preplace inst d_flip_3 -pg 1 -lvl 5 -x 1580 -y 1070 -defaultsOSRD
 preplace netloc M04_ARESETN_1 1 0 1 NJ 690
 preplace netloc Net2 1 0 5 NJ 110 NJ 110 520J 150 NJ 150 1320
 preplace netloc chan1_accum_snap_sync 1 0 6 -20J -80 NJ -80 NJ -80 NJ -80 1240J -200 1770J
