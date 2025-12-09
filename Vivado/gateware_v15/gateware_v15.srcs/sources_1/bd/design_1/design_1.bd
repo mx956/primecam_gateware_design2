@@ -7,7 +7,8 @@
       "name": "design_1",
       "rev_ctrl_bd_flag": "RevCtrlBdOff",
       "synth_flow_mode": "Hierarchical",
-      "tool_version": "2021.1"
+      "tool_version": "2021.1",
+      "validated": "true"
     },
     "design_tree": {
       "zynq_ultra_ps_e_0": "",
@@ -795,6 +796,10 @@
         "vlnv_bus_definition": "xilinx.com:interface:diff_clock:1.0",
         "vlnv": "xilinx.com:interface:diff_clock_rtl:1.0",
         "parameters": {
+          "CAN_DEBUG": {
+            "value": "false",
+            "value_src": "default"
+          },
           "FREQ_HZ": {
             "value": "409600000.0"
           }
@@ -810,6 +815,10 @@
         "vlnv_bus_definition": "xilinx.com:interface:diff_clock:1.0",
         "vlnv": "xilinx.com:interface:diff_clock_rtl:1.0",
         "parameters": {
+          "CAN_DEBUG": {
+            "value": "false",
+            "value_src": "default"
+          },
           "FREQ_HZ": {
             "value": "409600000.0"
           }
@@ -835,6 +844,10 @@
         "vlnv_bus_definition": "xilinx.com:interface:diff_clock:1.0",
         "vlnv": "xilinx.com:interface:diff_clock_rtl:1.0",
         "parameters": {
+          "CAN_DEBUG": {
+            "value": "false",
+            "value_src": "default"
+          },
           "FREQ_HZ": {
             "value": "125000000"
           }
@@ -843,7 +856,13 @@
       "mdio_io_port_0": {
         "mode": "Master",
         "vlnv_bus_definition": "xilinx.com:interface:mdio:1.0",
-        "vlnv": "xilinx.com:interface:mdio_rtl:1.0"
+        "vlnv": "xilinx.com:interface:mdio_rtl:1.0",
+        "parameters": {
+          "CAN_DEBUG": {
+            "value": "false",
+            "value_src": "default"
+          }
+        }
       },
       "rgmii_port_0": {
         "mode": "Master",
@@ -855,6 +874,10 @@
         "vlnv_bus_definition": "xilinx.com:interface:diff_clock:1.0",
         "vlnv": "xilinx.com:interface:diff_clock_rtl:1.0",
         "parameters": {
+          "CAN_DEBUG": {
+            "value": "false",
+            "value_src": "default"
+          },
           "FREQ_HZ": {
             "value": "125000000"
           }
@@ -865,6 +888,10 @@
         "vlnv_bus_definition": "xilinx.com:interface:diff_clock:1.0",
         "vlnv": "xilinx.com:interface:diff_clock_rtl:1.0",
         "parameters": {
+          "CAN_DEBUG": {
+            "value": "false",
+            "value_src": "default"
+          },
           "FREQ_HZ": {
             "value": "409600000.0"
           }
@@ -10669,10 +10696,38 @@
                 "direction": "I"
               },
               "clk_fab": {
-                "direction": "I"
+                "direction": "I",
+                "parameters": {
+                  "FREQ_HZ": {
+                    "value": "256000000",
+                    "value_src": "ip_prop"
+                  },
+                  "PHASE": {
+                    "value": "0.0",
+                    "value_src": "ip_prop"
+                  },
+                  "CLK_DOMAIN": {
+                    "value": "design_1_clk_wiz_0_0_clk_out1",
+                    "value_src": "default_prop"
+                  }
+                }
               },
               "clk_eth": {
-                "direction": "I"
+                "direction": "I",
+                "parameters": {
+                  "FREQ_HZ": {
+                    "value": "125000000",
+                    "value_src": "ip_prop"
+                  },
+                  "PHASE": {
+                    "value": "0.0",
+                    "value_src": "ip_prop"
+                  },
+                  "CLK_DOMAIN": {
+                    "value": "design_1_clk_wiz_0_1_clk_out1",
+                    "value_src": "default_prop"
+                  }
+                }
               },
               "r_data": {
                 "direction": "I",
@@ -10701,7 +10756,17 @@
                 "direction": "O"
               },
               "eth_start_trig": {
-                "direction": "O"
+                "direction": "O",
+                "parameters": {
+                  "PortType": {
+                    "value": "undef",
+                    "value_src": "ip_prop"
+                  },
+                  "PortType.PROP_SRC": {
+                    "value": "false",
+                    "value_src": "ip_prop"
+                  }
+                }
               },
               "r_data_addr": {
                 "direction": "O",
@@ -32542,10 +32607,38 @@
                 "direction": "I"
               },
               "clk_fab": {
-                "direction": "I"
+                "direction": "I",
+                "parameters": {
+                  "FREQ_HZ": {
+                    "value": "256000000",
+                    "value_src": "ip_prop"
+                  },
+                  "PHASE": {
+                    "value": "0.0",
+                    "value_src": "ip_prop"
+                  },
+                  "CLK_DOMAIN": {
+                    "value": "design_1_clk_wiz_0_0_clk_out1",
+                    "value_src": "default_prop"
+                  }
+                }
               },
               "clk_eth": {
-                "direction": "I"
+                "direction": "I",
+                "parameters": {
+                  "FREQ_HZ": {
+                    "value": "125000000",
+                    "value_src": "ip_prop"
+                  },
+                  "PHASE": {
+                    "value": "0.0",
+                    "value_src": "ip_prop"
+                  },
+                  "CLK_DOMAIN": {
+                    "value": "design_1_clk_wiz_0_1_clk_out1",
+                    "value_src": "default_prop"
+                  }
+                }
               },
               "r_data": {
                 "direction": "I",
@@ -32574,7 +32667,17 @@
                 "direction": "O"
               },
               "eth_start_trig": {
-                "direction": "O"
+                "direction": "O",
+                "parameters": {
+                  "PortType": {
+                    "value": "undef",
+                    "value_src": "ip_prop"
+                  },
+                  "PortType.PROP_SRC": {
+                    "value": "false",
+                    "value_src": "ip_prop"
+                  }
+                }
               },
               "r_data_addr": {
                 "direction": "O",
@@ -32937,10 +33040,38 @@
                 "direction": "I"
               },
               "clk_fab": {
-                "direction": "I"
+                "direction": "I",
+                "parameters": {
+                  "FREQ_HZ": {
+                    "value": "256000000",
+                    "value_src": "ip_prop"
+                  },
+                  "PHASE": {
+                    "value": "0.0",
+                    "value_src": "ip_prop"
+                  },
+                  "CLK_DOMAIN": {
+                    "value": "design_1_clk_wiz_0_0_clk_out1",
+                    "value_src": "default_prop"
+                  }
+                }
               },
               "clk_eth": {
-                "direction": "I"
+                "direction": "I",
+                "parameters": {
+                  "FREQ_HZ": {
+                    "value": "125000000",
+                    "value_src": "ip_prop"
+                  },
+                  "PHASE": {
+                    "value": "0.0",
+                    "value_src": "ip_prop"
+                  },
+                  "CLK_DOMAIN": {
+                    "value": "design_1_clk_wiz_0_1_clk_out1",
+                    "value_src": "default_prop"
+                  }
+                }
               },
               "r_data": {
                 "direction": "I",
@@ -32969,7 +33100,17 @@
                 "direction": "O"
               },
               "eth_start_trig": {
-                "direction": "O"
+                "direction": "O",
+                "parameters": {
+                  "PortType": {
+                    "value": "undef",
+                    "value_src": "ip_prop"
+                  },
+                  "PortType.PROP_SRC": {
+                    "value": "false",
+                    "value_src": "ip_prop"
+                  }
+                }
               },
               "r_data_addr": {
                 "direction": "O",
@@ -33332,10 +33473,38 @@
                 "direction": "I"
               },
               "clk_fab": {
-                "direction": "I"
+                "direction": "I",
+                "parameters": {
+                  "FREQ_HZ": {
+                    "value": "256000000",
+                    "value_src": "ip_prop"
+                  },
+                  "PHASE": {
+                    "value": "0.0",
+                    "value_src": "ip_prop"
+                  },
+                  "CLK_DOMAIN": {
+                    "value": "design_1_clk_wiz_0_0_clk_out1",
+                    "value_src": "default_prop"
+                  }
+                }
               },
               "clk_eth": {
-                "direction": "I"
+                "direction": "I",
+                "parameters": {
+                  "FREQ_HZ": {
+                    "value": "125000000",
+                    "value_src": "ip_prop"
+                  },
+                  "PHASE": {
+                    "value": "0.0",
+                    "value_src": "ip_prop"
+                  },
+                  "CLK_DOMAIN": {
+                    "value": "design_1_clk_wiz_0_1_clk_out1",
+                    "value_src": "default_prop"
+                  }
+                }
               },
               "r_data": {
                 "direction": "I",
@@ -33364,7 +33533,17 @@
                 "direction": "O"
               },
               "eth_start_trig": {
-                "direction": "O"
+                "direction": "O",
+                "parameters": {
+                  "PortType": {
+                    "value": "undef",
+                    "value_src": "ip_prop"
+                  },
+                  "PortType.PROP_SRC": {
+                    "value": "false",
+                    "value_src": "ip_prop"
+                  }
+                }
               },
               "r_data_addr": {
                 "direction": "O",
@@ -34542,22 +34721,46 @@
                   "d0": {
                     "direction": "I",
                     "left": "15",
-                    "right": "0"
+                    "right": "0",
+                    "parameters": {
+                      "LAYERED_METADATA": {
+                        "value": "xilinx.com:interface:datatypes:1.0 {DATA {datatype {name {attribs {resolve_type immediate dependency {} format string minimum {} maximum {}} value data} bitwidth {attribs {resolve_type generated dependency data_bitwidth format long minimum {} maximum {}} value 16} bitoffset {attribs {resolve_type immediate dependency {} format long minimum {} maximum {}} value 0}}} DATA_WIDTH 16}",
+                        "value_src": "ip_prop"
+                      }
+                    }
                   },
                   "d1": {
                     "direction": "I",
                     "left": "15",
-                    "right": "0"
+                    "right": "0",
+                    "parameters": {
+                      "LAYERED_METADATA": {
+                        "value": "xilinx.com:interface:datatypes:1.0 {DATA {datatype {name {attribs {resolve_type immediate dependency {} format string minimum {} maximum {}} value data} bitwidth {attribs {resolve_type generated dependency data_bitwidth format long minimum {} maximum {}} value 16} bitoffset {attribs {resolve_type immediate dependency {} format long minimum {} maximum {}} value 0}}} DATA_WIDTH 16}",
+                        "value_src": "ip_prop"
+                      }
+                    }
                   },
                   "d2": {
                     "direction": "I",
                     "left": "15",
-                    "right": "0"
+                    "right": "0",
+                    "parameters": {
+                      "LAYERED_METADATA": {
+                        "value": "xilinx.com:interface:datatypes:1.0 {DATA {datatype {name {attribs {resolve_type immediate dependency {} format string minimum {} maximum {}} value data} bitwidth {attribs {resolve_type generated dependency data_bitwidth format long minimum {} maximum {}} value 16} bitoffset {attribs {resolve_type immediate dependency {} format long minimum {} maximum {}} value 0}}} DATA_WIDTH 16}",
+                        "value_src": "ip_prop"
+                      }
+                    }
                   },
                   "d3": {
                     "direction": "I",
                     "left": "15",
-                    "right": "0"
+                    "right": "0",
+                    "parameters": {
+                      "LAYERED_METADATA": {
+                        "value": "xilinx.com:interface:datatypes:1.0 {DATA {datatype {name {attribs {resolve_type immediate dependency {} format string minimum {} maximum {}} value data} bitwidth {attribs {resolve_type generated dependency data_bitwidth format long minimum {} maximum {}} value 16} bitoffset {attribs {resolve_type immediate dependency {} format long minimum {} maximum {}} value 0}}} DATA_WIDTH 16}",
+                        "value_src": "ip_prop"
+                      }
+                    }
                   },
                   "sel": {
                     "direction": "I",
@@ -34566,7 +34769,21 @@
                   },
                   "clk": {
                     "type": "clk",
-                    "direction": "I"
+                    "direction": "I",
+                    "parameters": {
+                      "FREQ_HZ": {
+                        "value": "125000000",
+                        "value_src": "ip_prop"
+                      },
+                      "PHASE": {
+                        "value": "0.0",
+                        "value_src": "ip_prop"
+                      },
+                      "CLK_DOMAIN": {
+                        "value": "design_1_clk_wiz_0_1_clk_out1",
+                        "value_src": "default_prop"
+                      }
+                    }
                   },
                   "q": {
                     "direction": "O",
@@ -35223,22 +35440,46 @@
                   "d0": {
                     "direction": "I",
                     "left": "15",
-                    "right": "0"
+                    "right": "0",
+                    "parameters": {
+                      "LAYERED_METADATA": {
+                        "value": "xilinx.com:interface:datatypes:1.0 {DATA {datatype {name {attribs {resolve_type immediate dependency {} format string minimum {} maximum {}} value data} bitwidth {attribs {resolve_type generated dependency data_bitwidth format long minimum {} maximum {}} value 16} bitoffset {attribs {resolve_type immediate dependency {} format long minimum {} maximum {}} value 0}}} DATA_WIDTH 16}",
+                        "value_src": "ip_prop"
+                      }
+                    }
                   },
                   "d1": {
                     "direction": "I",
                     "left": "15",
-                    "right": "0"
+                    "right": "0",
+                    "parameters": {
+                      "LAYERED_METADATA": {
+                        "value": "xilinx.com:interface:datatypes:1.0 {DATA {datatype {name {attribs {resolve_type immediate dependency {} format string minimum {} maximum {}} value data} bitwidth {attribs {resolve_type generated dependency data_bitwidth format long minimum {} maximum {}} value 16} bitoffset {attribs {resolve_type immediate dependency {} format long minimum {} maximum {}} value 0}}} DATA_WIDTH 16}",
+                        "value_src": "ip_prop"
+                      }
+                    }
                   },
                   "d2": {
                     "direction": "I",
                     "left": "15",
-                    "right": "0"
+                    "right": "0",
+                    "parameters": {
+                      "LAYERED_METADATA": {
+                        "value": "xilinx.com:interface:datatypes:1.0 {DATA {datatype {name {attribs {resolve_type immediate dependency {} format string minimum {} maximum {}} value data} bitwidth {attribs {resolve_type generated dependency data_bitwidth format long minimum {} maximum {}} value 16} bitoffset {attribs {resolve_type immediate dependency {} format long minimum {} maximum {}} value 0}}} DATA_WIDTH 16}",
+                        "value_src": "ip_prop"
+                      }
+                    }
                   },
                   "d3": {
                     "direction": "I",
                     "left": "15",
-                    "right": "0"
+                    "right": "0",
+                    "parameters": {
+                      "LAYERED_METADATA": {
+                        "value": "xilinx.com:interface:datatypes:1.0 {DATA {datatype {name {attribs {resolve_type immediate dependency {} format string minimum {} maximum {}} value data} bitwidth {attribs {resolve_type generated dependency data_bitwidth format long minimum {} maximum {}} value 16} bitoffset {attribs {resolve_type immediate dependency {} format long minimum {} maximum {}} value 0}}} DATA_WIDTH 16}",
+                        "value_src": "ip_prop"
+                      }
+                    }
                   },
                   "sel": {
                     "direction": "I",
@@ -35247,7 +35488,21 @@
                   },
                   "clk": {
                     "type": "clk",
-                    "direction": "I"
+                    "direction": "I",
+                    "parameters": {
+                      "FREQ_HZ": {
+                        "value": "125000000",
+                        "value_src": "ip_prop"
+                      },
+                      "PHASE": {
+                        "value": "0.0",
+                        "value_src": "ip_prop"
+                      },
+                      "CLK_DOMAIN": {
+                        "value": "design_1_clk_wiz_0_1_clk_out1",
+                        "value_src": "default_prop"
+                      }
+                    }
                   },
                   "q": {
                     "direction": "O",
@@ -35414,6 +35669,18 @@
                   "ASSOCIATED_RESET": {
                     "value": "rst",
                     "value_src": "constant"
+                  },
+                  "FREQ_HZ": {
+                    "value": "256000000",
+                    "value_src": "ip_prop"
+                  },
+                  "PHASE": {
+                    "value": "0.0",
+                    "value_src": "ip_prop"
+                  },
+                  "CLK_DOMAIN": {
+                    "value": "design_1_clk_wiz_0_0_clk_out1",
+                    "value_src": "default_prop"
                   }
                 }
               },
@@ -35429,7 +35696,17 @@
               "data_out": {
                 "direction": "O",
                 "left": "0",
-                "right": "0"
+                "right": "0",
+                "parameters": {
+                  "PortType": {
+                    "value": "undef",
+                    "value_src": "ip_prop"
+                  },
+                  "PortType.PROP_SRC": {
+                    "value": "false",
+                    "value_src": "ip_prop"
+                  }
+                }
               }
             }
           },
@@ -35464,6 +35741,18 @@
                   "ASSOCIATED_RESET": {
                     "value": "rst",
                     "value_src": "constant"
+                  },
+                  "FREQ_HZ": {
+                    "value": "256000000",
+                    "value_src": "ip_prop"
+                  },
+                  "PHASE": {
+                    "value": "0.0",
+                    "value_src": "ip_prop"
+                  },
+                  "CLK_DOMAIN": {
+                    "value": "design_1_clk_wiz_0_0_clk_out1",
+                    "value_src": "default_prop"
                   }
                 }
               },
@@ -35479,7 +35768,17 @@
               "data_out": {
                 "direction": "O",
                 "left": "0",
-                "right": "0"
+                "right": "0",
+                "parameters": {
+                  "PortType": {
+                    "value": "undef",
+                    "value_src": "ip_prop"
+                  },
+                  "PortType.PROP_SRC": {
+                    "value": "false",
+                    "value_src": "ip_prop"
+                  }
+                }
               }
             }
           },
@@ -35514,6 +35813,18 @@
                   "ASSOCIATED_RESET": {
                     "value": "rst",
                     "value_src": "constant"
+                  },
+                  "FREQ_HZ": {
+                    "value": "256000000",
+                    "value_src": "ip_prop"
+                  },
+                  "PHASE": {
+                    "value": "0.0",
+                    "value_src": "ip_prop"
+                  },
+                  "CLK_DOMAIN": {
+                    "value": "design_1_clk_wiz_0_0_clk_out1",
+                    "value_src": "default_prop"
                   }
                 }
               },
@@ -35529,7 +35840,17 @@
               "data_out": {
                 "direction": "O",
                 "left": "0",
-                "right": "0"
+                "right": "0",
+                "parameters": {
+                  "PortType": {
+                    "value": "undef",
+                    "value_src": "ip_prop"
+                  },
+                  "PortType.PROP_SRC": {
+                    "value": "false",
+                    "value_src": "ip_prop"
+                  }
+                }
               }
             }
           },
@@ -35564,6 +35885,18 @@
                   "ASSOCIATED_RESET": {
                     "value": "rst",
                     "value_src": "constant"
+                  },
+                  "FREQ_HZ": {
+                    "value": "256000000",
+                    "value_src": "ip_prop"
+                  },
+                  "PHASE": {
+                    "value": "0.0",
+                    "value_src": "ip_prop"
+                  },
+                  "CLK_DOMAIN": {
+                    "value": "design_1_clk_wiz_0_0_clk_out1",
+                    "value_src": "default_prop"
                   }
                 }
               },
@@ -35579,7 +35912,17 @@
               "data_out": {
                 "direction": "O",
                 "left": "0",
-                "right": "0"
+                "right": "0",
+                "parameters": {
+                  "PortType": {
+                    "value": "undef",
+                    "value_src": "ip_prop"
+                  },
+                  "PortType.PROP_SRC": {
+                    "value": "false",
+                    "value_src": "ip_prop"
+                  }
+                }
               }
             }
           }
@@ -36075,7 +36418,21 @@
               },
               "clk": {
                 "type": "clk",
-                "direction": "I"
+                "direction": "I",
+                "parameters": {
+                  "FREQ_HZ": {
+                    "value": "256000000",
+                    "value_src": "ip_prop"
+                  },
+                  "PHASE": {
+                    "value": "0.0",
+                    "value_src": "ip_prop"
+                  },
+                  "CLK_DOMAIN": {
+                    "value": "design_1_clk_wiz_0_0_clk_out1",
+                    "value_src": "default_prop"
+                  }
+                }
               },
               "q": {
                 "direction": "O",
@@ -36127,7 +36484,21 @@
               },
               "clk": {
                 "type": "clk",
-                "direction": "I"
+                "direction": "I",
+                "parameters": {
+                  "FREQ_HZ": {
+                    "value": "256000000",
+                    "value_src": "ip_prop"
+                  },
+                  "PHASE": {
+                    "value": "0.0",
+                    "value_src": "ip_prop"
+                  },
+                  "CLK_DOMAIN": {
+                    "value": "design_1_clk_wiz_0_0_clk_out1",
+                    "value_src": "default_prop"
+                  }
+                }
               },
               "q": {
                 "direction": "O",
@@ -36179,7 +36550,21 @@
               },
               "clk": {
                 "type": "clk",
-                "direction": "I"
+                "direction": "I",
+                "parameters": {
+                  "FREQ_HZ": {
+                    "value": "256000000",
+                    "value_src": "ip_prop"
+                  },
+                  "PHASE": {
+                    "value": "0.0",
+                    "value_src": "ip_prop"
+                  },
+                  "CLK_DOMAIN": {
+                    "value": "design_1_clk_wiz_0_0_clk_out1",
+                    "value_src": "default_prop"
+                  }
+                }
               },
               "q": {
                 "direction": "O",
@@ -36231,7 +36616,21 @@
               },
               "clk": {
                 "type": "clk",
-                "direction": "I"
+                "direction": "I",
+                "parameters": {
+                  "FREQ_HZ": {
+                    "value": "256000000",
+                    "value_src": "ip_prop"
+                  },
+                  "PHASE": {
+                    "value": "0.0",
+                    "value_src": "ip_prop"
+                  },
+                  "CLK_DOMAIN": {
+                    "value": "design_1_clk_wiz_0_0_clk_out1",
+                    "value_src": "default_prop"
+                  }
+                }
               },
               "q": {
                 "direction": "O",
@@ -36283,7 +36682,21 @@
               },
               "clk": {
                 "type": "clk",
-                "direction": "I"
+                "direction": "I",
+                "parameters": {
+                  "FREQ_HZ": {
+                    "value": "256000000",
+                    "value_src": "ip_prop"
+                  },
+                  "PHASE": {
+                    "value": "0.0",
+                    "value_src": "ip_prop"
+                  },
+                  "CLK_DOMAIN": {
+                    "value": "design_1_clk_wiz_0_0_clk_out1",
+                    "value_src": "default_prop"
+                  }
+                }
               },
               "q": {
                 "direction": "O",
@@ -36335,7 +36748,21 @@
               },
               "clk": {
                 "type": "clk",
-                "direction": "I"
+                "direction": "I",
+                "parameters": {
+                  "FREQ_HZ": {
+                    "value": "256000000",
+                    "value_src": "ip_prop"
+                  },
+                  "PHASE": {
+                    "value": "0.0",
+                    "value_src": "ip_prop"
+                  },
+                  "CLK_DOMAIN": {
+                    "value": "design_1_clk_wiz_0_0_clk_out1",
+                    "value_src": "default_prop"
+                  }
+                }
               },
               "q": {
                 "direction": "O",
@@ -36387,7 +36814,21 @@
               },
               "clk": {
                 "type": "clk",
-                "direction": "I"
+                "direction": "I",
+                "parameters": {
+                  "FREQ_HZ": {
+                    "value": "256000000",
+                    "value_src": "ip_prop"
+                  },
+                  "PHASE": {
+                    "value": "0.0",
+                    "value_src": "ip_prop"
+                  },
+                  "CLK_DOMAIN": {
+                    "value": "design_1_clk_wiz_0_0_clk_out1",
+                    "value_src": "default_prop"
+                  }
+                }
               },
               "q": {
                 "direction": "O",
@@ -36439,7 +36880,21 @@
               },
               "clk": {
                 "type": "clk",
-                "direction": "I"
+                "direction": "I",
+                "parameters": {
+                  "FREQ_HZ": {
+                    "value": "256000000",
+                    "value_src": "ip_prop"
+                  },
+                  "PHASE": {
+                    "value": "0.0",
+                    "value_src": "ip_prop"
+                  },
+                  "CLK_DOMAIN": {
+                    "value": "design_1_clk_wiz_0_0_clk_out1",
+                    "value_src": "default_prop"
+                  }
+                }
               },
               "q": {
                 "direction": "O",
@@ -36762,22 +37217,46 @@
               "d0": {
                 "direction": "I",
                 "left": "127",
-                "right": "0"
+                "right": "0",
+                "parameters": {
+                  "PortWidth": {
+                    "value": "128",
+                    "value_src": "ip_prop"
+                  }
+                }
               },
               "d1": {
                 "direction": "I",
                 "left": "127",
-                "right": "0"
+                "right": "0",
+                "parameters": {
+                  "PortWidth": {
+                    "value": "128",
+                    "value_src": "ip_prop"
+                  }
+                }
               },
               "d2": {
                 "direction": "I",
                 "left": "127",
-                "right": "0"
+                "right": "0",
+                "parameters": {
+                  "PortWidth": {
+                    "value": "128",
+                    "value_src": "ip_prop"
+                  }
+                }
               },
               "d3": {
                 "direction": "I",
                 "left": "127",
-                "right": "0"
+                "right": "0",
+                "parameters": {
+                  "PortWidth": {
+                    "value": "128",
+                    "value_src": "ip_prop"
+                  }
+                }
               },
               "sel": {
                 "direction": "I",
@@ -36786,7 +37265,21 @@
               },
               "clk": {
                 "type": "clk",
-                "direction": "I"
+                "direction": "I",
+                "parameters": {
+                  "FREQ_HZ": {
+                    "value": "256000000",
+                    "value_src": "ip_prop"
+                  },
+                  "PHASE": {
+                    "value": "0.0",
+                    "value_src": "ip_prop"
+                  },
+                  "CLK_DOMAIN": {
+                    "value": "design_1_clk_wiz_0_0_clk_out1",
+                    "value_src": "default_prop"
+                  }
+                }
               },
               "q": {
                 "direction": "O",
@@ -36814,22 +37307,46 @@
               "d0": {
                 "direction": "I",
                 "left": "127",
-                "right": "0"
+                "right": "0",
+                "parameters": {
+                  "PortWidth": {
+                    "value": "128",
+                    "value_src": "ip_prop"
+                  }
+                }
               },
               "d1": {
                 "direction": "I",
                 "left": "127",
-                "right": "0"
+                "right": "0",
+                "parameters": {
+                  "PortWidth": {
+                    "value": "128",
+                    "value_src": "ip_prop"
+                  }
+                }
               },
               "d2": {
                 "direction": "I",
                 "left": "127",
-                "right": "0"
+                "right": "0",
+                "parameters": {
+                  "PortWidth": {
+                    "value": "128",
+                    "value_src": "ip_prop"
+                  }
+                }
               },
               "d3": {
                 "direction": "I",
                 "left": "127",
-                "right": "0"
+                "right": "0",
+                "parameters": {
+                  "PortWidth": {
+                    "value": "128",
+                    "value_src": "ip_prop"
+                  }
+                }
               },
               "sel": {
                 "direction": "I",
@@ -36838,7 +37355,21 @@
               },
               "clk": {
                 "type": "clk",
-                "direction": "I"
+                "direction": "I",
+                "parameters": {
+                  "FREQ_HZ": {
+                    "value": "256000000",
+                    "value_src": "ip_prop"
+                  },
+                  "PHASE": {
+                    "value": "0.0",
+                    "value_src": "ip_prop"
+                  },
+                  "CLK_DOMAIN": {
+                    "value": "design_1_clk_wiz_0_0_clk_out1",
+                    "value_src": "default_prop"
+                  }
+                }
               },
               "q": {
                 "direction": "O",
@@ -36866,22 +37397,46 @@
               "d0": {
                 "direction": "I",
                 "left": "127",
-                "right": "0"
+                "right": "0",
+                "parameters": {
+                  "PortWidth": {
+                    "value": "128",
+                    "value_src": "ip_prop"
+                  }
+                }
               },
               "d1": {
                 "direction": "I",
                 "left": "127",
-                "right": "0"
+                "right": "0",
+                "parameters": {
+                  "PortWidth": {
+                    "value": "128",
+                    "value_src": "ip_prop"
+                  }
+                }
               },
               "d2": {
                 "direction": "I",
                 "left": "127",
-                "right": "0"
+                "right": "0",
+                "parameters": {
+                  "PortWidth": {
+                    "value": "128",
+                    "value_src": "ip_prop"
+                  }
+                }
               },
               "d3": {
                 "direction": "I",
                 "left": "127",
-                "right": "0"
+                "right": "0",
+                "parameters": {
+                  "PortWidth": {
+                    "value": "128",
+                    "value_src": "ip_prop"
+                  }
+                }
               },
               "sel": {
                 "direction": "I",
@@ -36890,7 +37445,21 @@
               },
               "clk": {
                 "type": "clk",
-                "direction": "I"
+                "direction": "I",
+                "parameters": {
+                  "FREQ_HZ": {
+                    "value": "256000000",
+                    "value_src": "ip_prop"
+                  },
+                  "PHASE": {
+                    "value": "0.0",
+                    "value_src": "ip_prop"
+                  },
+                  "CLK_DOMAIN": {
+                    "value": "design_1_clk_wiz_0_0_clk_out1",
+                    "value_src": "default_prop"
+                  }
+                }
               },
               "q": {
                 "direction": "O",
@@ -36918,22 +37487,46 @@
               "d0": {
                 "direction": "I",
                 "left": "127",
-                "right": "0"
+                "right": "0",
+                "parameters": {
+                  "PortWidth": {
+                    "value": "128",
+                    "value_src": "ip_prop"
+                  }
+                }
               },
               "d1": {
                 "direction": "I",
                 "left": "127",
-                "right": "0"
+                "right": "0",
+                "parameters": {
+                  "PortWidth": {
+                    "value": "128",
+                    "value_src": "ip_prop"
+                  }
+                }
               },
               "d2": {
                 "direction": "I",
                 "left": "127",
-                "right": "0"
+                "right": "0",
+                "parameters": {
+                  "PortWidth": {
+                    "value": "128",
+                    "value_src": "ip_prop"
+                  }
+                }
               },
               "d3": {
                 "direction": "I",
                 "left": "127",
-                "right": "0"
+                "right": "0",
+                "parameters": {
+                  "PortWidth": {
+                    "value": "128",
+                    "value_src": "ip_prop"
+                  }
+                }
               },
               "sel": {
                 "direction": "I",
@@ -36942,7 +37535,21 @@
               },
               "clk": {
                 "type": "clk",
-                "direction": "I"
+                "direction": "I",
+                "parameters": {
+                  "FREQ_HZ": {
+                    "value": "256000000",
+                    "value_src": "ip_prop"
+                  },
+                  "PHASE": {
+                    "value": "0.0",
+                    "value_src": "ip_prop"
+                  },
+                  "CLK_DOMAIN": {
+                    "value": "design_1_clk_wiz_0_0_clk_out1",
+                    "value_src": "default_prop"
+                  }
+                }
               },
               "q": {
                 "direction": "O",
@@ -37069,7 +37676,21 @@
         },
         "ports": {
           "clk125MHz": {
-            "direction": "I"
+            "direction": "I",
+            "parameters": {
+              "FREQ_HZ": {
+                "value": "125000000",
+                "value_src": "ip_prop"
+              },
+              "PHASE": {
+                "value": "0.0",
+                "value_src": "ip_prop"
+              },
+              "CLK_DOMAIN": {
+                "value": "design_1_clk_wiz_0_1_clk_out1",
+                "value_src": "default_prop"
+              }
+            }
           },
           "switches": {
             "direction": "I",
@@ -37082,7 +37703,13 @@
             "right": "0"
           },
           "user_start_eth": {
-            "direction": "I"
+            "direction": "I",
+            "parameters": {
+              "LAYERED_METADATA": {
+                "value": "xilinx.com:interface:datatypes:1.0 {DATA {datatype {name {attribs {resolve_type immediate dependency {} format string minimum {} maximum {}} value data} bitwidth {attribs {resolve_type generated dependency data_bitwidth format long minimum {} maximum {}} value 1} bitoffset {attribs {resolve_type immediate dependency {} format long minimum {} maximum {}} value 0}}} DATA_WIDTH 1}",
+                "value_src": "ip_prop"
+              }
+            }
           },
           "i_raw_data_user": {
             "direction": "O"
@@ -37155,12 +37782,24 @@
           "timing_data": {
             "direction": "I",
             "left": "95",
-            "right": "0"
+            "right": "0",
+            "parameters": {
+              "PortWidth": {
+                "value": "96",
+                "value_src": "ip_prop"
+              }
+            }
           },
           "packet_info": {
             "direction": "I",
             "left": "31",
-            "right": "0"
+            "right": "0",
+            "parameters": {
+              "PortWidth": {
+                "value": "32",
+                "value_src": "ip_prop"
+              }
+            }
           },
           "packet_count": {
             "direction": "I",
@@ -37181,20 +37820,74 @@
         },
         "ports": {
           "a": {
-            "direction": "I"
+            "direction": "I",
+            "parameters": {
+              "PortType": {
+                "value": "undef",
+                "value_src": "ip_prop"
+              },
+              "PortType.PROP_SRC": {
+                "value": "false",
+                "value_src": "ip_prop"
+              }
+            }
           },
           "b": {
-            "direction": "I"
+            "direction": "I",
+            "parameters": {
+              "PortType": {
+                "value": "undef",
+                "value_src": "ip_prop"
+              },
+              "PortType.PROP_SRC": {
+                "value": "false",
+                "value_src": "ip_prop"
+              }
+            }
           },
           "c": {
-            "direction": "I"
+            "direction": "I",
+            "parameters": {
+              "PortType": {
+                "value": "undef",
+                "value_src": "ip_prop"
+              },
+              "PortType.PROP_SRC": {
+                "value": "false",
+                "value_src": "ip_prop"
+              }
+            }
           },
           "d": {
-            "direction": "I"
+            "direction": "I",
+            "parameters": {
+              "PortType": {
+                "value": "undef",
+                "value_src": "ip_prop"
+              },
+              "PortType.PROP_SRC": {
+                "value": "false",
+                "value_src": "ip_prop"
+              }
+            }
           },
           "clk": {
             "type": "clk",
-            "direction": "I"
+            "direction": "I",
+            "parameters": {
+              "FREQ_HZ": {
+                "value": "125000000",
+                "value_src": "ip_prop"
+              },
+              "PHASE": {
+                "value": "0.0",
+                "value_src": "ip_prop"
+              },
+              "CLK_DOMAIN": {
+                "value": "design_1_clk_wiz_0_1_clk_out1",
+                "value_src": "default_prop"
+              }
+            }
           },
           "sel": {
             "direction": "O",
@@ -37249,7 +37942,21 @@
           },
           "clk": {
             "type": "clk",
-            "direction": "I"
+            "direction": "I",
+            "parameters": {
+              "FREQ_HZ": {
+                "value": "125000000",
+                "value_src": "ip_prop"
+              },
+              "PHASE": {
+                "value": "0.0",
+                "value_src": "ip_prop"
+              },
+              "CLK_DOMAIN": {
+                "value": "design_1_clk_wiz_0_1_clk_out1",
+                "value_src": "default_prop"
+              }
+            }
           },
           "q": {
             "direction": "O",
@@ -37301,7 +38008,21 @@
           },
           "clk": {
             "type": "clk",
-            "direction": "I"
+            "direction": "I",
+            "parameters": {
+              "FREQ_HZ": {
+                "value": "125000000",
+                "value_src": "ip_prop"
+              },
+              "PHASE": {
+                "value": "0.0",
+                "value_src": "ip_prop"
+              },
+              "CLK_DOMAIN": {
+                "value": "design_1_clk_wiz_0_1_clk_out1",
+                "value_src": "default_prop"
+              }
+            }
           },
           "q": {
             "direction": "O",
@@ -37353,7 +38074,21 @@
           },
           "clk": {
             "type": "clk",
-            "direction": "I"
+            "direction": "I",
+            "parameters": {
+              "FREQ_HZ": {
+                "value": "125000000",
+                "value_src": "ip_prop"
+              },
+              "PHASE": {
+                "value": "0.0",
+                "value_src": "ip_prop"
+              },
+              "CLK_DOMAIN": {
+                "value": "design_1_clk_wiz_0_1_clk_out1",
+                "value_src": "default_prop"
+              }
+            }
           },
           "q": {
             "direction": "O",
@@ -37381,22 +38116,46 @@
           "d0": {
             "direction": "I",
             "left": "7",
-            "right": "0"
+            "right": "0",
+            "parameters": {
+              "LAYERED_METADATA": {
+                "value": "xilinx.com:interface:datatypes:1.0 {DATA {datatype {name {attribs {resolve_type immediate dependency {} format string minimum {} maximum {}} value data} bitwidth {attribs {resolve_type generated dependency data_bitwidth format long minimum {} maximum {}} value 8} bitoffset {attribs {resolve_type immediate dependency {} format long minimum {} maximum {}} value 0}}} DATA_WIDTH 8}",
+                "value_src": "ip_prop"
+              }
+            }
           },
           "d1": {
             "direction": "I",
             "left": "7",
-            "right": "0"
+            "right": "0",
+            "parameters": {
+              "LAYERED_METADATA": {
+                "value": "xilinx.com:interface:datatypes:1.0 {DATA {datatype {name {attribs {resolve_type immediate dependency {} format string minimum {} maximum {}} value data} bitwidth {attribs {resolve_type generated dependency data_bitwidth format long minimum {} maximum {}} value 8} bitoffset {attribs {resolve_type immediate dependency {} format long minimum {} maximum {}} value 0}}} DATA_WIDTH 8}",
+                "value_src": "ip_prop"
+              }
+            }
           },
           "d2": {
             "direction": "I",
             "left": "7",
-            "right": "0"
+            "right": "0",
+            "parameters": {
+              "LAYERED_METADATA": {
+                "value": "xilinx.com:interface:datatypes:1.0 {DATA {datatype {name {attribs {resolve_type immediate dependency {} format string minimum {} maximum {}} value data} bitwidth {attribs {resolve_type generated dependency data_bitwidth format long minimum {} maximum {}} value 8} bitoffset {attribs {resolve_type immediate dependency {} format long minimum {} maximum {}} value 0}}} DATA_WIDTH 8}",
+                "value_src": "ip_prop"
+              }
+            }
           },
           "d3": {
             "direction": "I",
             "left": "7",
-            "right": "0"
+            "right": "0",
+            "parameters": {
+              "LAYERED_METADATA": {
+                "value": "xilinx.com:interface:datatypes:1.0 {DATA {datatype {name {attribs {resolve_type immediate dependency {} format string minimum {} maximum {}} value data} bitwidth {attribs {resolve_type generated dependency data_bitwidth format long minimum {} maximum {}} value 8} bitoffset {attribs {resolve_type immediate dependency {} format long minimum {} maximum {}} value 0}}} DATA_WIDTH 8}",
+                "value_src": "ip_prop"
+              }
+            }
           },
           "sel": {
             "direction": "I",
@@ -37405,7 +38164,21 @@
           },
           "clk": {
             "type": "clk",
-            "direction": "I"
+            "direction": "I",
+            "parameters": {
+              "FREQ_HZ": {
+                "value": "125000000",
+                "value_src": "ip_prop"
+              },
+              "PHASE": {
+                "value": "0.0",
+                "value_src": "ip_prop"
+              },
+              "CLK_DOMAIN": {
+                "value": "design_1_clk_wiz_0_1_clk_out1",
+                "value_src": "default_prop"
+              }
+            }
           },
           "q": {
             "direction": "O",
@@ -37457,7 +38230,21 @@
           },
           "clk": {
             "type": "clk",
-            "direction": "I"
+            "direction": "I",
+            "parameters": {
+              "FREQ_HZ": {
+                "value": "125000000",
+                "value_src": "ip_prop"
+              },
+              "PHASE": {
+                "value": "0.0",
+                "value_src": "ip_prop"
+              },
+              "CLK_DOMAIN": {
+                "value": "design_1_clk_wiz_0_1_clk_out1",
+                "value_src": "default_prop"
+              }
+            }
           },
           "q": {
             "direction": "O",
@@ -37485,22 +38272,46 @@
           "d0": {
             "direction": "I",
             "left": "31",
-            "right": "0"
+            "right": "0",
+            "parameters": {
+              "LAYERED_METADATA": {
+                "value": "xilinx.com:interface:datatypes:1.0 {DATA {datatype {name {attribs {resolve_type immediate dependency {} format string minimum {} maximum {}} value data} bitwidth {attribs {resolve_type generated dependency bitwidth format long minimum {} maximum {}} value 32} bitoffset {attribs {resolve_type immediate dependency {} format long minimum {} maximum {}} value 0} integer {signed {attribs {resolve_type generated dependency signed format bool minimum {} maximum {}} value FALSE}}}} DATA_WIDTH 32}",
+                "value_src": "ip_prop"
+              }
+            }
           },
           "d1": {
             "direction": "I",
             "left": "31",
-            "right": "0"
+            "right": "0",
+            "parameters": {
+              "LAYERED_METADATA": {
+                "value": "xilinx.com:interface:datatypes:1.0 {DATA {datatype {name {attribs {resolve_type immediate dependency {} format string minimum {} maximum {}} value data} bitwidth {attribs {resolve_type generated dependency bitwidth format long minimum {} maximum {}} value 32} bitoffset {attribs {resolve_type immediate dependency {} format long minimum {} maximum {}} value 0} integer {signed {attribs {resolve_type generated dependency signed format bool minimum {} maximum {}} value FALSE}}}} DATA_WIDTH 32}",
+                "value_src": "ip_prop"
+              }
+            }
           },
           "d2": {
             "direction": "I",
             "left": "31",
-            "right": "0"
+            "right": "0",
+            "parameters": {
+              "LAYERED_METADATA": {
+                "value": "xilinx.com:interface:datatypes:1.0 {DATA {datatype {name {attribs {resolve_type immediate dependency {} format string minimum {} maximum {}} value data} bitwidth {attribs {resolve_type generated dependency bitwidth format long minimum {} maximum {}} value 32} bitoffset {attribs {resolve_type immediate dependency {} format long minimum {} maximum {}} value 0} integer {signed {attribs {resolve_type generated dependency signed format bool minimum {} maximum {}} value FALSE}}}} DATA_WIDTH 32}",
+                "value_src": "ip_prop"
+              }
+            }
           },
           "d3": {
             "direction": "I",
             "left": "31",
-            "right": "0"
+            "right": "0",
+            "parameters": {
+              "LAYERED_METADATA": {
+                "value": "xilinx.com:interface:datatypes:1.0 {DATA {datatype {name {attribs {resolve_type immediate dependency {} format string minimum {} maximum {}} value data} bitwidth {attribs {resolve_type generated dependency bitwidth format long minimum {} maximum {}} value 32} bitoffset {attribs {resolve_type immediate dependency {} format long minimum {} maximum {}} value 0} integer {signed {attribs {resolve_type generated dependency signed format bool minimum {} maximum {}} value FALSE}}}} DATA_WIDTH 32}",
+                "value_src": "ip_prop"
+              }
+            }
           },
           "sel": {
             "direction": "I",
@@ -37509,7 +38320,21 @@
           },
           "clk": {
             "type": "clk",
-            "direction": "I"
+            "direction": "I",
+            "parameters": {
+              "FREQ_HZ": {
+                "value": "125000000",
+                "value_src": "ip_prop"
+              },
+              "PHASE": {
+                "value": "0.0",
+                "value_src": "ip_prop"
+              },
+              "CLK_DOMAIN": {
+                "value": "design_1_clk_wiz_0_1_clk_out1",
+                "value_src": "default_prop"
+              }
+            }
           },
           "q": {
             "direction": "O",
