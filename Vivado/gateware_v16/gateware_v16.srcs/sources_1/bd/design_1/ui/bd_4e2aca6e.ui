@@ -1,0 +1,196 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"1.40602",
+   "Default View_TopLeft":"-175,779",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0r6  2020-01-29 bk=1.5227 VDI=41 GEI=36 GUI=JA:10.0 non-TLS
+#  -string -flagsOSRD
+preplace port S_AXI_gpio_6 -pg 1 -lvl 0 -x 0 -y 1350 -defaultsOSRD
+preplace port S_AXI_gpio_7 -pg 1 -lvl 0 -x 0 -y 300 -defaultsOSRD
+preplace port S_AXI_gpio_8 -pg 1 -lvl 0 -x 0 -y 740 -defaultsOSRD
+preplace port S_AXI_gpio_9 -pg 1 -lvl 0 -x 0 -y 3810 -defaultsOSRD
+preplace port S_AXI_gpio_0 -pg 1 -lvl 0 -x 0 -y 450 -defaultsOSRD
+preplace port S_AXI_gpio_1 -pg 1 -lvl 0 -x 0 -y 2390 -defaultsOSRD
+preplace port S_AXI_gpio_2 -pg 1 -lvl 0 -x 0 -y 1510 -defaultsOSRD
+preplace port S_AXI_gpio_3 -pg 1 -lvl 0 -x 0 -y 2850 -defaultsOSRD
+preplace port S_AXI_gpio_4 -pg 1 -lvl 0 -x 0 -y 3650 -defaultsOSRD
+preplace port S_AXI_gpio_10 -pg 1 -lvl 0 -x 0 -y 1020 -defaultsOSRD
+preplace port S_AXI_gpio_5 -pg 1 -lvl 0 -x 0 -y 1170 -defaultsOSRD
+preplace port port-id_s_axi_aclk -pg 1 -lvl 0 -x 0 -y 2870 -defaultsOSRD
+preplace port port-id_s_axi_aresetn -pg 1 -lvl 0 -x 0 -y 2890 -defaultsOSRD
+preplace portBus fineNCO_dphi -pg 1 -lvl 3 -x 740 -y 1050 -defaultsOSRD
+preplace portBus rec_beatDphi_we0 -pg 1 -lvl 3 -x 740 -y 3300 -defaultsOSRD
+preplace portBus psb_toneSelect_w_D2 -pg 1 -lvl 3 -x 740 -y 250 -defaultsOSRD
+preplace portBus psb_tone_we_even1 -pg 1 -lvl 3 -x 740 -y 1700 -defaultsOSRD
+preplace portBus getAccum_channel_count -pg 1 -lvl 3 -x 740 -y 2800 -defaultsOSRD
+preplace portBus psb_tone_we_even2 -pg 1 -lvl 3 -x 740 -y 1800 -defaultsOSRD
+preplace portBus rec_beatDphi_we1 -pg 1 -lvl 3 -x 740 -y 3400 -defaultsOSRD
+preplace portBus rec_fft_scale -pg 1 -lvl 3 -x 740 -y 3700 -defaultsOSRD
+preplace portBus rec_beatDphi_we2 -pg 1 -lvl 3 -x 740 -y 3500 -defaultsOSRD
+preplace portBus psb_tone_we_even3 -pg 1 -lvl 3 -x 740 -y 1900 -defaultsOSRD
+preplace portBus psb_tone_w_init_re -pg 1 -lvl 3 -x 740 -y 1500 -defaultsOSRD
+preplace portBus psb_start -pg 1 -lvl 3 -x 740 -y 550 -defaultsOSRD
+preplace portBus psb_tone_we_even4 -pg 1 -lvl 3 -x 740 -y 2000 -defaultsOSRD
+preplace portBus rec_beatDphi_we3 -pg 1 -lvl 3 -x 740 -y 3600 -defaultsOSRD
+preplace portBus psb_tone_w_init_im -pg 1 -lvl 3 -x 740 -y 1600 -defaultsOSRD
+preplace portBus psb_toneSelect_w_D3 -pg 1 -lvl 3 -x 740 -y 350 -defaultsOSRD
+preplace portBus rec_beatDphi_w_addr -pg 1 -lvl 3 -x 740 -y 3100 -defaultsOSRD
+preplace portBus rec_binSelect_we -pg 1 -lvl 3 -x 740 -y 4100 -defaultsOSRD
+preplace portBus psb_toneSelect_w_D4 -pg 1 -lvl 3 -x 740 -y 650 -defaultsOSRD
+preplace portBus psb_tone_we_odd1 -pg 1 -lvl 3 -x 740 -y 2100 -defaultsOSRD
+preplace portBus getAccumCtrl_rst -pg 1 -lvl 3 -x 740 -y 3000 -defaultsOSRD
+preplace portBus rec_beatDphi_w_D -pg 1 -lvl 3 -x 740 -y 3200 -defaultsOSRD
+preplace portBus psb_tone_w_addr -pg 1 -lvl 3 -x 740 -y 2500 -defaultsOSRD
+preplace portBus psb_tone_we_odd2 -pg 1 -lvl 3 -x 740 -y 2200 -defaultsOSRD
+preplace portBus psb_toneSelect_w_D5 -pg 1 -lvl 3 -x 740 -y 750 -defaultsOSRD
+preplace portBus psb_toneSelect_w_D6 -pg 1 -lvl 3 -x 740 -y 850 -defaultsOSRD
+preplace portBus psb_tone_we_odd3 -pg 1 -lvl 3 -x 740 -y 2300 -defaultsOSRD
+preplace portBus psb_tone_w_dphi -pg 1 -lvl 3 -x 740 -y 2600 -defaultsOSRD
+preplace portBus psb_tone_we_odd4 -pg 1 -lvl 3 -x 740 -y 2400 -defaultsOSRD
+preplace portBus psb_toneSelect_w_D7 -pg 1 -lvl 3 -x 740 -y 950 -defaultsOSRD
+preplace portBus psb_toneSelect_we -pg 1 -lvl 3 -x 740 -y 1300 -defaultsOSRD
+preplace portBus rec_binSelect_w_addr -pg 1 -lvl 3 -x 740 -y 3900 -defaultsOSRD
+preplace portBus psb_rst -pg 1 -lvl 3 -x 740 -y 450 -defaultsOSRD
+preplace portBus psb_toneSelect_w_addr -pg 1 -lvl 3 -x 740 -y 1400 -defaultsOSRD
+preplace portBus rec_binSelect_w_D0 -pg 1 -lvl 3 -x 740 -y 3800 -defaultsOSRD
+preplace portBus psb_toneSelect_w_D0 -pg 1 -lvl 3 -x 740 -y 50 -defaultsOSRD
+preplace portBus rec_acc_length -pg 1 -lvl 3 -x 740 -y 2700 -defaultsOSRD
+preplace portBus psb_toneSelect_w_D1 -pg 1 -lvl 3 -x 740 -y 150 -defaultsOSRD
+preplace portBus rec_binSelect_w_D1 -pg 1 -lvl 3 -x 740 -y 4000 -defaultsOSRD
+preplace portBus axibramx32v2_start -pg 1 -lvl 3 -x 740 -y 2900 -defaultsOSRD
+preplace portBus dsp_ov_flag -pg 1 -lvl 0 -x 0 -y 1280 -defaultsOSRD
+preplace portBus psb_postScale -pg 1 -lvl 3 -x 740 -y 1130 -defaultsOSRD
+preplace portBus ov_rst -pg 1 -lvl 3 -x 740 -y 1200 -defaultsOSRD
+preplace inst xlslice_mix_dp -pg 1 -lvl 2 -x 420 -y 990 -defaultsOSRD
+preplace inst xlslice_beat_we0 -pg 1 -lvl 2 -x 420 -y 3310 -defaultsOSRD
+preplace inst we_odd_9 -pg 1 -lvl 2 -x 420 -y 190 -defaultsOSRD
+preplace inst we_even_1 -pg 1 -lvl 2 -x 420 -y 1710 -defaultsOSRD
+preplace inst axi_gpio_6 -pg 1 -lvl 1 -x 170 -y 1370 -defaultsOSRD
+preplace inst xlslice_getAccumChan -pg 1 -lvl 2 -x 420 -y 2810 -defaultsOSRD
+preplace inst axi_gpio_7 -pg 1 -lvl 1 -x 170 -y 320 -defaultsOSRD
+preplace inst we_even_2 -pg 1 -lvl 2 -x 420 -y 1810 -defaultsOSRD
+preplace inst xlslice_beat_we1 -pg 1 -lvl 2 -x 420 -y 3410 -defaultsOSRD
+preplace inst xlslice_fft_scale -pg 1 -lvl 2 -x 420 -y 3710 -defaultsOSRD
+preplace inst xlslice_beat_we2 -pg 1 -lvl 2 -x 420 -y 3510 -defaultsOSRD
+preplace inst we_even_3 -pg 1 -lvl 2 -x 420 -y 1910 -defaultsOSRD
+preplace inst axi_gpio_8 -pg 1 -lvl 1 -x 170 -y 760 -defaultsOSRD
+preplace inst xlslice_0 -pg 1 -lvl 2 -x 420 -y 1510 -defaultsOSRD
+preplace inst start -pg 1 -lvl 2 -x 420 -y 490 -defaultsOSRD
+preplace inst axi_gpio_9 -pg 1 -lvl 1 -x 170 -y 3830 -defaultsOSRD
+preplace inst we_even_4 -pg 1 -lvl 2 -x 420 -y 2010 -defaultsOSRD
+preplace inst xlslice_beat_we3 -pg 1 -lvl 2 -x 420 -y 3610 -defaultsOSRD
+preplace inst xlslice_1 -pg 1 -lvl 2 -x 420 -y 1610 -defaultsOSRD
+preplace inst we_odd_10 -pg 1 -lvl 2 -x 420 -y 290 -defaultsOSRD
+preplace inst xlslice_beat_addr -pg 1 -lvl 2 -x 420 -y 3110 -defaultsOSRD
+preplace inst xlslice_bin_sel_we -pg 1 -lvl 2 -x 420 -y 4110 -defaultsOSRD
+preplace inst we_odd_11 -pg 1 -lvl 2 -x 420 -y 590 -defaultsOSRD
+preplace inst we_odd_1 -pg 1 -lvl 2 -x 420 -y 2110 -defaultsOSRD
+preplace inst xlslice_getAccum_rst -pg 1 -lvl 2 -x 420 -y 3010 -defaultsOSRD
+preplace inst xlslice_beat_dphi -pg 1 -lvl 2 -x 420 -y 3210 -defaultsOSRD
+preplace inst xlslice_3 -pg 1 -lvl 2 -x 420 -y 2510 -defaultsOSRD
+preplace inst we_odd_2 -pg 1 -lvl 2 -x 420 -y 2210 -defaultsOSRD
+preplace inst we_odd_12 -pg 1 -lvl 2 -x 420 -y 690 -defaultsOSRD
+preplace inst we_odd_13 -pg 1 -lvl 2 -x 420 -y 790 -defaultsOSRD
+preplace inst we_odd_3 -pg 1 -lvl 2 -x 420 -y 2310 -defaultsOSRD
+preplace inst axi_gpio_0 -pg 1 -lvl 1 -x 170 -y 470 -defaultsOSRD
+preplace inst xlslice_4 -pg 1 -lvl 2 -x 420 -y 2610 -defaultsOSRD
+preplace inst axi_gpio_1 -pg 1 -lvl 1 -x 170 -y 2410 -defaultsOSRD
+preplace inst we_odd_4 -pg 1 -lvl 2 -x 420 -y 2410 -defaultsOSRD
+preplace inst we_odd_14 -pg 1 -lvl 2 -x 420 -y 890 -defaultsOSRD
+preplace inst we_odd_5 -pg 1 -lvl 2 -x 420 -y 1310 -defaultsOSRD
+preplace inst axi_gpio_2 -pg 1 -lvl 1 -x 170 -y 1530 -defaultsOSRD
+preplace inst xlslice_bin_sel_addr -pg 1 -lvl 2 -x 420 -y 3910 -defaultsOSRD
+preplace inst axi_gpio_3 -pg 1 -lvl 1 -x 170 -y 2870 -defaultsOSRD
+preplace inst reset -pg 1 -lvl 2 -x 420 -y 390 -defaultsOSRD
+preplace inst we_odd_6 -pg 1 -lvl 2 -x 420 -y 1410 -defaultsOSRD
+preplace inst xlslice_bin_sel_data0 -pg 1 -lvl 2 -x 420 -y 3810 -defaultsOSRD
+preplace inst we_odd_7 -pg 1 -lvl 2 -x 420 -y -10 -defaultsOSRD
+preplace inst axi_gpio_4 -pg 1 -lvl 1 -x 170 -y 3670 -defaultsOSRD
+preplace inst axi_gpio_10 -pg 1 -lvl 1 -x 170 -y 1040 -defaultsOSRD
+preplace inst xlslice_acc_length -pg 1 -lvl 2 -x 420 -y 2710 -defaultsOSRD
+preplace inst we_odd_8 -pg 1 -lvl 2 -x 420 -y 90 -defaultsOSRD
+preplace inst xlslice_bin_sel_data1 -pg 1 -lvl 2 -x 420 -y 4010 -defaultsOSRD
+preplace inst xlslice_bramx32v2_start -pg 1 -lvl 2 -x 420 -y 2910 -defaultsOSRD
+preplace inst axi_gpio_5 -pg 1 -lvl 1 -x 170 -y 1190 -defaultsOSRD
+preplace inst xlslice_PSBscaleC -pg 1 -lvl 2 -x 420 -y 1090 -defaultsOSRD
+preplace inst xlslice_ov_rst -pg 1 -lvl 2 -x 420 -y 1200 -defaultsOSRD -resize 160 88
+preplace netloc Net 1 1 1 310 3110n
+preplace netloc Net1 1 1 1 320 3810n
+preplace netloc axi_gpio_0_gpio_io_o 1 1 1 310 390n
+preplace netloc axi_gpio_10_gpio_io_o 1 1 1 320J 990n
+preplace netloc axi_gpio_1_gpio2_io_o 1 1 1 320 2440n
+preplace netloc axi_gpio_1_gpio_io_o 1 1 1 310 1710n
+preplace netloc axi_gpio_2_gpio2_io_o 1 1 1 320J 1560n
+preplace netloc axi_gpio_2_gpio_io_o 1 1 1 310J 1510n
+preplace netloc axi_gpio_3_gpio2_io_o 1 1 1 320 2900n
+preplace netloc axi_gpio_3_gpio_io_o 1 1 1 310 2710n
+preplace netloc axi_gpio_4_gpio2_io_o 1 1 1 320J 3700n
+preplace netloc axi_gpio_5_gpio_io_o 1 1 1 310J 1090n
+preplace netloc axi_gpio_6_gpio2_io_o 1 1 1 320J 1400n
+preplace netloc axi_gpio_6_gpio_io_o 1 1 1 310J 1310n
+preplace netloc axi_gpio_7_gpio2_io_o 1 1 1 320 190n
+preplace netloc axi_gpio_7_gpio_io_o 1 1 1 310 -10n
+preplace netloc axi_gpio_8_gpio2_io_o 1 1 1 310 790n
+preplace netloc axi_gpio_8_gpio_io_o 1 1 1 320 590n
+preplace netloc axi_gpio_9_gpio2_io_o 1 1 1 310 3860n
+preplace netloc gpio2_io_i_1 1 0 2 NJ 1280 320
+preplace netloc reset_Dout 1 2 1 520J 390n
+preplace netloc rst_ps8_0_99M_peripheral_aresetn 1 0 1 30 340n
+preplace netloc start_Dout 1 2 1 520J 490n
+preplace netloc we_even_1_Dout 1 2 1 520J 1700n
+preplace netloc we_even_2_Dout 1 2 1 520J 1800n
+preplace netloc we_even_3_Dout 1 2 1 520J 1900n
+preplace netloc we_even_4_Dout 1 2 1 520J 2000n
+preplace netloc we_odd_10_Dout 1 2 1 520J 290n
+preplace netloc we_odd_11_Dout 1 2 1 520J 590n
+preplace netloc we_odd_12_Dout 1 2 1 520J 690n
+preplace netloc we_odd_13_Dout 1 2 1 520J 790n
+preplace netloc we_odd_14_Dout 1 2 1 520J 890n
+preplace netloc we_odd_1_Dout 1 2 1 520J 2100n
+preplace netloc we_odd_2_Dout 1 2 1 520J 2200n
+preplace netloc we_odd_3_Dout 1 2 1 520J 2300n
+preplace netloc we_odd_4_Dout 1 2 1 520J 2400n
+preplace netloc we_odd_5_Dout 1 2 1 520J 1300n
+preplace netloc we_odd_6_Dout 1 2 1 520J 1400n
+preplace netloc we_odd_7_Dout 1 2 1 520J -10n
+preplace netloc we_odd_8_Dout 1 2 1 520J 90n
+preplace netloc we_odd_9_Dout 1 2 1 520J 190n
+preplace netloc xlslice_0_Dout 1 2 1 520J 1500n
+preplace netloc xlslice_1_Dout 1 2 1 520J 1600n
+preplace netloc xlslice_3_Dout 1 2 1 520J 2500n
+preplace netloc xlslice_4_Dout 1 2 1 520J 2600n
+preplace netloc xlslice_5_Dout 1 2 1 520J 2700n
+preplace netloc xlslice_PSBscaleC_Dout 1 2 1 520J 1090n
+preplace netloc xlslice_beat_addr_Dout 1 2 1 520J 3100n
+preplace netloc xlslice_beat_dphi_Dout 1 2 1 520J 3200n
+preplace netloc xlslice_beat_we0_Dout 1 2 1 520J 3300n
+preplace netloc xlslice_beat_we1_Dout 1 2 1 520J 3400n
+preplace netloc xlslice_beat_we2_Dout 1 2 1 520J 3500n
+preplace netloc xlslice_beat_we3_Dout 1 2 1 520J 3600n
+preplace netloc xlslice_bin_sel_addr_Dout 1 2 1 520J 3900n
+preplace netloc xlslice_bin_sel_data1_Dout 1 2 1 520J 4000n
+preplace netloc xlslice_bin_sel_data_Dout 1 2 1 520J 3800n
+preplace netloc xlslice_bin_sel_we_Dout 1 2 1 520J 4100n
+preplace netloc xlslice_bram_rst_Dout 1 2 1 520J 3000n
+preplace netloc xlslice_bramx32v2_start_Dout 1 2 1 520J 2900n
+preplace netloc xlslice_dacmix_dp_Dout 1 2 1 520J 990n
+preplace netloc xlslice_fft_scale_Dout 1 2 1 520J 3700n
+preplace netloc xlslice_getAccumChan_Dout 1 2 1 520J 2800n
+preplace netloc zynq_ultra_ps_e_0_pl_clk0 1 0 1 20 320n
+preplace netloc xlslice_ov_rst_Dout 1 2 1 N 1200
+preplace netloc Conn1 1 0 1 NJ 1170
+preplace netloc ps8_0_axi_periph_M00_AXI 1 0 1 NJ 450
+preplace netloc ps8_0_axi_periph_M02_AXI 1 0 1 NJ 2390
+preplace netloc ps8_0_axi_periph_M03_AXI 1 0 1 NJ 1510
+preplace netloc ps8_0_axi_periph_M05_AXI 1 0 1 NJ 2850
+preplace netloc ps8_0_axi_periph_M06_AXI 1 0 1 NJ 3650
+preplace netloc ps8_0_axi_periph_M10_AXI 1 0 1 NJ 1350
+preplace netloc ps8_0_axi_periph_M11_AXI 1 0 1 NJ 300
+preplace netloc ps8_0_axi_periph_M12_AXI 1 0 1 NJ 740
+preplace netloc ps8_0_axi_periph_M13_AXI 1 0 1 NJ 3810
+preplace netloc ps8_0_axi_periph_M14_AXI 1 0 1 NJ 1020
+levelinfo -pg 1 0 170 420 740
+pagesize -pg 1 -db -bbox -sgen -170 -80 990 4170
+"
+}
+0
