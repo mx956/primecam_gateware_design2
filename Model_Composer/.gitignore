@@ -1,0 +1,12 @@
+# Model Composer projects – ignore everything inside them
+*
+
+# But allow directories
+!*/
+
+# Allow MATLAB files anywhere
+!*.m
+!*.slx
+
+# Keep this file itself
+!.gitignore
