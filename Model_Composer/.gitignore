@@ -8,5 +8,8 @@
 !*.m
 !*.slx
 
+# Allow filter coefficient files
+!FIRCOE_RAM_init/*
+
 # Keep this file itself
 !.gitignore
