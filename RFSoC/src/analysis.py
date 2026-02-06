@@ -3,14 +3,11 @@
 # Signal processing functions and commands.
 # James Burgoyne jburgoyne@phas.ubc.ca 
 # CCAT Prime 2023  
+
+# Edited by Matt for testing with gen2 readout in Feb 2026
 # ============================================================================ #
 
-from alcove_commands.alcove_base import *
-
-try: from config import board as cfg_b
-except ImportError: cfg_b = None 
-
-
+SWEEP_STEPS = 500
 
 # ============================================================================ #
 # _butterFilter
@@ -115,7 +112,7 @@ def _findResonators_alt(
     try:
         stitch_bw = int(stitch_bw)
     except:
-        stitch_bw = cfg_b.sweep_steps # bins bw <- steps
+        stitch_bw = SWEEP_STEPS # bins bw <- steps
     
     x = f
     y = np.abs(Z)
@@ -228,7 +225,7 @@ def _findResonatorsVna(
     continuum_wn   = int(continuum_wn)
     remove_noise   = bool(remove_noise)
     noise_wn       = int(noise_wn)
-    stitch_bw      = int(stitch_bw or cfg_b.sweep_steps)
+    stitch_bw      = int(stitch_bw or SWEEP_STEPS)
     peak_dis_hz    = float(peak_dis_hz)
     width_min_hz   = float(width_min_hz)
     width_max_hz   = float(width_max_hz)
@@ -304,7 +301,7 @@ def _findMins(f, Z, stitch_bw=None):
     try:
         stitch_bw = int(stitch_bw)
     except:
-        stitch_bw = cfg_b.sweep_steps # bins bw <- steps
+        stitch_bw = SWEEP_STEPS # bins bw <- steps
 
     m = np.abs(Z)
     
@@ -323,90 +320,3 @@ def _findMins(f, Z, stitch_bw=None):
     #     for r in range(num_res)]
 
     return f_res.real
-
-
-# ============================================================================ #
-# findVnaResonators
-def findVnaResonators(**kwargs):
-    """Find the resonator peak frequencies from vnaSweep S21.
-    See findResonators() for possible arguments.
-    Note that vnaSweep must be run first.
-    """
-
-    f, Z = io.load(io.file.s21_vna)
-    # f_res = _findResonators_alt(f, Z, **kwargs)
-    f_res = _findResonatorsVna(f, Z, **kwargs)
-
-    io.save(io.file.f_res_vna, f_res)
-
-    return io.returnWrapper(io.file.f_res_vna, f_res)
-
-
-# ============================================================================ #
-# findTargResonators
-def findTargResonators(**kwargs):
-    """Find the resonator peak frequencies from targSweep S21.
-    See findResonators() for possible arguments.
-    Note that targSweep must be run first.
-    """
-    f, Z = io.load(io.file.s21_targ)
-    f_res = _findMins(f, Z, **kwargs)
-
-    io.save(io.file.f_res_targ, f_res)
-
-    return io.returnWrapper(io.file.f_res_targ, f_res)
-
-
-# ============================================================================ #
-# findCalTones
-def findCalTones(f_lo=0.1, f_hi=50, tol=2, max_tones=10):
-    """Determine the indices of calibration tones.
-    
-    f_hi:      (float) Highpass filter cutoff frequency (data units).
-    f_lo:      (float) lowpass filter cutoff frequency (data units).
-    tol:       (float) Reject tones tol*std_noise from continuum.
-    max_tones: (int) Maximum number of tones to return.
-    """
-    
-    import numpy as np
-    from scipy.signal import iirfilter, sosfiltfilt
-
-    ## load data from file
-    f, Z = io.load(io.file.s21_vna)
-    m = np.abs(Z)
-    freqs = io.load(io.file.f_res_vna).real
-    
-    fs  = abs(f[1] - f[0])                        ## sampling frequency
-    freqs_i = [np.abs(f - v).argmin() for v in freqs] ## indices of freqs
-    freqs_i = np.append(np.insert(freqs_i, 0, 0), len(f)) ## add end gaps
-    
-    ## isolate continuum w/ lowpass filter
-    filt_lo = iirfilter(2, f_lo, fs=fs, btype='lowpass', output='sos')
-    m_lo   = sosfiltfilt(filt_lo, m)
-
-    ## isolate noise w/ highpass filter
-    filt_hi = iirfilter(2, f_hi, fs=fs, btype='highpass', output='sos')
-    m_hi   = sosfiltfilt(filt_hi, m)
-    std_hi = np.std(m_hi)                         ## calculate std of noise
-
-    ## find gaps between resonators
-    gaps = np.diff(freqs_i)
-    gaps_i = (freqs_i[:-1] + freqs_i[1:]) // 2    ## gap center indices
-    
-    ## sort gaps (descending; w/ indices)
-    sort_i = np.argsort(gaps)[::-1]
-    # gaps_s = gaps[sort_i]
-    gaps_s_i = gaps_i[sort_i]
-   
-    ## filter any too far from continuum (m_lo)
-    cal_tones_i = gaps_s_i[(abs(m[gaps_s_i] - m_lo[gaps_s_i])) < tol*std_hi]
-    
-    ## limit to max_tones
-    cal_tones_i = cal_tones_i[:max_tones] 
-
-    f_cal_tones = f[cal_tones_i]
-
-    io.save(io.file.f_cal_tones, f_cal_tones)
-    
-    # return f_cal_tones
-    return io.returnWrapper(io.file.f_cal_tones, f_cal_tones)
