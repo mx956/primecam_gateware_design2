@@ -151,7 +151,6 @@
         "receive1_3_0": "",
         "c_shift_ram_4": "",
         "xlconcat_1": "",
-        "psb3_0_0": "",
         "xlconstant_7": "",
         "snap_data_capture": {
           "const_65472": "",
@@ -224,7 +223,8 @@
           "xlslice_bramx32v2_start": "",
           "axi_gpio_5": "",
           "xlslice_PSBscaleC": "",
-          "xlslice_ov_rst": ""
+          "xlslice_ov_rst": "",
+          "xlslice_ifft_scale": ""
         },
         "psb_out_post": {
           "scaler_16bits_v2_0": "",
@@ -240,9 +240,9 @@
           "xlslice_im3": "",
           "xlslice_re1": "",
           "xlslice_re2": "",
+          "xlslice_re3": "",
           "cordic_mix_v2_ADC": "",
-          "cordic_mix_v2_DAC": "",
-          "xlslice_re3": ""
+          "cordic_mix_v2_DAC": ""
         },
         "overflow_management": {
           "const_one": "",
@@ -254,13 +254,13 @@
           "xlslice_ov_rst_0": "",
           "xlslice_ov_rst_1": "",
           "xlslice_ov_rst_2": ""
-        }
+        },
+        "psb3_1_0": ""
       },
       "chan2": {
         "receive1_3_0": "",
         "c_shift_ram_4": "",
         "xlconcat_1": "",
-        "psb3_0_0": "",
         "xlconstant_7": "",
         "snap_data_capture": {
           "const_65472": "",
@@ -333,7 +333,8 @@
           "xlslice_bramx32v2_start": "",
           "axi_gpio_5": "",
           "xlslice_PSBscaleC": "",
-          "xlslice_ov_rst": ""
+          "xlslice_ov_rst": "",
+          "xlslice_ifft_scale": ""
         },
         "psb_out_post": {
           "scaler_16bits_v2_0": "",
@@ -349,9 +350,9 @@
           "xlslice_im3": "",
           "xlslice_re1": "",
           "xlslice_re2": "",
+          "xlslice_re3": "",
           "cordic_mix_v2_ADC": "",
-          "cordic_mix_v2_DAC": "",
-          "xlslice_re3": ""
+          "cordic_mix_v2_DAC": ""
         },
         "overflow_management": {
           "const_one": "",
@@ -363,13 +364,13 @@
           "xlslice_ov_rst_0": "",
           "xlslice_ov_rst_1": "",
           "xlslice_ov_rst_2": ""
-        }
+        },
+        "psb3_1_0": ""
       },
       "chan3": {
         "receive1_3_0": "",
         "c_shift_ram_4": "",
         "xlconcat_1": "",
-        "psb3_0_0": "",
         "xlconstant_7": "",
         "snap_data_capture": {
           "const_65472": "",
@@ -442,7 +443,8 @@
           "xlslice_bramx32v2_start": "",
           "axi_gpio_5": "",
           "xlslice_PSBscaleC": "",
-          "xlslice_ov_rst": ""
+          "xlslice_ov_rst": "",
+          "xlslice_ifft_scale": ""
         },
         "psb_out_post": {
           "scaler_16bits_v2_0": "",
@@ -458,9 +460,9 @@
           "xlslice_im3": "",
           "xlslice_re1": "",
           "xlslice_re2": "",
+          "xlslice_re3": "",
           "cordic_mix_v2_ADC": "",
-          "cordic_mix_v2_DAC": "",
-          "xlslice_re3": ""
+          "cordic_mix_v2_DAC": ""
         },
         "overflow_management": {
           "const_one": "",
@@ -472,13 +474,13 @@
           "xlslice_ov_rst_0": "",
           "xlslice_ov_rst_1": "",
           "xlslice_ov_rst_2": ""
-        }
+        },
+        "psb3_1_0": ""
       },
       "chan4": {
         "receive1_3_0": "",
         "c_shift_ram_4": "",
         "xlconcat_1": "",
-        "psb3_0_0": "",
         "xlconstant_7": "",
         "snap_data_capture": {
           "const_65472": "",
@@ -551,7 +553,8 @@
           "xlslice_bramx32v2_start": "",
           "axi_gpio_5": "",
           "xlslice_PSBscaleC": "",
-          "xlslice_ov_rst": ""
+          "xlslice_ov_rst": "",
+          "xlslice_ifft_scale": ""
         },
         "psb_out_post": {
           "scaler_16bits_v2_0": "",
@@ -567,9 +570,9 @@
           "xlslice_im3": "",
           "xlslice_re1": "",
           "xlslice_re2": "",
+          "xlslice_re3": "",
           "cordic_mix_v2_ADC": "",
-          "cordic_mix_v2_DAC": "",
-          "xlslice_re3": ""
+          "cordic_mix_v2_DAC": ""
         },
         "overflow_management": {
           "const_one": "",
@@ -581,7 +584,8 @@
           "xlslice_ov_rst_0": "",
           "xlslice_ov_rst_1": "",
           "xlslice_ov_rst_2": ""
-        }
+        },
+        "psb3_1_0": ""
       },
       "ethWrapPort1": {
         "w_max_count": "",
@@ -3917,6 +3921,9 @@
           },
           "USB1_BOARD_INTERFACE": {
             "value": "custom"
+          },
+          "preset": {
+            "value": "None"
           }
         },
         "interface_ports": {
@@ -13108,12 +13115,6 @@
               }
             }
           },
-          "psb3_0_0": {
-            "vlnv": "xilinx.com:user:psb3_0:1.0",
-            "xci_name": "design_1_psb3_0_0_0",
-            "xci_path": "ip\\design_1_psb3_0_0_0\\design_1_psb3_0_0_0.xci",
-            "inst_hier_path": "chan1/psb3_0_0"
-          },
           "xlconstant_7": {
             "vlnv": "xilinx.com:ip:xlconstant:1.1",
             "xci_name": "design_1_xlconstant_6_0",
@@ -14213,6 +14214,11 @@
                 "direction": "O",
                 "left": "2",
                 "right": "0"
+              },
+              "psb_ifft_scale": {
+                "direction": "O",
+                "left": "10",
+                "right": "0"
               }
             },
             "components": {
@@ -15096,6 +15102,23 @@
                     "value": "3"
                   }
                 }
+              },
+              "xlslice_ifft_scale": {
+                "vlnv": "xilinx.com:ip:xlslice:1.0",
+                "xci_name": "design_1_xlslice_fft_scale_3",
+                "xci_path": "ip\\design_1_xlslice_fft_scale_3\\design_1_xlslice_fft_scale_3.xci",
+                "inst_hier_path": "chan1/GPIO/xlslice_ifft_scale",
+                "parameters": {
+                  "DIN_FROM": {
+                    "value": "21"
+                  },
+                  "DIN_TO": {
+                    "value": "11"
+                  },
+                  "DOUT_WIDTH": {
+                    "value": "11"
+                  }
+                }
               }
             },
             "interface_nets": {
@@ -15247,7 +15270,8 @@
               "axi_gpio_4_gpio2_io_o": {
                 "ports": [
                   "axi_gpio_4/gpio2_io_o",
-                  "xlslice_fft_scale/Din"
+                  "xlslice_fft_scale/Din",
+                  "xlslice_ifft_scale/Din"
                 ]
               },
               "axi_gpio_5_gpio_io_o": {
@@ -15570,6 +15594,12 @@
                 "ports": [
                   "xlslice_getAccumChan/Dout",
                   "getAccum_channel_count"
+                ]
+              },
+              "xlslice_ifft_scale_Dout": {
+                "ports": [
+                  "xlslice_ifft_scale/Dout",
+                  "psb_ifft_scale"
                 ]
               },
               "xlslice_ov_rst_Dout": {
@@ -16140,18 +16170,6 @@
                   }
                 }
               },
-              "cordic_mix_v2_ADC": {
-                "vlnv": "xilinx.com:user:cordic_mix_v2:1.0",
-                "xci_name": "design_1_cordic_mix_v2_0_2",
-                "xci_path": "ip\\design_1_cordic_mix_v2_0_2\\design_1_cordic_mix_v2_0_2.xci",
-                "inst_hier_path": "chan1/fine_nco/cordic_mix_v2_ADC"
-              },
-              "cordic_mix_v2_DAC": {
-                "vlnv": "xilinx.com:user:cordic_mix_v2:1.0",
-                "xci_name": "design_1_cordic_mix_v2_2_0",
-                "xci_path": "ip\\design_1_cordic_mix_v2_2_0\\design_1_cordic_mix_v2_2_0.xci",
-                "inst_hier_path": "chan1/fine_nco/cordic_mix_v2_DAC"
-              },
               "xlslice_re3": {
                 "vlnv": "xilinx.com:ip:xlslice:1.0",
                 "xci_name": "design_1_xlslice_re0_1",
@@ -16171,6 +16189,18 @@
                     "value": "16"
                   }
                 }
+              },
+              "cordic_mix_v2_ADC": {
+                "vlnv": "xilinx.com:user:cordic_mix_v2:2.1",
+                "xci_name": "design_1_cordic_mix_v2_0_2",
+                "xci_path": "ip\\design_1_cordic_mix_v2_0_2\\design_1_cordic_mix_v2_0_2.xci",
+                "inst_hier_path": "chan1/fine_nco/cordic_mix_v2_ADC"
+              },
+              "cordic_mix_v2_DAC": {
+                "vlnv": "xilinx.com:user:cordic_mix_v2:2.1",
+                "xci_name": "design_1_cordic_mix_v2_2_0",
+                "xci_path": "ip\\design_1_cordic_mix_v2_2_0\\design_1_cordic_mix_v2_2_0.xci",
+                "inst_hier_path": "chan1/fine_nco/cordic_mix_v2_DAC"
               }
             },
             "nets": {
@@ -16195,8 +16225,8 @@
               "clk_wiz_0_clk_out1": {
                 "ports": [
                   "clk_256M",
-                  "cordic_mix_v2_DAC/clk",
-                  "cordic_mix_v2_ADC/clk"
+                  "cordic_mix_v2_ADC/clk",
+                  "cordic_mix_v2_DAC/clk"
                 ]
               },
               "cordic_mix_v2_2_out_im_0": {
@@ -16352,15 +16382,15 @@
               "xlconstant_7_dout": {
                 "ports": [
                   "sync_in",
-                  "cordic_mix_v2_DAC/sync_in",
-                  "cordic_mix_v2_ADC/sync_in"
+                  "cordic_mix_v2_ADC/sync_in",
+                  "cordic_mix_v2_DAC/sync_in"
                 ]
               },
               "xlslice_dacmix_dp_Dout": {
                 "ports": [
                   "dphi",
-                  "cordic_mix_v2_DAC/dphi",
-                  "cordic_mix_v2_ADC/dphi"
+                  "cordic_mix_v2_ADC/dphi",
+                  "cordic_mix_v2_DAC/dphi"
                 ]
               },
               "xlslice_im0_Dout": {
@@ -16842,6 +16872,12 @@
                 ]
               }
             }
+          },
+          "psb3_1_0": {
+            "vlnv": "xilinx.com:user:psb3_1:1.1",
+            "xci_name": "design_1_psb3_1_0_0",
+            "xci_path": "ip\\design_1_psb3_1_0_0\\design_1_psb3_1_0_0.xci",
+            "inst_hier_path": "chan1/psb3_1_0"
           }
         },
         "interface_nets": {
@@ -16931,6 +16967,12 @@
               "overflow_management/ov_rst"
             ]
           },
+          "GPIO_psb_ifft_scale": {
+            "ports": [
+              "GPIO/psb_ifft_scale",
+              "psb3_1_0/ifft_scale"
+            ]
+          },
           "Net2": {
             "ports": [
               "ADC_data_im",
@@ -16949,12 +16991,12 @@
             "ports": [
               "CLK",
               "c_shift_ram_4/CLK",
-              "psb3_0_0/clk",
               "psb_out_post/clk",
               "fine_nco/clk_256M",
               "snap_data_capture/clk_256M",
               "receive1_3_0/clk",
-              "overflow_management/CLK"
+              "overflow_management/CLK",
+              "psb3_1_0/clk"
             ]
           },
           "cordic_mix_v2_ADC_out_im_0": {
@@ -17005,6 +17047,12 @@
               "receive1_3_0/in_im_3"
             ]
           },
+          "ov_ifft_1": {
+            "ports": [
+              "psb3_1_0/ov_ifft",
+              "overflow_management/ov_ifft"
+            ]
+          },
           "overflow_management_dout": {
             "ports": [
               "overflow_management/dout",
@@ -17023,45 +17071,51 @@
               "receive1_3_0/in_tvalid"
             ]
           },
-          "psb3_0_0_gout_ov_add": {
+          "psb3_1_0_ov_add": {
             "ports": [
-              "psb3_0_0/gout_ov_add",
+              "psb3_1_0/ov_add",
               "overflow_management/ov_add"
             ]
           },
-          "psb3_0_0_gout_ov_ifft": {
+          "psb3_1_0_psb_out_im_0": {
             "ports": [
-              "psb3_0_0/gout_ov_ifft",
-              "overflow_management/ov_ifft"
-            ]
-          },
-          "psb3_0_0_gout_psb_tvalid": {
-            "ports": [
-              "psb3_0_0/gout_psb_tvalid",
-              "c_shift_ram_4/D"
-            ]
-          },
-          "psb_im0_1": {
-            "ports": [
-              "psb3_0_0/gout_psb_im_0",
+              "psb3_1_0/psb_out_im_0",
               "psb_out_post/psb_im0"
+            ]
+          },
+          "psb3_1_0_psb_out_im_2": {
+            "ports": [
+              "psb3_1_0/psb_out_im_2",
+              "psb_out_post/psb_im2"
+            ]
+          },
+          "psb3_1_0_psb_out_re_0": {
+            "ports": [
+              "psb3_1_0/psb_out_re_0",
+              "psb_out_post/psb_re0"
+            ]
+          },
+          "psb3_1_0_psb_out_re_2": {
+            "ports": [
+              "psb3_1_0/psb_out_re_2",
+              "psb_out_post/psb_re2"
+            ]
+          },
+          "psb3_1_0_psb_out_tvalid": {
+            "ports": [
+              "psb3_1_0/psb_out_tvalid",
+              "c_shift_ram_4/D"
             ]
           },
           "psb_im1_1": {
             "ports": [
-              "psb3_0_0/gout_psb_im_1",
+              "psb3_1_0/psb_out_im_1",
               "psb_out_post/psb_im1"
-            ]
-          },
-          "psb_im2_1": {
-            "ports": [
-              "psb3_0_0/gout_psb_im_2",
-              "psb_out_post/psb_im2"
             ]
           },
           "psb_im3_1": {
             "ports": [
-              "psb3_0_0/gout_psb_im_3",
+              "psb3_1_0/psb_out_im_3",
               "psb_out_post/psb_im3"
             ]
           },
@@ -17071,27 +17125,15 @@
               "overflow_management/ov_postPSB"
             ]
           },
-          "psb_re0_1": {
-            "ports": [
-              "psb3_0_0/gout_psb_re_0",
-              "psb_out_post/psb_re0"
-            ]
-          },
           "psb_re1_1": {
             "ports": [
-              "psb3_0_0/gout_psb_re_1",
+              "psb3_1_0/psb_out_re_1",
               "psb_out_post/psb_re1"
-            ]
-          },
-          "psb_re2_1": {
-            "ports": [
-              "psb3_0_0/gout_psb_re_2",
-              "psb_out_post/psb_re2"
             ]
           },
           "psb_re3_1": {
             "ports": [
-              "psb3_0_0/gout_psb_re_3",
+              "psb3_1_0/psb_out_re_3",
               "psb_out_post/psb_re3"
             ]
           },
@@ -17158,7 +17200,7 @@
           "reset_Dout": {
             "ports": [
               "GPIO/psb_rst",
-              "psb3_0_0/gin_tl_reset"
+              "psb3_1_0/psb_reset"
             ]
           },
           "rst_ps8_0_99M_peripheral_aresetn": {
@@ -17224,116 +17266,116 @@
           "start_Dout": {
             "ports": [
               "GPIO/psb_start",
-              "psb3_0_0/gin_tl_start",
-              "start_chan1"
+              "start_chan1",
+              "psb3_1_0/psb_start"
             ]
           },
           "we_even_1_Dout": {
             "ports": [
               "GPIO/psb_tone_we_even1",
-              "psb3_0_0/gin_we_even_1"
+              "psb3_1_0/tone_we_even_1"
             ]
           },
           "we_even_2_Dout": {
             "ports": [
               "GPIO/psb_tone_we_even2",
-              "psb3_0_0/gin_we_even_2"
+              "psb3_1_0/tone_we_even_2"
             ]
           },
           "we_even_3_Dout": {
             "ports": [
               "GPIO/psb_tone_we_even3",
-              "psb3_0_0/gin_we_even_3"
+              "psb3_1_0/tone_we_even_3"
             ]
           },
           "we_even_4_Dout": {
             "ports": [
               "GPIO/psb_tone_we_even4",
-              "psb3_0_0/gin_we_even_4"
+              "psb3_1_0/tone_we_even_4"
             ]
           },
           "we_odd_10_Dout": {
             "ports": [
               "GPIO/psb_toneSelect_w_D3",
-              "psb3_0_0/ts_3"
+              "psb3_1_0/ts_3"
             ]
           },
           "we_odd_11_Dout": {
             "ports": [
               "GPIO/psb_toneSelect_w_D4",
-              "psb3_0_0/ts_4"
+              "psb3_1_0/ts_4"
             ]
           },
           "we_odd_12_Dout": {
             "ports": [
               "GPIO/psb_toneSelect_w_D5",
-              "psb3_0_0/ts_5"
+              "psb3_1_0/ts_5"
             ]
           },
           "we_odd_13_Dout": {
             "ports": [
               "GPIO/psb_toneSelect_w_D6",
-              "psb3_0_0/ts_6"
+              "psb3_1_0/ts_6"
             ]
           },
           "we_odd_14_Dout": {
             "ports": [
               "GPIO/psb_toneSelect_w_D7",
-              "psb3_0_0/ts_7"
+              "psb3_1_0/ts_7"
             ]
           },
           "we_odd_1_Dout": {
             "ports": [
               "GPIO/psb_tone_we_odd1",
-              "psb3_0_0/gin_we_odd_1"
+              "psb3_1_0/tone_we_odd_1"
             ]
           },
           "we_odd_2_Dout": {
             "ports": [
               "GPIO/psb_tone_we_odd2",
-              "psb3_0_0/gin_we_odd_2"
+              "psb3_1_0/tone_we_odd_2"
             ]
           },
           "we_odd_3_Dout": {
             "ports": [
               "GPIO/psb_tone_we_odd3",
-              "psb3_0_0/gin_we_odd_3"
+              "psb3_1_0/tone_we_odd_3"
             ]
           },
           "we_odd_4_Dout": {
             "ports": [
               "GPIO/psb_tone_we_odd4",
-              "psb3_0_0/gin_we_odd_4"
+              "psb3_1_0/tone_we_odd_4"
             ]
           },
           "we_odd_5_Dout": {
             "ports": [
               "GPIO/psb_toneSelect_we",
-              "psb3_0_0/ts_w"
+              "psb3_1_0/ts_w"
             ]
           },
           "we_odd_6_Dout": {
             "ports": [
               "GPIO/psb_toneSelect_w_addr",
-              "psb3_0_0/ts_a"
+              "psb3_1_0/ts_a"
             ]
           },
           "we_odd_7_Dout": {
             "ports": [
               "GPIO/psb_toneSelect_w_D0",
-              "psb3_0_0/ts_0"
+              "psb3_1_0/ts_0"
             ]
           },
           "we_odd_8_Dout": {
             "ports": [
               "GPIO/psb_toneSelect_w_D1",
-              "psb3_0_0/ts_1"
+              "psb3_1_0/ts_1"
             ]
           },
           "we_odd_9_Dout": {
             "ports": [
               "GPIO/psb_toneSelect_w_D2",
-              "psb3_0_0/ts_2"
+              "psb3_1_0/ts_2"
             ]
           },
           "xlconcat_0_dout": {
@@ -17359,25 +17401,25 @@
           "xlslice_0_Dout": {
             "ports": [
               "GPIO/psb_tone_w_init_re",
-              "psb3_0_0/gin_init_re"
+              "psb3_1_0/tone_init_re"
             ]
           },
           "xlslice_1_Dout": {
             "ports": [
               "GPIO/psb_tone_w_init_im",
-              "psb3_0_0/gin_init_im"
+              "psb3_1_0/tone_init_im"
             ]
           },
           "xlslice_3_Dout": {
             "ports": [
               "GPIO/psb_tone_w_addr",
-              "psb3_0_0/gin_addr"
+              "psb3_1_0/tone_addr"
             ]
           },
           "xlslice_4_Dout": {
             "ports": [
               "GPIO/psb_tone_w_dphi",
-              "psb3_0_0/gin_dphi"
+              "psb3_1_0/tone_dphi"
             ]
           },
           "xlslice_5_Dout": {
@@ -17662,12 +17704,6 @@
                 "value": "8"
               }
             }
-          },
-          "psb3_0_0": {
-            "vlnv": "xilinx.com:user:psb3_0:1.0",
-            "xci_name": "design_1_psb3_0_0_1",
-            "xci_path": "ip\\design_1_psb3_0_0_1\\design_1_psb3_0_0_1.xci",
-            "inst_hier_path": "chan2/psb3_0_0"
           },
           "xlconstant_7": {
             "vlnv": "xilinx.com:ip:xlconstant:1.1",
@@ -18768,6 +18804,11 @@
                 "direction": "O",
                 "left": "2",
                 "right": "0"
+              },
+              "psb_ifft_scale": {
+                "direction": "O",
+                "left": "10",
+                "right": "0"
               }
             },
             "components": {
@@ -19651,6 +19692,23 @@
                     "value": "3"
                   }
                 }
+              },
+              "xlslice_ifft_scale": {
+                "vlnv": "xilinx.com:ip:xlslice:1.0",
+                "xci_name": "design_1_xlslice_fft_scale_4",
+                "xci_path": "ip\\design_1_xlslice_fft_scale_4\\design_1_xlslice_fft_scale_4.xci",
+                "inst_hier_path": "chan2/GPIO/xlslice_ifft_scale",
+                "parameters": {
+                  "DIN_FROM": {
+                    "value": "21"
+                  },
+                  "DIN_TO": {
+                    "value": "11"
+                  },
+                  "DOUT_WIDTH": {
+                    "value": "11"
+                  }
+                }
               }
             },
             "interface_nets": {
@@ -19802,7 +19860,8 @@
               "axi_gpio_4_gpio2_io_o": {
                 "ports": [
                   "axi_gpio_4/gpio2_io_o",
-                  "xlslice_fft_scale/Din"
+                  "xlslice_fft_scale/Din",
+                  "xlslice_ifft_scale/Din"
                 ]
               },
               "axi_gpio_5_gpio_io_o": {
@@ -20125,6 +20184,12 @@
                 "ports": [
                   "xlslice_getAccumChan/Dout",
                   "getAccum_channel_count"
+                ]
+              },
+              "xlslice_ifft_scale_Dout": {
+                "ports": [
+                  "xlslice_ifft_scale/Dout",
+                  "psb_ifft_scale"
                 ]
               },
               "xlslice_ov_rst_Dout": {
@@ -20695,18 +20760,6 @@
                   }
                 }
               },
-              "cordic_mix_v2_ADC": {
-                "vlnv": "xilinx.com:user:cordic_mix_v2:1.0",
-                "xci_name": "design_1_cordic_mix_v2_ADC_0",
-                "xci_path": "ip\\design_1_cordic_mix_v2_ADC_0\\design_1_cordic_mix_v2_ADC_0.xci",
-                "inst_hier_path": "chan2/fine_nco/cordic_mix_v2_ADC"
-              },
-              "cordic_mix_v2_DAC": {
-                "vlnv": "xilinx.com:user:cordic_mix_v2:1.0",
-                "xci_name": "design_1_cordic_mix_v2_DAC_0",
-                "xci_path": "ip\\design_1_cordic_mix_v2_DAC_0\\design_1_cordic_mix_v2_DAC_0.xci",
-                "inst_hier_path": "chan2/fine_nco/cordic_mix_v2_DAC"
-              },
               "xlslice_re3": {
                 "vlnv": "xilinx.com:ip:xlslice:1.0",
                 "xci_name": "design_1_xlslice_re3_1",
@@ -20726,6 +20779,18 @@
                     "value": "16"
                   }
                 }
+              },
+              "cordic_mix_v2_ADC": {
+                "vlnv": "xilinx.com:user:cordic_mix_v2:2.1",
+                "xci_name": "design_1_cordic_mix_v2_ADC_0",
+                "xci_path": "ip\\design_1_cordic_mix_v2_ADC_0\\design_1_cordic_mix_v2_ADC_0.xci",
+                "inst_hier_path": "chan2/fine_nco/cordic_mix_v2_ADC"
+              },
+              "cordic_mix_v2_DAC": {
+                "vlnv": "xilinx.com:user:cordic_mix_v2:2.1",
+                "xci_name": "design_1_cordic_mix_v2_DAC_0",
+                "xci_path": "ip\\design_1_cordic_mix_v2_DAC_0\\design_1_cordic_mix_v2_DAC_0.xci",
+                "inst_hier_path": "chan2/fine_nco/cordic_mix_v2_DAC"
               }
             },
             "nets": {
@@ -20750,8 +20815,8 @@
               "clk_wiz_0_clk_out1": {
                 "ports": [
                   "clk_256M",
-                  "cordic_mix_v2_DAC/clk",
-                  "cordic_mix_v2_ADC/clk"
+                  "cordic_mix_v2_ADC/clk",
+                  "cordic_mix_v2_DAC/clk"
                 ]
               },
               "cordic_mix_v2_2_out_im_0": {
@@ -20907,15 +20972,15 @@
               "xlconstant_7_dout": {
                 "ports": [
                   "sync_in",
-                  "cordic_mix_v2_DAC/sync_in",
-                  "cordic_mix_v2_ADC/sync_in"
+                  "cordic_mix_v2_ADC/sync_in",
+                  "cordic_mix_v2_DAC/sync_in"
                 ]
               },
               "xlslice_dacmix_dp_Dout": {
                 "ports": [
                   "dphi",
-                  "cordic_mix_v2_DAC/dphi",
-                  "cordic_mix_v2_ADC/dphi"
+                  "cordic_mix_v2_ADC/dphi",
+                  "cordic_mix_v2_DAC/dphi"
                 ]
               },
               "xlslice_im0_Dout": {
@@ -21397,6 +21462,12 @@
                 ]
               }
             }
+          },
+          "psb3_1_0": {
+            "vlnv": "xilinx.com:user:psb3_1:1.1",
+            "xci_name": "design_1_psb3_1_0_1",
+            "xci_path": "ip\\design_1_psb3_1_0_1\\design_1_psb3_1_0_1.xci",
+            "inst_hier_path": "chan2/psb3_1_0"
           }
         },
         "interface_nets": {
@@ -21486,6 +21557,12 @@
               "overflow_management/ov_rst"
             ]
           },
+          "GPIO_psb_ifft_scale": {
+            "ports": [
+              "GPIO/psb_ifft_scale",
+              "psb3_1_0/ifft_scale"
+            ]
+          },
           "Net2": {
             "ports": [
               "ADC_data_im",
@@ -21504,12 +21581,12 @@
             "ports": [
               "CLK",
               "c_shift_ram_4/CLK",
-              "psb3_0_0/clk",
               "psb_out_post/clk",
               "fine_nco/clk_256M",
               "snap_data_capture/clk_256M",
               "receive1_3_0/clk",
-              "overflow_management/CLK"
+              "overflow_management/CLK",
+              "psb3_1_0/clk"
             ]
           },
           "cordic_mix_v2_ADC_out_im_0": {
@@ -21562,13 +21639,13 @@
           },
           "ov_add_1": {
             "ports": [
-              "psb3_0_0/gout_ov_add",
+              "psb3_1_0/ov_add",
               "overflow_management/ov_add"
             ]
           },
           "ov_ifft_1": {
             "ports": [
-              "psb3_0_0/gout_ov_ifft",
+              "psb3_1_0/ov_ifft",
               "overflow_management/ov_ifft"
             ]
           },
@@ -21596,57 +21673,57 @@
               "receive1_3_0/in_tvalid"
             ]
           },
-          "psb3_0_0_gout_psb_tvalid": {
+          "psb3_1_0_psb_out_tvalid": {
             "ports": [
-              "psb3_0_0/gout_psb_tvalid",
+              "psb3_1_0/psb_out_tvalid",
               "c_shift_ram_4/D"
             ]
           },
           "psb_im0_1": {
             "ports": [
-              "psb3_0_0/gout_psb_im_0",
+              "psb3_1_0/psb_out_im_0",
               "psb_out_post/psb_im0"
             ]
           },
           "psb_im1_1": {
             "ports": [
-              "psb3_0_0/gout_psb_im_1",
+              "psb3_1_0/psb_out_im_1",
               "psb_out_post/psb_im1"
             ]
           },
           "psb_im2_1": {
             "ports": [
-              "psb3_0_0/gout_psb_im_2",
+              "psb3_1_0/psb_out_im_2",
               "psb_out_post/psb_im2"
             ]
           },
           "psb_im3_1": {
             "ports": [
-              "psb3_0_0/gout_psb_im_3",
+              "psb3_1_0/psb_out_im_3",
               "psb_out_post/psb_im3"
             ]
           },
           "psb_re0_1": {
             "ports": [
-              "psb3_0_0/gout_psb_re_0",
+              "psb3_1_0/psb_out_re_0",
               "psb_out_post/psb_re0"
             ]
           },
           "psb_re1_1": {
             "ports": [
-              "psb3_0_0/gout_psb_re_1",
+              "psb3_1_0/psb_out_re_1",
               "psb_out_post/psb_re1"
             ]
           },
           "psb_re2_1": {
             "ports": [
-              "psb3_0_0/gout_psb_re_2",
+              "psb3_1_0/psb_out_re_2",
               "psb_out_post/psb_re2"
             ]
           },
           "psb_re3_1": {
             "ports": [
-              "psb3_0_0/gout_psb_re_3",
+              "psb3_1_0/psb_out_re_3",
               "psb_out_post/psb_re3"
             ]
           },
@@ -21713,7 +21790,7 @@
           "reset_Dout": {
             "ports": [
               "GPIO/psb_rst",
-              "psb3_0_0/gin_tl_reset"
+              "psb3_1_0/psb_reset"
             ]
           },
           "rst_ps8_0_99M_peripheral_aresetn": {
@@ -21779,115 +21856,115 @@
           "start_chan2_1": {
             "ports": [
               "start_chan2",
-              "psb3_0_0/gin_tl_start"
+              "psb3_1_0/psb_start"
             ]
           },
           "we_even_1_Dout": {
             "ports": [
               "GPIO/psb_tone_we_even1",
-              "psb3_0_0/gin_we_even_1"
+              "psb3_1_0/tone_we_even_1"
             ]
           },
           "we_even_2_Dout": {
             "ports": [
               "GPIO/psb_tone_we_even2",
-              "psb3_0_0/gin_we_even_2"
+              "psb3_1_0/tone_we_even_2"
             ]
           },
           "we_even_3_Dout": {
             "ports": [
               "GPIO/psb_tone_we_even3",
-              "psb3_0_0/gin_we_even_3"
+              "psb3_1_0/tone_we_even_3"
             ]
           },
           "we_even_4_Dout": {
             "ports": [
               "GPIO/psb_tone_we_even4",
-              "psb3_0_0/gin_we_even_4"
+              "psb3_1_0/tone_we_even_4"
             ]
           },
           "we_odd_10_Dout": {
             "ports": [
               "GPIO/psb_toneSelect_w_D3",
-              "psb3_0_0/ts_3"
+              "psb3_1_0/ts_3"
             ]
           },
           "we_odd_11_Dout": {
             "ports": [
               "GPIO/psb_toneSelect_w_D4",
-              "psb3_0_0/ts_4"
+              "psb3_1_0/ts_4"
             ]
           },
           "we_odd_12_Dout": {
             "ports": [
               "GPIO/psb_toneSelect_w_D5",
-              "psb3_0_0/ts_5"
+              "psb3_1_0/ts_5"
             ]
           },
           "we_odd_13_Dout": {
             "ports": [
               "GPIO/psb_toneSelect_w_D6",
-              "psb3_0_0/ts_6"
+              "psb3_1_0/ts_6"
             ]
           },
           "we_odd_14_Dout": {
             "ports": [
               "GPIO/psb_toneSelect_w_D7",
-              "psb3_0_0/ts_7"
+              "psb3_1_0/ts_7"
             ]
           },
           "we_odd_1_Dout": {
             "ports": [
               "GPIO/psb_tone_we_odd1",
-              "psb3_0_0/gin_we_odd_1"
+              "psb3_1_0/tone_we_odd_1"
             ]
           },
           "we_odd_2_Dout": {
             "ports": [
               "GPIO/psb_tone_we_odd2",
-              "psb3_0_0/gin_we_odd_2"
+              "psb3_1_0/tone_we_odd_2"
             ]
           },
           "we_odd_3_Dout": {
             "ports": [
               "GPIO/psb_tone_we_odd3",
-              "psb3_0_0/gin_we_odd_3"
+              "psb3_1_0/tone_we_odd_3"
             ]
           },
           "we_odd_4_Dout": {
             "ports": [
               "GPIO/psb_tone_we_odd4",
-              "psb3_0_0/gin_we_odd_4"
+              "psb3_1_0/tone_we_odd_4"
             ]
           },
           "we_odd_5_Dout": {
             "ports": [
               "GPIO/psb_toneSelect_we",
-              "psb3_0_0/ts_w"
+              "psb3_1_0/ts_w"
             ]
           },
           "we_odd_6_Dout": {
             "ports": [
               "GPIO/psb_toneSelect_w_addr",
-              "psb3_0_0/ts_a"
+              "psb3_1_0/ts_a"
             ]
           },
           "we_odd_7_Dout": {
             "ports": [
               "GPIO/psb_toneSelect_w_D0",
-              "psb3_0_0/ts_0"
+              "psb3_1_0/ts_0"
             ]
           },
           "we_odd_8_Dout": {
             "ports": [
               "GPIO/psb_toneSelect_w_D1",
-              "psb3_0_0/ts_1"
+              "psb3_1_0/ts_1"
             ]
           },
           "we_odd_9_Dout": {
             "ports": [
               "GPIO/psb_toneSelect_w_D2",
-              "psb3_0_0/ts_2"
+              "psb3_1_0/ts_2"
             ]
           },
           "xlconcat_0_dout": {
@@ -21913,25 +21990,25 @@
           "xlslice_0_Dout": {
             "ports": [
               "GPIO/psb_tone_w_init_re",
-              "psb3_0_0/gin_init_re"
+              "psb3_1_0/tone_init_re"
             ]
           },
           "xlslice_1_Dout": {
             "ports": [
               "GPIO/psb_tone_w_init_im",
-              "psb3_0_0/gin_init_im"
+              "psb3_1_0/tone_init_im"
             ]
           },
           "xlslice_3_Dout": {
             "ports": [
               "GPIO/psb_tone_w_addr",
-              "psb3_0_0/gin_addr"
+              "psb3_1_0/tone_addr"
             ]
           },
           "xlslice_4_Dout": {
             "ports": [
               "GPIO/psb_tone_w_dphi",
-              "psb3_0_0/gin_dphi"
+              "psb3_1_0/tone_dphi"
             ]
           },
           "xlslice_5_Dout": {
@@ -22216,12 +22293,6 @@
                 "value": "8"
               }
             }
-          },
-          "psb3_0_0": {
-            "vlnv": "xilinx.com:user:psb3_0:1.0",
-            "xci_name": "design_1_psb3_0_0_2",
-            "xci_path": "ip\\design_1_psb3_0_0_2\\design_1_psb3_0_0_2.xci",
-            "inst_hier_path": "chan3/psb3_0_0"
           },
           "xlconstant_7": {
             "vlnv": "xilinx.com:ip:xlconstant:1.1",
@@ -23322,6 +23393,11 @@
                 "direction": "O",
                 "left": "2",
                 "right": "0"
+              },
+              "psb_ifft_scale": {
+                "direction": "O",
+                "left": "10",
+                "right": "0"
               }
             },
             "components": {
@@ -24205,6 +24281,23 @@
                     "value": "3"
                   }
                 }
+              },
+              "xlslice_ifft_scale": {
+                "vlnv": "xilinx.com:ip:xlslice:1.0",
+                "xci_name": "design_1_xlslice_fft_scale_5",
+                "xci_path": "ip\\design_1_xlslice_fft_scale_5\\design_1_xlslice_fft_scale_5.xci",
+                "inst_hier_path": "chan3/GPIO/xlslice_ifft_scale",
+                "parameters": {
+                  "DIN_FROM": {
+                    "value": "21"
+                  },
+                  "DIN_TO": {
+                    "value": "11"
+                  },
+                  "DOUT_WIDTH": {
+                    "value": "11"
+                  }
+                }
               }
             },
             "interface_nets": {
@@ -24356,7 +24449,8 @@
               "axi_gpio_4_gpio2_io_o": {
                 "ports": [
                   "axi_gpio_4/gpio2_io_o",
-                  "xlslice_fft_scale/Din"
+                  "xlslice_fft_scale/Din",
+                  "xlslice_ifft_scale/Din"
                 ]
               },
               "axi_gpio_5_gpio_io_o": {
@@ -24679,6 +24773,12 @@
                 "ports": [
                   "xlslice_getAccumChan/Dout",
                   "getAccum_channel_count"
+                ]
+              },
+              "xlslice_ifft_scale_Dout": {
+                "ports": [
+                  "xlslice_ifft_scale/Dout",
+                  "psb_ifft_scale"
                 ]
               },
               "xlslice_ov_rst_Dout": {
@@ -25249,18 +25349,6 @@
                   }
                 }
               },
-              "cordic_mix_v2_ADC": {
-                "vlnv": "xilinx.com:user:cordic_mix_v2:1.0",
-                "xci_name": "design_1_cordic_mix_v2_ADC_1",
-                "xci_path": "ip\\design_1_cordic_mix_v2_ADC_1\\design_1_cordic_mix_v2_ADC_1.xci",
-                "inst_hier_path": "chan3/fine_nco/cordic_mix_v2_ADC"
-              },
-              "cordic_mix_v2_DAC": {
-                "vlnv": "xilinx.com:user:cordic_mix_v2:1.0",
-                "xci_name": "design_1_cordic_mix_v2_DAC_1",
-                "xci_path": "ip\\design_1_cordic_mix_v2_DAC_1\\design_1_cordic_mix_v2_DAC_1.xci",
-                "inst_hier_path": "chan3/fine_nco/cordic_mix_v2_DAC"
-              },
               "xlslice_re3": {
                 "vlnv": "xilinx.com:ip:xlslice:1.0",
                 "xci_name": "design_1_xlslice_re3_2",
@@ -25280,6 +25368,18 @@
                     "value": "16"
                   }
                 }
+              },
+              "cordic_mix_v2_ADC": {
+                "vlnv": "xilinx.com:user:cordic_mix_v2:2.1",
+                "xci_name": "design_1_cordic_mix_v2_ADC_1",
+                "xci_path": "ip\\design_1_cordic_mix_v2_ADC_1\\design_1_cordic_mix_v2_ADC_1.xci",
+                "inst_hier_path": "chan3/fine_nco/cordic_mix_v2_ADC"
+              },
+              "cordic_mix_v2_DAC": {
+                "vlnv": "xilinx.com:user:cordic_mix_v2:2.1",
+                "xci_name": "design_1_cordic_mix_v2_DAC_1",
+                "xci_path": "ip\\design_1_cordic_mix_v2_DAC_1\\design_1_cordic_mix_v2_DAC_1.xci",
+                "inst_hier_path": "chan3/fine_nco/cordic_mix_v2_DAC"
               }
             },
             "nets": {
@@ -25304,8 +25404,8 @@
               "clk_wiz_0_clk_out1": {
                 "ports": [
                   "clk_256M",
-                  "cordic_mix_v2_DAC/clk",
-                  "cordic_mix_v2_ADC/clk"
+                  "cordic_mix_v2_ADC/clk",
+                  "cordic_mix_v2_DAC/clk"
                 ]
               },
               "cordic_mix_v2_2_out_im_0": {
@@ -25461,15 +25561,15 @@
               "xlconstant_7_dout": {
                 "ports": [
                   "sync_in",
-                  "cordic_mix_v2_DAC/sync_in",
-                  "cordic_mix_v2_ADC/sync_in"
+                  "cordic_mix_v2_ADC/sync_in",
+                  "cordic_mix_v2_DAC/sync_in"
                 ]
               },
               "xlslice_dacmix_dp_Dout": {
                 "ports": [
                   "dphi",
-                  "cordic_mix_v2_DAC/dphi",
-                  "cordic_mix_v2_ADC/dphi"
+                  "cordic_mix_v2_ADC/dphi",
+                  "cordic_mix_v2_DAC/dphi"
                 ]
               },
               "xlslice_im0_Dout": {
@@ -25951,6 +26051,12 @@
                 ]
               }
             }
+          },
+          "psb3_1_0": {
+            "vlnv": "xilinx.com:user:psb3_1:1.1",
+            "xci_name": "design_1_psb3_1_0_2",
+            "xci_path": "ip\\design_1_psb3_1_0_2\\design_1_psb3_1_0_2.xci",
+            "inst_hier_path": "chan3/psb3_1_0"
           }
         },
         "interface_nets": {
@@ -26040,6 +26146,12 @@
               "overflow_management/ov_rst"
             ]
           },
+          "GPIO_psb_ifft_scale": {
+            "ports": [
+              "GPIO/psb_ifft_scale",
+              "psb3_1_0/ifft_scale"
+            ]
+          },
           "Net2": {
             "ports": [
               "ADC_data_im",
@@ -26058,12 +26170,12 @@
             "ports": [
               "CLK",
               "c_shift_ram_4/CLK",
-              "psb3_0_0/clk",
               "psb_out_post/clk",
               "fine_nco/clk_256M",
               "snap_data_capture/clk_256M",
               "receive1_3_0/clk",
-              "overflow_management/CLK"
+              "overflow_management/CLK",
+              "psb3_1_0/clk"
             ]
           },
           "cordic_mix_v2_ADC_out_im_0": {
@@ -26122,13 +26234,13 @@
           },
           "ov_add_1": {
             "ports": [
-              "psb3_0_0/gout_ov_add",
+              "psb3_1_0/ov_add",
               "overflow_management/ov_add"
             ]
           },
           "ov_ifft_1": {
             "ports": [
-              "psb3_0_0/gout_ov_ifft",
+              "psb3_1_0/ov_ifft",
               "overflow_management/ov_ifft"
             ]
           },
@@ -26150,57 +26262,57 @@
               "receive1_3_0/in_tvalid"
             ]
           },
-          "psb3_0_0_gout_psb_tvalid": {
+          "psb3_1_0_psb_out_im_0": {
             "ports": [
-              "psb3_0_0/gout_psb_tvalid",
-              "c_shift_ram_4/D"
+              "psb3_1_0/psb_out_im_0",
+              "psb_out_post/psb_im0"
             ]
           },
-          "psb_im0_1": {
+          "psb3_1_0_psb_out_im_2": {
             "ports": [
-              "psb3_0_0/gout_psb_im_0",
-              "psb_out_post/psb_im0"
+              "psb3_1_0/psb_out_im_2",
+              "psb_out_post/psb_im2"
+            ]
+          },
+          "psb3_1_0_psb_out_re_0": {
+            "ports": [
+              "psb3_1_0/psb_out_re_0",
+              "psb_out_post/psb_re0"
+            ]
+          },
+          "psb3_1_0_psb_out_re_2": {
+            "ports": [
+              "psb3_1_0/psb_out_re_2",
+              "psb_out_post/psb_re2"
+            ]
+          },
+          "psb3_1_0_psb_out_tvalid": {
+            "ports": [
+              "psb3_1_0/psb_out_tvalid",
+              "c_shift_ram_4/D"
             ]
           },
           "psb_im1_1": {
             "ports": [
-              "psb3_0_0/gout_psb_im_1",
+              "psb3_1_0/psb_out_im_1",
               "psb_out_post/psb_im1"
-            ]
-          },
-          "psb_im2_1": {
-            "ports": [
-              "psb3_0_0/gout_psb_im_2",
-              "psb_out_post/psb_im2"
             ]
           },
           "psb_im3_1": {
             "ports": [
-              "psb3_0_0/gout_psb_im_3",
+              "psb3_1_0/psb_out_im_3",
               "psb_out_post/psb_im3"
-            ]
-          },
-          "psb_re0_1": {
-            "ports": [
-              "psb3_0_0/gout_psb_re_0",
-              "psb_out_post/psb_re0"
             ]
           },
           "psb_re1_1": {
             "ports": [
-              "psb3_0_0/gout_psb_re_1",
+              "psb3_1_0/psb_out_re_1",
               "psb_out_post/psb_re1"
-            ]
-          },
-          "psb_re2_1": {
-            "ports": [
-              "psb3_0_0/gout_psb_re_2",
-              "psb_out_post/psb_re2"
             ]
           },
           "psb_re3_1": {
             "ports": [
-              "psb3_0_0/gout_psb_re_3",
+              "psb3_1_0/psb_out_re_3",
               "psb_out_post/psb_re3"
             ]
           },
@@ -26267,7 +26379,7 @@
           "reset_Dout": {
             "ports": [
               "GPIO/psb_rst",
-              "psb3_0_0/gin_tl_reset"
+              "psb3_1_0/psb_reset"
             ]
           },
           "rst_ps8_0_99M_peripheral_aresetn": {
@@ -26333,115 +26445,115 @@
           "start_chan3_1": {
             "ports": [
               "start_chan3",
-              "psb3_0_0/gin_tl_start"
+              "psb3_1_0/psb_start"
             ]
           },
           "we_even_1_Dout": {
             "ports": [
               "GPIO/psb_tone_we_even1",
-              "psb3_0_0/gin_we_even_1"
+              "psb3_1_0/tone_we_even_1"
             ]
           },
           "we_even_2_Dout": {
             "ports": [
               "GPIO/psb_tone_we_even2",
-              "psb3_0_0/gin_we_even_2"
+              "psb3_1_0/tone_we_even_2"
             ]
           },
           "we_even_3_Dout": {
             "ports": [
               "GPIO/psb_tone_we_even3",
-              "psb3_0_0/gin_we_even_3"
+              "psb3_1_0/tone_we_even_3"
             ]
           },
           "we_even_4_Dout": {
             "ports": [
               "GPIO/psb_tone_we_even4",
-              "psb3_0_0/gin_we_even_4"
+              "psb3_1_0/tone_we_even_4"
             ]
           },
           "we_odd_10_Dout": {
             "ports": [
               "GPIO/psb_toneSelect_w_D3",
-              "psb3_0_0/ts_3"
+              "psb3_1_0/ts_3"
             ]
           },
           "we_odd_11_Dout": {
             "ports": [
               "GPIO/psb_toneSelect_w_D4",
-              "psb3_0_0/ts_4"
+              "psb3_1_0/ts_4"
             ]
           },
           "we_odd_12_Dout": {
             "ports": [
               "GPIO/psb_toneSelect_w_D5",
-              "psb3_0_0/ts_5"
+              "psb3_1_0/ts_5"
             ]
           },
           "we_odd_13_Dout": {
             "ports": [
               "GPIO/psb_toneSelect_w_D6",
-              "psb3_0_0/ts_6"
+              "psb3_1_0/ts_6"
             ]
           },
           "we_odd_14_Dout": {
             "ports": [
               "GPIO/psb_toneSelect_w_D7",
-              "psb3_0_0/ts_7"
+              "psb3_1_0/ts_7"
             ]
           },
           "we_odd_1_Dout": {
             "ports": [
               "GPIO/psb_tone_we_odd1",
-              "psb3_0_0/gin_we_odd_1"
+              "psb3_1_0/tone_we_odd_1"
             ]
           },
           "we_odd_2_Dout": {
             "ports": [
               "GPIO/psb_tone_we_odd2",
-              "psb3_0_0/gin_we_odd_2"
+              "psb3_1_0/tone_we_odd_2"
             ]
           },
           "we_odd_3_Dout": {
             "ports": [
               "GPIO/psb_tone_we_odd3",
-              "psb3_0_0/gin_we_odd_3"
+              "psb3_1_0/tone_we_odd_3"
             ]
           },
           "we_odd_4_Dout": {
             "ports": [
               "GPIO/psb_tone_we_odd4",
-              "psb3_0_0/gin_we_odd_4"
+              "psb3_1_0/tone_we_odd_4"
             ]
           },
           "we_odd_5_Dout": {
             "ports": [
               "GPIO/psb_toneSelect_we",
-              "psb3_0_0/ts_w"
+              "psb3_1_0/ts_w"
             ]
           },
           "we_odd_6_Dout": {
             "ports": [
               "GPIO/psb_toneSelect_w_addr",
-              "psb3_0_0/ts_a"
+              "psb3_1_0/ts_a"
             ]
           },
           "we_odd_7_Dout": {
             "ports": [
               "GPIO/psb_toneSelect_w_D0",
-              "psb3_0_0/ts_0"
+              "psb3_1_0/ts_0"
             ]
           },
           "we_odd_8_Dout": {
             "ports": [
               "GPIO/psb_toneSelect_w_D1",
-              "psb3_0_0/ts_1"
+              "psb3_1_0/ts_1"
             ]
           },
           "we_odd_9_Dout": {
             "ports": [
               "GPIO/psb_toneSelect_w_D2",
-              "psb3_0_0/ts_2"
+              "psb3_1_0/ts_2"
             ]
           },
           "xlconcat_0_dout": {
@@ -26467,25 +26579,25 @@
           "xlslice_0_Dout": {
             "ports": [
               "GPIO/psb_tone_w_init_re",
-              "psb3_0_0/gin_init_re"
+              "psb3_1_0/tone_init_re"
             ]
           },
           "xlslice_1_Dout": {
             "ports": [
               "GPIO/psb_tone_w_init_im",
-              "psb3_0_0/gin_init_im"
+              "psb3_1_0/tone_init_im"
             ]
           },
           "xlslice_3_Dout": {
             "ports": [
               "GPIO/psb_tone_w_addr",
-              "psb3_0_0/gin_addr"
+              "psb3_1_0/tone_addr"
             ]
           },
           "xlslice_4_Dout": {
             "ports": [
               "GPIO/psb_tone_w_dphi",
-              "psb3_0_0/gin_dphi"
+              "psb3_1_0/tone_dphi"
             ]
           },
           "xlslice_5_Dout": {
@@ -26770,12 +26882,6 @@
                 "value": "8"
               }
             }
-          },
-          "psb3_0_0": {
-            "vlnv": "xilinx.com:user:psb3_0:1.0",
-            "xci_name": "design_1_psb3_0_0_3",
-            "xci_path": "ip\\design_1_psb3_0_0_3\\design_1_psb3_0_0_3.xci",
-            "inst_hier_path": "chan4/psb3_0_0"
           },
           "xlconstant_7": {
             "vlnv": "xilinx.com:ip:xlconstant:1.1",
@@ -27876,6 +27982,11 @@
                 "direction": "O",
                 "left": "2",
                 "right": "0"
+              },
+              "psb_ifft_scale": {
+                "direction": "O",
+                "left": "10",
+                "right": "0"
               }
             },
             "components": {
@@ -28759,6 +28870,23 @@
                     "value": "3"
                   }
                 }
+              },
+              "xlslice_ifft_scale": {
+                "vlnv": "xilinx.com:ip:xlslice:1.0",
+                "xci_name": "design_1_xlslice_fft_scale_6",
+                "xci_path": "ip\\design_1_xlslice_fft_scale_6\\design_1_xlslice_fft_scale_6.xci",
+                "inst_hier_path": "chan4/GPIO/xlslice_ifft_scale",
+                "parameters": {
+                  "DIN_FROM": {
+                    "value": "21"
+                  },
+                  "DIN_TO": {
+                    "value": "11"
+                  },
+                  "DOUT_WIDTH": {
+                    "value": "11"
+                  }
+                }
               }
             },
             "interface_nets": {
@@ -28910,7 +29038,8 @@
               "axi_gpio_4_gpio2_io_o": {
                 "ports": [
                   "axi_gpio_4/gpio2_io_o",
-                  "xlslice_fft_scale/Din"
+                  "xlslice_fft_scale/Din",
+                  "xlslice_ifft_scale/Din"
                 ]
               },
               "axi_gpio_5_gpio_io_o": {
@@ -29233,6 +29362,12 @@
                 "ports": [
                   "xlslice_getAccumChan/Dout",
                   "getAccum_channel_count"
+                ]
+              },
+              "xlslice_ifft_scale_Dout": {
+                "ports": [
+                  "xlslice_ifft_scale/Dout",
+                  "psb_ifft_scale"
                 ]
               },
               "xlslice_ov_rst_Dout": {
@@ -29803,18 +29938,6 @@
                   }
                 }
               },
-              "cordic_mix_v2_ADC": {
-                "vlnv": "xilinx.com:user:cordic_mix_v2:1.0",
-                "xci_name": "design_1_cordic_mix_v2_ADC_2",
-                "xci_path": "ip\\design_1_cordic_mix_v2_ADC_2\\design_1_cordic_mix_v2_ADC_2.xci",
-                "inst_hier_path": "chan4/fine_nco/cordic_mix_v2_ADC"
-              },
-              "cordic_mix_v2_DAC": {
-                "vlnv": "xilinx.com:user:cordic_mix_v2:1.0",
-                "xci_name": "design_1_cordic_mix_v2_DAC_2",
-                "xci_path": "ip\\design_1_cordic_mix_v2_DAC_2\\design_1_cordic_mix_v2_DAC_2.xci",
-                "inst_hier_path": "chan4/fine_nco/cordic_mix_v2_DAC"
-              },
               "xlslice_re3": {
                 "vlnv": "xilinx.com:ip:xlslice:1.0",
                 "xci_name": "design_1_xlslice_re3_3",
@@ -29834,6 +29957,18 @@
                     "value": "16"
                   }
                 }
+              },
+              "cordic_mix_v2_ADC": {
+                "vlnv": "xilinx.com:user:cordic_mix_v2:2.1",
+                "xci_name": "design_1_cordic_mix_v2_ADC_2",
+                "xci_path": "ip\\design_1_cordic_mix_v2_ADC_2\\design_1_cordic_mix_v2_ADC_2.xci",
+                "inst_hier_path": "chan4/fine_nco/cordic_mix_v2_ADC"
+              },
+              "cordic_mix_v2_DAC": {
+                "vlnv": "xilinx.com:user:cordic_mix_v2:2.1",
+                "xci_name": "design_1_cordic_mix_v2_DAC_2",
+                "xci_path": "ip\\design_1_cordic_mix_v2_DAC_2\\design_1_cordic_mix_v2_DAC_2.xci",
+                "inst_hier_path": "chan4/fine_nco/cordic_mix_v2_DAC"
               }
             },
             "nets": {
@@ -29858,8 +29993,8 @@
               "clk_wiz_0_clk_out1": {
                 "ports": [
                   "clk_256M",
-                  "cordic_mix_v2_DAC/clk",
-                  "cordic_mix_v2_ADC/clk"
+                  "cordic_mix_v2_ADC/clk",
+                  "cordic_mix_v2_DAC/clk"
                 ]
               },
               "cordic_mix_v2_2_out_im_0": {
@@ -30015,15 +30150,15 @@
               "xlconstant_7_dout": {
                 "ports": [
                   "sync_in",
-                  "cordic_mix_v2_DAC/sync_in",
-                  "cordic_mix_v2_ADC/sync_in"
+                  "cordic_mix_v2_ADC/sync_in",
+                  "cordic_mix_v2_DAC/sync_in"
                 ]
               },
               "xlslice_dacmix_dp_Dout": {
                 "ports": [
                   "dphi",
-                  "cordic_mix_v2_DAC/dphi",
-                  "cordic_mix_v2_ADC/dphi"
+                  "cordic_mix_v2_ADC/dphi",
+                  "cordic_mix_v2_DAC/dphi"
                 ]
               },
               "xlslice_im0_Dout": {
@@ -30505,6 +30640,12 @@
                 ]
               }
             }
+          },
+          "psb3_1_0": {
+            "vlnv": "xilinx.com:user:psb3_1:1.1",
+            "xci_name": "design_1_psb3_1_0_3",
+            "xci_path": "ip\\design_1_psb3_1_0_3\\design_1_psb3_1_0_3.xci",
+            "inst_hier_path": "chan4/psb3_1_0"
           }
         },
         "interface_nets": {
@@ -30594,6 +30735,12 @@
               "overflow_management/ov_rst"
             ]
           },
+          "GPIO_psb_ifft_scale": {
+            "ports": [
+              "GPIO/psb_ifft_scale",
+              "psb3_1_0/ifft_scale"
+            ]
+          },
           "Net2": {
             "ports": [
               "ADC_data_im",
@@ -30612,12 +30759,12 @@
             "ports": [
               "CLK",
               "c_shift_ram_4/CLK",
-              "psb3_0_0/clk",
               "psb_out_post/clk",
               "fine_nco/clk_256M",
               "snap_data_capture/clk_256M",
               "receive1_3_0/clk",
-              "overflow_management/CLK"
+              "overflow_management/CLK",
+              "psb3_1_0/clk"
             ]
           },
           "cordic_mix_v2_ADC_out_im_0": {
@@ -30676,13 +30823,13 @@
           },
           "ov_add_1": {
             "ports": [
-              "psb3_0_0/gout_ov_add",
+              "psb3_1_0/ov_add",
               "overflow_management/ov_add"
             ]
           },
           "ov_ifft_1": {
             "ports": [
-              "psb3_0_0/gout_ov_ifft",
+              "psb3_1_0/ov_ifft",
               "overflow_management/ov_ifft"
             ]
           },
@@ -30704,57 +30851,57 @@
               "receive1_3_0/in_tvalid"
             ]
           },
-          "psb3_0_0_gout_psb_tvalid": {
+          "psb3_1_0_psb_out_tvalid": {
             "ports": [
-              "psb3_0_0/gout_psb_tvalid",
+              "psb3_1_0/psb_out_tvalid",
               "c_shift_ram_4/D"
             ]
           },
           "psb_im0_1": {
             "ports": [
-              "psb3_0_0/gout_psb_im_0",
+              "psb3_1_0/psb_out_im_0",
               "psb_out_post/psb_im0"
             ]
           },
           "psb_im1_1": {
             "ports": [
-              "psb3_0_0/gout_psb_im_1",
+              "psb3_1_0/psb_out_im_1",
               "psb_out_post/psb_im1"
             ]
           },
           "psb_im2_1": {
             "ports": [
-              "psb3_0_0/gout_psb_im_2",
+              "psb3_1_0/psb_out_im_2",
               "psb_out_post/psb_im2"
             ]
           },
           "psb_im3_1": {
             "ports": [
-              "psb3_0_0/gout_psb_im_3",
+              "psb3_1_0/psb_out_im_3",
               "psb_out_post/psb_im3"
             ]
           },
           "psb_re0_1": {
             "ports": [
-              "psb3_0_0/gout_psb_re_0",
+              "psb3_1_0/psb_out_re_0",
               "psb_out_post/psb_re0"
             ]
           },
           "psb_re1_1": {
             "ports": [
-              "psb3_0_0/gout_psb_re_1",
+              "psb3_1_0/psb_out_re_1",
               "psb_out_post/psb_re1"
             ]
           },
           "psb_re2_1": {
             "ports": [
-              "psb3_0_0/gout_psb_re_2",
+              "psb3_1_0/psb_out_re_2",
               "psb_out_post/psb_re2"
             ]
           },
           "psb_re3_1": {
             "ports": [
-              "psb3_0_0/gout_psb_re_3",
+              "psb3_1_0/psb_out_re_3",
               "psb_out_post/psb_re3"
             ]
           },
@@ -30821,7 +30968,7 @@
           "reset_Dout": {
             "ports": [
               "GPIO/psb_rst",
-              "psb3_0_0/gin_tl_reset"
+              "psb3_1_0/psb_reset"
             ]
           },
           "rst_ps8_0_99M_peripheral_aresetn": {
@@ -30887,115 +31034,115 @@
           "start_chan4_1": {
             "ports": [
               "start_chan4",
-              "psb3_0_0/gin_tl_start"
+              "psb3_1_0/psb_start"
             ]
           },
           "we_even_1_Dout": {
             "ports": [
               "GPIO/psb_tone_we_even1",
-              "psb3_0_0/gin_we_even_1"
+              "psb3_1_0/tone_we_even_1"
             ]
           },
           "we_even_2_Dout": {
             "ports": [
               "GPIO/psb_tone_we_even2",
-              "psb3_0_0/gin_we_even_2"
+              "psb3_1_0/tone_we_even_2"
             ]
           },
           "we_even_3_Dout": {
             "ports": [
               "GPIO/psb_tone_we_even3",
-              "psb3_0_0/gin_we_even_3"
+              "psb3_1_0/tone_we_even_3"
             ]
           },
           "we_even_4_Dout": {
             "ports": [
               "GPIO/psb_tone_we_even4",
-              "psb3_0_0/gin_we_even_4"
+              "psb3_1_0/tone_we_even_4"
             ]
           },
           "we_odd_10_Dout": {
             "ports": [
               "GPIO/psb_toneSelect_w_D3",
-              "psb3_0_0/ts_3"
+              "psb3_1_0/ts_3"
             ]
           },
           "we_odd_11_Dout": {
             "ports": [
               "GPIO/psb_toneSelect_w_D4",
-              "psb3_0_0/ts_4"
+              "psb3_1_0/ts_4"
             ]
           },
           "we_odd_12_Dout": {
             "ports": [
               "GPIO/psb_toneSelect_w_D5",
-              "psb3_0_0/ts_5"
+              "psb3_1_0/ts_5"
             ]
           },
           "we_odd_13_Dout": {
             "ports": [
               "GPIO/psb_toneSelect_w_D6",
-              "psb3_0_0/ts_6"
+              "psb3_1_0/ts_6"
             ]
           },
           "we_odd_14_Dout": {
             "ports": [
               "GPIO/psb_toneSelect_w_D7",
-              "psb3_0_0/ts_7"
+              "psb3_1_0/ts_7"
             ]
           },
           "we_odd_1_Dout": {
             "ports": [
               "GPIO/psb_tone_we_odd1",
-              "psb3_0_0/gin_we_odd_1"
+              "psb3_1_0/tone_we_odd_1"
             ]
           },
           "we_odd_2_Dout": {
             "ports": [
               "GPIO/psb_tone_we_odd2",
-              "psb3_0_0/gin_we_odd_2"
+              "psb3_1_0/tone_we_odd_2"
             ]
           },
           "we_odd_3_Dout": {
             "ports": [
               "GPIO/psb_tone_we_odd3",
-              "psb3_0_0/gin_we_odd_3"
+              "psb3_1_0/tone_we_odd_3"
             ]
           },
           "we_odd_4_Dout": {
             "ports": [
               "GPIO/psb_tone_we_odd4",
-              "psb3_0_0/gin_we_odd_4"
+              "psb3_1_0/tone_we_odd_4"
             ]
           },
           "we_odd_5_Dout": {
             "ports": [
               "GPIO/psb_toneSelect_we",
-              "psb3_0_0/ts_w"
+              "psb3_1_0/ts_w"
             ]
           },
           "we_odd_6_Dout": {
             "ports": [
               "GPIO/psb_toneSelect_w_addr",
-              "psb3_0_0/ts_a"
+              "psb3_1_0/ts_a"
             ]
           },
           "we_odd_7_Dout": {
             "ports": [
               "GPIO/psb_toneSelect_w_D0",
-              "psb3_0_0/ts_0"
+              "psb3_1_0/ts_0"
             ]
           },
           "we_odd_8_Dout": {
             "ports": [
               "GPIO/psb_toneSelect_w_D1",
-              "psb3_0_0/ts_1"
+              "psb3_1_0/ts_1"
             ]
           },
           "we_odd_9_Dout": {
             "ports": [
               "GPIO/psb_toneSelect_w_D2",
-              "psb3_0_0/ts_2"
+              "psb3_1_0/ts_2"
             ]
           },
           "xlconcat_0_dout": {
@@ -31021,25 +31168,25 @@
           "xlslice_0_Dout": {
             "ports": [
               "GPIO/psb_tone_w_init_re",
-              "psb3_0_0/gin_init_re"
+              "psb3_1_0/tone_init_re"
             ]
           },
           "xlslice_1_Dout": {
             "ports": [
               "GPIO/psb_tone_w_init_im",
-              "psb3_0_0/gin_init_im"
+              "psb3_1_0/tone_init_im"
             ]
           },
           "xlslice_3_Dout": {
             "ports": [
               "GPIO/psb_tone_w_addr",
-              "psb3_0_0/gin_addr"
+              "psb3_1_0/tone_addr"
             ]
           },
           "xlslice_4_Dout": {
             "ports": [
               "GPIO/psb_tone_w_dphi",
-              "psb3_0_0/gin_dphi"
+              "psb3_1_0/tone_dphi"
             ]
           },
           "xlslice_5_Dout": {

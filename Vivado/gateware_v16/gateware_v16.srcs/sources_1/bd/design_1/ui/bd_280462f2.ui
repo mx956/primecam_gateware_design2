@@ -1,0 +1,83 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"0.744348",
+   "Default View_TopLeft":"-955,0",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0r6  2020-01-29 bk=1.5227 VDI=41 GEI=36 GUI=JA:10.0 non-TLS
+#  -string -flagsOSRD
+preplace port port-id_clk_256M -pg 1 -lvl 0 -x 0 -y 270 -defaultsOSRD
+preplace portBus ADC_data_im -pg 1 -lvl 0 -x 0 -y 770 -defaultsOSRD
+preplace portBus to_DAC -pg 1 -lvl 3 -x 620 -y 180 -defaultsOSRD
+preplace portBus ADC_data_re -pg 1 -lvl 0 -x 0 -y 370 -defaultsOSRD
+preplace portBus dphi -pg 1 -lvl 0 -x 0 -y 20 -defaultsOSRD
+preplace portBus sync_in -pg 1 -lvl 0 -x 0 -y 250 -defaultsOSRD
+preplace portBus out_im_0 -pg 1 -lvl 3 -x 620 -y 690 -defaultsOSRD
+preplace portBus out_im_1 -pg 1 -lvl 3 -x 620 -y 710 -defaultsOSRD
+preplace portBus out_im_2 -pg 1 -lvl 3 -x 620 -y 730 -defaultsOSRD
+preplace portBus out_im_3 -pg 1 -lvl 3 -x 620 -y 750 -defaultsOSRD
+preplace portBus out_re_0 -pg 1 -lvl 3 -x 620 -y 770 -defaultsOSRD
+preplace portBus out_re_1 -pg 1 -lvl 3 -x 620 -y 790 -defaultsOSRD
+preplace portBus out_re_2 -pg 1 -lvl 3 -x 620 -y 810 -defaultsOSRD
+preplace portBus out_re_3 -pg 1 -lvl 3 -x 620 -y 830 -defaultsOSRD
+preplace portBus DAC_im_0 -pg 1 -lvl 0 -x 0 -y 90 -defaultsOSRD
+preplace portBus DAC_im_1 -pg 1 -lvl 0 -x 0 -y 110 -defaultsOSRD
+preplace portBus DAC_im_2 -pg 1 -lvl 0 -x 0 -y 130 -defaultsOSRD
+preplace portBus DAC_im_3 -pg 1 -lvl 0 -x 0 -y 150 -defaultsOSRD
+preplace portBus DAC_re_0 -pg 1 -lvl 0 -x 0 -y 170 -defaultsOSRD
+preplace portBus DAC_re_1 -pg 1 -lvl 0 -x 0 -y 190 -defaultsOSRD
+preplace portBus DAC_re_2 -pg 1 -lvl 0 -x 0 -y 210 -defaultsOSRD
+preplace portBus DAC_re_3 -pg 1 -lvl 0 -x 0 -y 230 -defaultsOSRD
+preplace inst xlslice_im0 -pg 1 -lvl 1 -x 170 -y 770 -defaultsOSRD
+preplace inst xlslice_im1 -pg 1 -lvl 1 -x 170 -y 870 -defaultsOSRD
+preplace inst xlslice_im2 -pg 1 -lvl 1 -x 170 -y 970 -defaultsOSRD
+preplace inst xlconcat_0 -pg 1 -lvl 2 -x 480 -y 180 -defaultsOSRD
+preplace inst xlslice_re0 -pg 1 -lvl 1 -x 170 -y 370 -defaultsOSRD
+preplace inst xlslice_im3 -pg 1 -lvl 1 -x 170 -y 1070 -defaultsOSRD
+preplace inst xlslice_re1 -pg 1 -lvl 1 -x 170 -y 470 -defaultsOSRD
+preplace inst xlslice_re2 -pg 1 -lvl 1 -x 170 -y 570 -defaultsOSRD
+preplace inst xlslice_re3 -pg 1 -lvl 1 -x 170 -y 670 -defaultsOSRD
+preplace inst cordic_mix_v2_ADC -pg 1 -lvl 2 -x 480 -y 770 -defaultsOSRD
+preplace inst cordic_mix_v2_DAC -pg 1 -lvl 1 -x 170 -y 170 -defaultsOSRD
+preplace netloc Net2 1 0 1 20 770n
+preplace netloc Net3 1 0 1 40 370n
+preplace netloc clk_wiz_0_clk_out1 1 0 2 30 1140 360J
+preplace netloc cordic_mix_v2_2_out_im_0 1 1 1 360 90n
+preplace netloc cordic_mix_v2_2_out_im_1 1 1 1 300 110n
+preplace netloc cordic_mix_v2_2_out_im_2 1 1 1 340 130n
+preplace netloc cordic_mix_v2_2_out_im_3 1 1 1 290 150n
+preplace netloc cordic_mix_v2_2_out_re_0 1 1 1 310 110n
+preplace netloc cordic_mix_v2_2_out_re_1 1 1 1 320 150n
+preplace netloc cordic_mix_v2_2_out_re_2 1 1 1 330 190n
+preplace netloc cordic_mix_v2_2_out_re_3 1 1 1 N 230
+preplace netloc cordic_mix_v2_ADC_out_im_0 1 2 1 NJ 690
+preplace netloc cordic_mix_v2_ADC_out_im_1 1 2 1 NJ 710
+preplace netloc cordic_mix_v2_ADC_out_im_2 1 2 1 NJ 730
+preplace netloc cordic_mix_v2_ADC_out_im_3 1 2 1 NJ 750
+preplace netloc cordic_mix_v2_ADC_out_re_0 1 2 1 NJ 770
+preplace netloc cordic_mix_v2_ADC_out_re_1 1 2 1 NJ 790
+preplace netloc cordic_mix_v2_ADC_out_re_2 1 2 1 NJ 810
+preplace netloc cordic_mix_v2_ADC_out_re_3 1 2 1 NJ 830
+preplace netloc scaler_16bits_1_psb_dac_im0 1 0 1 NJ 90
+preplace netloc scaler_16bits_1_psb_dac_im1 1 0 1 NJ 110
+preplace netloc scaler_16bits_1_psb_dac_im2 1 0 1 NJ 130
+preplace netloc scaler_16bits_1_psb_dac_im3 1 0 1 NJ 150
+preplace netloc scaler_16bits_1_psb_dac_re0 1 0 1 NJ 170
+preplace netloc scaler_16bits_1_psb_dac_re1 1 0 1 NJ 190
+preplace netloc scaler_16bits_1_psb_dac_re2 1 0 1 NJ 210
+preplace netloc scaler_16bits_1_psb_dac_re3 1 0 1 NJ 230
+preplace netloc xlconcat_0_dout 1 2 1 NJ 180
+preplace netloc xlconstant_7_dout 1 0 2 50 1130 350J
+preplace netloc xlslice_dacmix_dp_Dout 1 0 2 50 10 350
+preplace netloc xlslice_im0_Dout 1 1 1 NJ 770
+preplace netloc xlslice_im1_Dout 1 1 1 300J 790n
+preplace netloc xlslice_im2_Dout 1 1 1 320J 810n
+preplace netloc xlslice_im3_Dout 1 1 1 340J 830n
+preplace netloc xlslice_re0_Dout 1 1 1 340J 370n
+preplace netloc xlslice_re1_Dout 1 1 1 320J 470n
+preplace netloc xlslice_re2_Dout 1 1 1 310J 570n
+preplace netloc xlslice_re3_Dout 1 1 1 290J 670n
+levelinfo -pg 1 0 170 480 620
+pagesize -pg 1 -db -bbox -sgen -180 0 770 1150
+"
+}
+

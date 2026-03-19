@@ -1,7 +1,7 @@
 {
    "ActiveEmotionalView":"Default View",
    "Default View_ScaleFactor":"0.78787",
-   "Default View_TopLeft":"-443,2898",
+   "Default View_TopLeft":"-443,3289",
    "ExpandedHierarchyInLayout":"",
    "guistr":"# # String gsaved with Nlview 7.0r6  2020-01-29 bk=1.5227 VDI=41 GEI=36 GUI=JA:10.0 non-TLS
 #  -string -flagsOSRD
@@ -61,32 +61,33 @@ preplace portBus axibramx32v2_start -pg 1 -lvl 3 -x 740 -y 3050 -defaultsOSRD
 preplace portBus dsp_ov_flag -pg 1 -lvl 0 -x 0 -y 3480 -defaultsOSRD
 preplace portBus psb_postScale -pg 1 -lvl 3 -x 740 -y 3370 -defaultsOSRD
 preplace portBus ov_rst -pg 1 -lvl 3 -x 740 -y 3440 -defaultsOSRD
+preplace portBus psb_ifft_scale -pg 1 -lvl 3 -x 740 -y 4300 -defaultsOSRD
 preplace inst xlslice_mix_dp -pg 1 -lvl 2 -x 420 -y 3240 -defaultsOSRD
-preplace inst xlslice_beat_we0 -pg 1 -lvl 2 -x 420 -y 3790 -defaultsOSRD
+preplace inst xlslice_beat_we0 -pg 1 -lvl 2 -x 420 -y 3780 -defaultsOSRD
 preplace inst we_odd_9 -pg 1 -lvl 2 -x 420 -y 1240 -defaultsOSRD
 preplace inst we_even_1 -pg 1 -lvl 2 -x 420 -y 40 -defaultsOSRD
 preplace inst axi_gpio_6 -pg 1 -lvl 1 -x 170 -y 1460 -defaultsOSRD
 preplace inst xlslice_getAccumChan -pg 1 -lvl 2 -x 420 -y 2940 -defaultsOSRD
 preplace inst axi_gpio_7 -pg 1 -lvl 1 -x 170 -y 1060 -defaultsOSRD
 preplace inst we_even_2 -pg 1 -lvl 2 -x 420 -y 140 -defaultsOSRD
-preplace inst xlslice_beat_we1 -pg 1 -lvl 2 -x 420 -y 3690 -defaultsOSRD
-preplace inst xlslice_fft_scale -pg 1 -lvl 2 -x 420 -y 4190 -defaultsOSRD
-preplace inst xlslice_beat_we2 -pg 1 -lvl 2 -x 420 -y 3890 -defaultsOSRD
+preplace inst xlslice_beat_we1 -pg 1 -lvl 2 -x 420 -y 3680 -defaultsOSRD
+preplace inst xlslice_fft_scale -pg 1 -lvl 2 -x 420 -y 4180 -defaultsOSRD
+preplace inst xlslice_beat_we2 -pg 1 -lvl 2 -x 420 -y 3880 -defaultsOSRD
 preplace inst we_even_3 -pg 1 -lvl 2 -x 420 -y 240 -defaultsOSRD
 preplace inst axi_gpio_8 -pg 1 -lvl 1 -x 170 -y 1760 -defaultsOSRD
 preplace inst xlslice_0 -pg 1 -lvl 2 -x 420 -y 2640 -defaultsOSRD
 preplace inst start -pg 1 -lvl 2 -x 420 -y 2540 -defaultsOSRD
 preplace inst axi_gpio_9 -pg 1 -lvl 1 -x 170 -y 2060 -defaultsOSRD
 preplace inst we_even_4 -pg 1 -lvl 2 -x 420 -y 340 -defaultsOSRD
-preplace inst xlslice_beat_we3 -pg 1 -lvl 2 -x 420 -y 3990 -defaultsOSRD
+preplace inst xlslice_beat_we3 -pg 1 -lvl 2 -x 420 -y 3980 -defaultsOSRD
 preplace inst xlslice_1 -pg 1 -lvl 2 -x 420 -y 2740 -defaultsOSRD
 preplace inst we_odd_10 -pg 1 -lvl 2 -x 420 -y 1340 -defaultsOSRD
-preplace inst xlslice_beat_addr -pg 1 -lvl 2 -x 420 -y 3590 -defaultsOSRD
+preplace inst xlslice_beat_addr -pg 1 -lvl 2 -x 420 -y 3580 -defaultsOSRD
 preplace inst xlslice_bin_sel_we -pg 1 -lvl 2 -x 420 -y 2340 -defaultsOSRD
 preplace inst we_odd_11 -pg 1 -lvl 2 -x 420 -y 1640 -defaultsOSRD
 preplace inst we_odd_1 -pg 1 -lvl 2 -x 420 -y 440 -defaultsOSRD
 preplace inst xlslice_getAccum_rst -pg 1 -lvl 2 -x 420 -y 3140 -defaultsOSRD
-preplace inst xlslice_beat_dphi -pg 1 -lvl 2 -x 420 -y 4090 -defaultsOSRD
+preplace inst xlslice_beat_dphi -pg 1 -lvl 2 -x 420 -y 4080 -defaultsOSRD
 preplace inst xlslice_3 -pg 1 -lvl 2 -x 420 -y 840 -defaultsOSRD
 preplace inst we_odd_2 -pg 1 -lvl 2 -x 420 -y 540 -defaultsOSRD
 preplace inst we_odd_12 -pg 1 -lvl 2 -x 420 -y 1740 -defaultsOSRD
@@ -114,7 +115,8 @@ preplace inst xlslice_bramx32v2_start -pg 1 -lvl 2 -x 420 -y 3040 -defaultsOSRD
 preplace inst axi_gpio_5 -pg 1 -lvl 1 -x 170 -y 3380 -defaultsOSRD
 preplace inst xlslice_PSBscaleC -pg 1 -lvl 2 -x 420 -y 3340 -defaultsOSRD
 preplace inst xlslice_ov_rst -pg 1 -lvl 2 -x 420 -y 3450 -defaultsOSRD -resize 160 88
-preplace netloc Net 1 1 1 320 3590n
+preplace inst xlslice_ifft_scale -pg 1 -lvl 2 -x 420 -y 4290 -defaultsOSRD -resize 160 88
+preplace netloc Net 1 1 1 320 3580n
 preplace netloc Net1 1 1 1 320 2040n
 preplace netloc axi_gpio_0_gpio_io_o 1 1 1 320 2440n
 preplace netloc axi_gpio_10_gpio_io_o 1 1 1 NJ 3240
@@ -161,12 +163,12 @@ preplace netloc xlslice_3_Dout 1 2 1 520J 840n
 preplace netloc xlslice_4_Dout 1 2 1 520J 940n
 preplace netloc xlslice_5_Dout 1 2 1 520J 2840n
 preplace netloc xlslice_PSBscaleC_Dout 1 2 1 520J 3340n
-preplace netloc xlslice_beat_addr_Dout 1 2 1 NJ 3590
-preplace netloc xlslice_beat_dphi_Dout 1 2 1 NJ 4090
-preplace netloc xlslice_beat_we0_Dout 1 2 1 NJ 3790
-preplace netloc xlslice_beat_we1_Dout 1 2 1 NJ 3690
-preplace netloc xlslice_beat_we2_Dout 1 2 1 NJ 3890
-preplace netloc xlslice_beat_we3_Dout 1 2 1 NJ 3990
+preplace netloc xlslice_beat_addr_Dout 1 2 1 520J 3580n
+preplace netloc xlslice_beat_dphi_Dout 1 2 1 520J 4080n
+preplace netloc xlslice_beat_we0_Dout 1 2 1 520J 3780n
+preplace netloc xlslice_beat_we1_Dout 1 2 1 520J 3680n
+preplace netloc xlslice_beat_we2_Dout 1 2 1 520J 3880n
+preplace netloc xlslice_beat_we3_Dout 1 2 1 520J 3980n
 preplace netloc xlslice_bin_sel_addr_Dout 1 2 1 520J 2040n
 preplace netloc xlslice_bin_sel_data1_Dout 1 2 1 520J 2240n
 preplace netloc xlslice_bin_sel_data_Dout 1 2 1 520J 2140n
@@ -174,10 +176,11 @@ preplace netloc xlslice_bin_sel_we_Dout 1 2 1 520J 2340n
 preplace netloc xlslice_bram_rst_Dout 1 2 1 520J 3140n
 preplace netloc xlslice_bramx32v2_start_Dout 1 2 1 520J 3040n
 preplace netloc xlslice_dacmix_dp_Dout 1 2 1 520J 3240n
-preplace netloc xlslice_fft_scale_Dout 1 2 1 NJ 4190
+preplace netloc xlslice_fft_scale_Dout 1 2 1 520J 4180n
 preplace netloc xlslice_getAccumChan_Dout 1 2 1 520J 2940n
-preplace netloc zynq_ultra_ps_e_0_pl_clk0 1 0 1 20 60n
 preplace netloc xlslice_ov_rst_Dout 1 2 1 520 3440n
+preplace netloc zynq_ultra_ps_e_0_pl_clk0 1 0 1 20 60n
+preplace netloc xlslice_ifft_scale_Dout 1 2 1 520 4290n
 preplace netloc Conn1 1 0 1 NJ 3360
 preplace netloc ps8_0_axi_periph_M00_AXI 1 0 1 NJ 2420
 preplace netloc ps8_0_axi_periph_M02_AXI 1 0 1 NJ 40
@@ -190,7 +193,7 @@ preplace netloc ps8_0_axi_periph_M12_AXI 1 0 1 NJ 1740
 preplace netloc ps8_0_axi_periph_M13_AXI 1 0 1 NJ 2040
 preplace netloc ps8_0_axi_periph_M14_AXI 1 0 1 NJ 3210
 levelinfo -pg 1 0 170 420 740
-pagesize -pg 1 -db -bbox -sgen -170 -40 990 4250
+pagesize -pg 1 -db -bbox -sgen -170 -50 990 4350
 "
 }
 0
