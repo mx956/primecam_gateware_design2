@@ -7,6 +7,10 @@
 # Allow MATLAB files anywhere
 !*.m
 !*.slx
+!*.ipynb
+
+# But don't allow the test dir
+test/
 
 # Allow filter coefficient files
 !FIRCOE_RAM_init/*
