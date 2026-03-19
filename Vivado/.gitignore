@@ -8,6 +8,7 @@ gateware_*/*
 
 # Ignore projects with "*_test" in their names
 gateware_*_test/*
+test/*
 
 # Keep shared top-level IP repository
 !IP_repository/
